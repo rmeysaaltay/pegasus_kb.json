@@ -1,0 +1,40 @@
+name: Pegasus bilgi tabanını güncelle
+
+on:
+  schedule:
+    # Her gün 03:00 UTC (TR saatiyle 06:00) çalışır
+    - cron: "0 3 * * *"
+  workflow_dispatch: {}   # elle de tetiklenebilir (Actions sekmesinden "Run workflow")
+
+permissions:
+  contents: write
+
+jobs:
+  scrape-and-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repo'yu checkout et
+        uses: actions/checkout@v4
+
+      - name: Python kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Bağımlılıkları kur
+        run: pip install requests html2text pypdf
+
+      - name: Scraper'ı çalıştır
+        run: python scrape_pegasus_kb.py
+
+      - name: Değişiklik varsa commit + push yap
+        run: |
+          git config user.name "pegasus-kb-bot"
+          git config user.email "actions@github.com"
+          if git diff --quiet pegasus_kb.json; then
+            echo "Değişiklik yok, commit atlanıyor."
+          else
+            git add pegasus_kb.json
+            git commit -m "chore: pegasus_kb.json otomatik güncellendi ($(date -u +%Y-%m-%d))"
+            git push
+          fi
