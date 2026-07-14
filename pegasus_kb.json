@@ -1,94 +1,758 @@
 {
   "destinations": {
     "turkiye": [
-      "adana", "ankara", "antalya", "batman", "bingol", "bodrum", "mugla",
-      "dalaman", "denizli", "diyarbakir", "erzincan", "erzurum", "gaziantep",
-      "hatay", "hopa", "igdir", "istanbul", "izmir", "kars", "kastamonu",
-      "kayseri", "konya", "malatya", "mardin", "amasya", "merzifon", "mus",
-      "nevsehir", "ordu", "rize", "samsun", "sivas", "sanliurfa", "trabzon", "van"
+      "adana",
+      "ankara",
+      "antalya",
+      "batman",
+      "bingol",
+      "bodrum",
+      "mugla",
+      "dalaman",
+      "denizli",
+      "diyarbakir",
+      "erzincan",
+      "erzurum",
+      "gaziantep",
+      "hatay",
+      "hopa",
+      "igdir",
+      "istanbul",
+      "izmir",
+      "kars",
+      "kastamonu",
+      "kayseri",
+      "konya",
+      "malatya",
+      "mardin",
+      "amasya",
+      "merzifon",
+      "mus",
+      "nevsehir",
+      "ordu",
+      "rize",
+      "samsun",
+      "sivas",
+      "sanliurfa",
+      "trabzon",
+      "van"
     ],
     "almanya": [
-      "berlin", "bremen", "dortmund", "dusseldorf", "frankfurt",
-      "hamburg", "hannover", "koln", "leipzig", "munih", "nurnberg", "stuttgart"
+      "berlin",
+      "bremen",
+      "dortmund",
+      "dusseldorf",
+      "frankfurt",
+      "hamburg",
+      "hannover",
+      "koln",
+      "leipzig",
+      "munih",
+      "nurnberg",
+      "stuttgart"
     ],
-    "belcika": ["bruksel", "charleroi"],
-    "bosna hersek": ["saraybosna", "tuzla"],
-    "bulgaristan": ["filibe", "sofya"],
-    "cek cumhuriyeti": ["prag"],
-    "danimarka": ["kopenhag"],
-    "finlandiya": ["helsinki"],
-    "fransa": ["lyon", "marsilya", "nice", "paris"],
-    "hirvatistan": ["zagreb"],
-    "hollanda": ["amsterdam", "eindhoven", "rotterdam"],
-    "ingiltere": ["birmingham", "londra", "manchester"],
-    "irlanda": ["dublin"],
-    "iskocya": ["edinburgh"],
-    "ispanya": ["barselona", "madrid", "sevilla"],
-    "isvec": ["stockholm"],
-    "isvicre": ["basel", "cenevre", "zurih"],
-    "italya": ["bologna", "milano", "roma", "venedik"],
-    "karadag": ["podgoritsa"],
-    "kosova": ["pristine"],
-    "kuzey kibris turk cumhuriyeti": ["lefkosa"],
-    "kuzey makedonya": ["uskup"],
-    "macaristan": ["budapeste"],
-    "moldova": ["kisinev"],
-    "norvec": ["oslo"],
-    "polonya": ["krakow", "varsova"],
-    "portekiz": ["lizbon"],
-    "romanya": ["bukres", "cluj-napoca"],
-    "rusya": ["grozny", "kazan", "krasnodar", "mahackale", "mineralnye vody", "moskova", "st petersburg"],
-    "sirbistan": ["belgrad"],
-    "slovakya": ["bratislava"],
-    "yunanistan": ["atina"],
-    "azerbaycan": ["baku", "gence"],
-    "bahreyn kralligi": ["bahreyn"],
-    "birlesik arap emirlikleri": ["abu dabi", "dubai", "resu'l hayme", "sharjah"],
-    "ermenistan": ["erivan"],
-    "gurcistan": ["batum", "kutaisi", "tiflis"],
-    "irak": ["bagdat", "basra", "erbil"],
-    "iran": ["tahran", "tebriz"],
-    "katar": ["doha"],
-    "kazakistan": ["aktau", "almati", "astana", "cimkent", "shymkent"],
-    "kirgizistan": ["biskek", "os"],
-    "kuveyt": ["kuveyt"],
-    "lubnan": ["beyrut"],
-    "pakistan": ["karaci"],
-    "suudi arabistan": ["cidde", "dammam", "medine", "riyad"],
-    "umman": ["maskat"],
-    "urdun": ["amman"],
-    "fas": ["kazablanka"],
-    "misir": ["hurgada", "iskenderiye", "kahire", "luksor", "marsa alam", "sarm el-seyh"]
+    "belcika": [
+      "bruksel",
+      "charleroi"
+    ],
+    "bosna hersek": [
+      "saraybosna",
+      "tuzla"
+    ],
+    "bulgaristan": [
+      "filibe",
+      "sofya"
+    ],
+    "cek cumhuriyeti": [
+      "prag"
+    ],
+    "danimarka": [
+      "kopenhag"
+    ],
+    "finlandiya": [
+      "helsinki"
+    ],
+    "fransa": [
+      "lyon",
+      "marsilya",
+      "nice",
+      "paris"
+    ],
+    "hirvatistan": [
+      "zagreb"
+    ],
+    "hollanda": [
+      "amsterdam",
+      "eindhoven",
+      "rotterdam"
+    ],
+    "ingiltere": [
+      "birmingham",
+      "londra",
+      "manchester"
+    ],
+    "irlanda": [
+      "dublin"
+    ],
+    "iskocya": [
+      "edinburgh"
+    ],
+    "ispanya": [
+      "barselona",
+      "madrid",
+      "sevilla"
+    ],
+    "isvec": [
+      "stockholm"
+    ],
+    "isvicre": [
+      "basel",
+      "cenevre",
+      "zurih"
+    ],
+    "italya": [
+      "bologna",
+      "milano",
+      "roma",
+      "venedik"
+    ],
+    "karadag": [
+      "podgoritsa"
+    ],
+    "kosova": [
+      "pristine"
+    ],
+    "kuzey kibris turk cumhuriyeti": [
+      "lefkosa"
+    ],
+    "kuzey makedonya": [
+      "uskup"
+    ],
+    "macaristan": [
+      "budapeste"
+    ],
+    "moldova": [
+      "kisinev"
+    ],
+    "norvec": [
+      "oslo"
+    ],
+    "polonya": [
+      "krakow",
+      "varsova"
+    ],
+    "portekiz": [
+      "lizbon"
+    ],
+    "romanya": [
+      "bukres",
+      "cluj-napoca"
+    ],
+    "rusya": [
+      "grozny",
+      "kazan",
+      "krasnodar",
+      "mahackale",
+      "mineralnye vody",
+      "moskova",
+      "st petersburg"
+    ],
+    "sirbistan": [
+      "belgrad"
+    ],
+    "slovakya": [
+      "bratislava"
+    ],
+    "yunanistan": [
+      "atina"
+    ],
+    "azerbaycan": [
+      "baku",
+      "gence"
+    ],
+    "bahreyn kralligi": [
+      "bahreyn"
+    ],
+    "birlesik arap emirlikleri": [
+      "abu dabi",
+      "dubai",
+      "resu'l hayme",
+      "sharjah"
+    ],
+    "ermenistan": [
+      "erivan"
+    ],
+    "gurcistan": [
+      "batum",
+      "kutaisi",
+      "tiflis"
+    ],
+    "irak": [
+      "bagdat",
+      "basra",
+      "erbil"
+    ],
+    "iran": [
+      "tahran",
+      "tebriz"
+    ],
+    "katar": [
+      "doha"
+    ],
+    "kazakistan": [
+      "aktau",
+      "almati",
+      "astana",
+      "cimkent",
+      "shymkent"
+    ],
+    "kirgizistan": [
+      "biskek",
+      "os"
+    ],
+    "kuveyt": [
+      "kuveyt"
+    ],
+    "lubnan": [
+      "beyrut"
+    ],
+    "pakistan": [
+      "karaci"
+    ],
+    "suudi arabistan": [
+      "cidde",
+      "dammam",
+      "medine",
+      "riyad"
+    ],
+    "umman": [
+      "maskat"
+    ],
+    "urdun": [
+      "amman"
+    ],
+    "fas": [
+      "kazablanka"
+    ],
+    "misir": [
+      "hurgada",
+      "iskenderiye",
+      "kahire",
+      "luksor",
+      "marsa alam",
+      "sarm el-seyh"
+    ]
   },
   "knowledge_base": [
-    {"id": "menu_order_time", "category": "menu", "text": "Ücretli yemek siparişinizi uçuş saatinize 24 saat kalana kadar verebilirsiniz. Uçuşunuza 24 saatten daha az zaman varsa, yemek siparişi verilememektedir."},
-    {"id": "menu_order_method", "category": "menu", "text": "Uçakta yemek satın alımı uçuştan 24 saat önceye kadar bilet satın alma aşamasında veya bilet satın alındıktan sonra flypgs.com ana sayfasındaki 'Bilet İşlemlerim' başlığından Rezervasyon (PNR) Numarası ve soyadı ile yapılabilir."},
-    {"id": "menu_cancellation", "category": "menu", "text": "Uçuşunuzu iptal etmeniz durumunda satın alınan menünün ücreti iade edilmemektedir."},
-    {"id": "menu_hot_meals", "category": "menu", "text": "Pegasus Cafe sıcak yemek menüsünde Salsa Soslu Tavuk (€14.00), İzmir Köfte (€14.00), Arpa Şehriyeli Pirinç Pilavı (€10.00) ve Domates Soslu Makarna (€10.00) bulunmaktadır."},
-    {"id": "menu_sandwiches", "category": "menu", "text": "Pegasus Cafe sandviç seçenekleri arasında ekşi mayalı tam buğday ekmeğinde Sezar Soslu Tavuklu Sandviç ve Panetipo ekmeğinde Jambonlu & Çedar Peynirli Sandviç (İç hatlarda 400.00 TL, Dış hatlarda €11.00) yer alır."},
-    {"id": "menu_ready_meals", "category": "menu", "text": "Pratik sıcak lezzetler kategorisinde Knorr Çabuk Mac & Cheese, Indomie Noodle Tavuk ve Knorr Hazır Çorba Domates (İç hatlarda 250.00 TL, Dış hatlarda €7.00) mevcuttur."},
-    {"id": "menu_snacks", "category": "menu", "text": "Atıştırmalıklar arasında Master Potato Patates Cipsi, Tadım Badem veya Fıstık, M&M's, Haribo Altın Ayıcık, Tereyağlı Kurabiye, Snickers, KitKat Chunky, Gofrik ve Eti Brownie Intense bulunur."},
-    {"id": "menu_hot_drinks", "category": "menu", "text": "Sıcak içecek olarak Lipton Çay, Filtre Kahve, Türk Kahvesi ve Cappuccino (İç hatlarda 250.00 TL, Dış hatlarda €5.00) servis edilmektedir."},
-    {"id": "menu_water_rule", "category": "menu", "text": "İç hat uçuşlarımızda, talep eden misafirlerimize bardakta su ücretsiz olarak servis edilecektir. Damla Su ve Sırma Soda normalde ücretlidir."},
-    {"id": "seat_selection_info", "category": "faq", "text": "Uçuşlar için koltuk atamaları check-in işlemi sırasında otomatik olarak yapılmaktadır. Dilediğiniz koltukta uçmak istiyorsanız, bilet satın alma aşamasında veya sonrasında flypgs.com 'Koltuk Seçimi' başlığından PNR ve soyadı ile ücretli koltuk seçimi yapabilirsiniz."},
-    {"id": "seat_selection_free", "category": "faq", "text": "Koltuk satın almadan işlem yapabilir miyim? Online check-in sırasında sistem size ücretsiz koltuk atayacaktır. Dilerek koltuk satın almadan otomatik atanan koltuk ile check-in işleminizi tamamlayabilirsiniz."},
-    {"id": "seat_refund_rule", "category": "faq", "text": "Satın almış olduğum koltuğu iptal edebilir miyim? Satın almış olduğunuz koltuğunuzun iadesi yapılamamaktadır."},
-    {"id": "baggage_types", "category": "faq", "text": "Uçuşunuzda taşıyabileceğiniz iki tip bagaj bulunmaktadır: El bagajı (kabin içerisine aldığınız bagaj) ve kayıtlı bagaj (uçağın kargo bölümünde taşınan bagaj)."},
-    {"id": "baggage_excess", "category": "faq", "text": "Kayıtlı bagaj hakkı dışında fazla bagaj satın alabilir miyim? Serbest bagaj hakkını aşan kilolarınız için flypgs.com üzerinden uçuşa 3 saat kalana kadar havalimanına oranla daha düşük ücretlerle ek bagaj satın alabilirsiniz."},
-    {"id": "baggage_infant", "category": "faq", "text": "2 yaşından küçük bebek misafirlerimizin serbest bagaj hakkı 10 kg'dır. Bebek misafirlerimiz için ücretli ekstra bagaj satın alınamamaktadır."},
-    {"id": "ticket_package_light", "category": "faq", "text": "Sadece dış hatlarda geçerli Light Paket: Bagaj hakkı olmadan sadece 1 adet koltuk altına sığacak çanta taşıma hakkı sunar."},
-    {"id": "ticket_package_supereko", "category": "faq", "text": "Süper Eko Paket: Yurt içinde 15 kg, Kıbrıs ve yurt dışında 20 kg kayıtlı bagaj hakkı sunar."},
-    {"id": "ticket_package_avantaj", "category": "faq", "text": "Avantaj Paket: 20 kg bagaj hakkı, indirimli koltuk seçme (ekstra diz mesafesi hariç), sandviç ve Fly&Watch uçak içi eğlence hizmeti sunar."},
-    {"id": "ticket_package_comfort", "category": "faq", "text": "Comfort Flex Paket: Esnek bilet değiştirme/iptal hakkı, 20 kg bagaj hakkı, sandviç ikramı, tek parça kabin bagajı, koltuk seçme (ekstra diz mesafesi dahil) ve kesintisiz iade/değişiklik hakları sunar."},
-    {"id": "special_baggage_codes", "category": "faq", "text": "Özel bagaj taşıma kodları: BIKE (Bisiklet), DIVE (Dalgıç Takımı), GOLF (Golf), SKI (Kayak Takımı), SURF (Sörf), BBAG (Bebek Arabası Koruma Ambalajı), SPEQ (Özel Taşınabilir Aletler: Uçurtma, Kano, Delta Kanat, Yamaç Paraşütü, Av Tüfeği, Olta, Eskrim)."},
-    {"id": "special_baggage_pets", "category": "faq", "text": "Evcil hayvan taşıma kuralları: PETC (8 kg'a kadar kabinde taşınan evcil hayvan), AVIH(S) (8-15 kg arası uçak altında taşınan), AVIH(B) (15 kg üzeri uçak altında taşınan evcil hayvan)."},
-    {"id": "special_baggage_medical", "category": "faq", "text": "Sağlık ve refakatçi hizmet kodları: AMBL (Ambulift), UMNR (Refakatsiz Çocuk), WCHC (Kabine kadar tekerlekli sandalye), WCHR (Uçak merdivenine kadar sandalye), WCHS (Sadece merdivene kadar sandalye)."},
-    {"id": "special_baggage_balls", "category": "faq", "text": "Futbol, basketbol gibi şişme topların havasının inme gerekliliği yoktur, bu şekilde uçaklarımızda taşınabilir."},
-    {"id": "special_baggage_golf_ski", "category": "faq", "text": "1 Golf seti maksimum 20 kg geçerlidir (14 sopa, 24 top, 1 çift ayakkabı). Golf ve Kayak ekipmanları parça başı ücretlendirilir. 20 kg üzerindeki ağırlıklar için parkurun fazla bagaj tarifesi ek olarak tahsil edilir. Transfer misafirlerden her parkur için ayrı ücret alınır."},
-    {"id": "special_baggage_weapons", "category": "faq", "text": "Sportif amaçlı silahlardan (Sportif Amaçlı Taşınabilen Av Tüfeği vb.) özel bagaj tarifesine göre ücret alınır."},
-    {"id": "kurumsal_hakkinda", "category": "kurumsal", "text": "Pegasus Hava Yolları, 2005 yılında düşük maliyetli (low-cost) iş modeliyle faaliyete başlamış bir Türk havayolu şirketidir. Esas Holding bünyesindeki grup şirketlerinden biridir; şirket merkezi İstanbul'da, Pendik ilçesindeki Aeropark'ta bulunur."},
-    {"id": "kurumsal_yonetim", "category": "kurumsal", "text": "Pegasus'un Yönetim Kurulu Başkanı Ali İsmail Sabancı'dır. Şirketin Genel Müdürlüğünü Mart 2016'dan bu yana Mehmet T. Nane yürütmektedir."},
-    {"id": "kurumsal_grup_sirketleri", "category": "kurumsal", "text": "Pegasus'un bağlı bulunduğu Esas Holding grubu içinde Pegasus Airlines (havacılık), Pegasus Uçuş Eğitim Merkezi (PUEM) ve Hitit Bilgisayar Hizmetleri gibi grup şirketleri yer alır."},
-    {"id": "kurumsal_sertifika", "category": "kurumsal", "text": "Pegasus, Uluslararası Hava Taşımacılığı Birliği'nin (IATA) üyesi bir havayolu şirketidir ve IOSA (IATA Operasyonel Emniyet Denetimi) sertifikasına sahiptir."}
+    {
+      "id": "seat_selection_info",
+      "category": "faq",
+      "text": "Uçuşlar için koltuk atamaları check-in işlemi sırasında otomatik olarak yapılmaktadır. Dilediğiniz koltukta uçmak istiyorsanız, bilet satın alma aşamasında veya sonrasında flypgs.com 'Koltuk Seçimi' başlığından PNR ve soyadı ile ücretli koltuk seçimi yapabilirsiniz."
+    },
+    {
+      "id": "seat_selection_free",
+      "category": "faq",
+      "text": "Koltuk satın almadan işlem yapabilir miyim? Online check-in sırasında sistem size ücretsiz koltuk atayacaktır. Dilerek koltuk satın almadan otomatik atanan koltuk ile check-in işleminizi tamamlayabilirsiniz."
+    },
+    {
+      "id": "seat_refund_rule",
+      "category": "faq",
+      "text": "Satın almış olduğum koltuğu iptal edebilir miyim? Satın almış olduğunuz koltuğunuzun iadesi yapılamamaktadır."
+    },
+    {
+      "id": "baggage_types",
+      "category": "faq",
+      "text": "Uçuşunuzda taşıyabileceğiniz iki tip bagaj bulunmaktadır: El bagajı (kabin içerisine aldığınız bagaj) ve kayıtlı bagaj (uçağın kargo bölümünde taşınan bagaj)."
+    },
+    {
+      "id": "baggage_excess",
+      "category": "faq",
+      "text": "Kayıtlı bagaj hakkı dışında fazla bagaj satın alabilir miyim? Serbest bagaj hakkını aşan kilolarınız için flypgs.com üzerinden uçuşa 3 saat kalana kadar havalimanına oranla daha düşük ücretlerle ek bagaj satın alabilirsiniz."
+    },
+    {
+      "id": "baggage_infant",
+      "category": "faq",
+      "text": "2 yaşından küçük bebek misafirlerimizin serbest bagaj hakkı 10 kg'dır. Bebek misafirlerimiz için ücretli ekstra bagaj satın alınamamaktadır."
+    },
+    {
+      "id": "ticket_package_light",
+      "category": "faq",
+      "text": "Sadece dış hatlarda geçerli Light Paket: Bagaj hakkı olmadan sadece 1 adet koltuk altına sığacak çanta taşıma hakkı sunar."
+    },
+    {
+      "id": "ticket_package_supereko",
+      "category": "faq",
+      "text": "Süper Eko Paket: Yurt içinde 15 kg, Kıbrıs ve yurt dışında 20 kg kayıtlı bagaj hakkı sunar."
+    },
+    {
+      "id": "ticket_package_avantaj",
+      "category": "faq",
+      "text": "Avantaj Paket: 20 kg bagaj hakkı, indirimli koltuk seçme (ekstra diz mesafesi hariç), sandviç ve Fly&Watch uçak içi eğlence hizmeti sunar."
+    },
+    {
+      "id": "ticket_package_comfort",
+      "category": "faq",
+      "text": "Comfort Flex Paket: Esnek bilet değiştirme/iptal hakkı, 20 kg bagaj hakkı, sandviç ikramı, tek parça kabin bagajı, koltuk seçme (ekstra diz mesafesi dahil) ve kesintisiz iade/değişiklik hakları sunar."
+    },
+    {
+      "id": "special_baggage_codes",
+      "category": "faq",
+      "text": "Özel bagaj taşıma kodları: BIKE (Bisiklet), DIVE (Dalgıç Takımı), GOLF (Golf), SKI (Kayak Takımı), SURF (Sörf), BBAG (Bebek Arabası Koruma Ambalajı), SPEQ (Özel Taşınabilir Aletler: Uçurtma, Kano, Delta Kanat, Yamaç Paraşütü, Av Tüfeği, Olta, Eskrim)."
+    },
+    {
+      "id": "special_baggage_pets",
+      "category": "faq",
+      "text": "Evcil hayvan taşıma kuralları: PETC (8 kg'a kadar kabinde taşınan evcil hayvan), AVIH(S) (8-15 kg arası uçak altında taşınan), AVIH(B) (15 kg üzeri uçak altında taşınan evcil hayvan)."
+    },
+    {
+      "id": "special_baggage_medical",
+      "category": "faq",
+      "text": "Sağlık ve refakatçi hizmet kodları: AMBL (Ambulift), UMNR (Refakatsiz Çocuk), WCHC (Kabine kadar tekerlekli sandalye), WCHR (Uçak merdivenine kadar sandalye), WCHS (Sadece merdivene kadar sandalye)."
+    },
+    {
+      "id": "special_baggage_balls",
+      "category": "faq",
+      "text": "Futbol, basketbol gibi şişme topların havasının inme gerekliliği yoktur, bu şekilde uçaklarımızda taşınabilir."
+    },
+    {
+      "id": "special_baggage_golf_ski",
+      "category": "faq",
+      "text": "1 Golf seti maksimum 20 kg geçerlidir (14 sopa, 24 top, 1 çift ayakkabı). Golf ve Kayak ekipmanları parça başı ücretlendirilir. 20 kg üzerindeki ağırlıklar için parkurun fazla bagaj tarifesi ek olarak tahsil edilir. Transfer misafirlerden her parkur için ayrı ücret alınır."
+    },
+    {
+      "id": "special_baggage_weapons",
+      "category": "faq",
+      "text": "Sportif amaçlı silahlardan (Sportif Amaçlı Taşınabilen Av Tüfeği vb.) özel bagaj tarifesine göre ücret alınır."
+    },
+    {
+      "id": "kurumsal_hakkinda",
+      "category": "kurumsal",
+      "text": "Pegasus Hava Yolları, 2005 yılında düşük maliyetli (low-cost) iş modeliyle faaliyete başlamış bir Türk havayolu şirketidir. Esas Holding bünyesindeki grup şirketlerinden biridir; şirket merkezi İstanbul'da, Pendik ilçesindeki Aeropark'ta bulunur."
+    },
+    {
+      "id": "kurumsal_yonetim",
+      "category": "kurumsal",
+      "text": "Pegasus'un Yönetim Kurulu Başkanı Ali İsmail Sabancı'dır. Şirketin Genel Müdürlüğünü Mart 2016'dan bu yana Mehmet T. Nane yürütmektedir."
+    },
+    {
+      "id": "kurumsal_grup_sirketleri",
+      "category": "kurumsal",
+      "text": "Pegasus'un bağlı bulunduğu Esas Holding grubu içinde Pegasus Airlines (havacılık), Pegasus Uçuş Eğitim Merkezi (PUEM) ve Hitit Bilgisayar Hizmetleri gibi grup şirketleri yer alır."
+    },
+    {
+      "id": "kurumsal_sertifika",
+      "category": "kurumsal",
+      "text": "Pegasus, Uluslararası Hava Taşımacılığı Birliği'nin (IATA) üyesi bir havayolu şirketidir ve IOSA (IATA Operasyonel Emniyet Denetimi) sertifikasına sahiptir."
+    },
+    {
+      "id": "menu_menu_bolum_0",
+      "category": "menu",
+      "text": "-    PREM | ALIT   -   PREM | ALITY | Bu Lezzetler ﬂypgs.com’da | Delicious ﬂavours on ﬂypgs.com | Flypgs.com'da yemek siparişi | %20'ye varan indirimle! | Uçuş öncesinde ön siparişe özel sushiden mantarlı"
+    },
+    {
+      "id": "menu_menu_bolum_1",
+      "category": "menu",
+      "text": "ravyoliye, somon salatasından çocuk menüsüne | kadar 20'den farklı lezzet arasından seçim | yapabilirsin. Yemeğini, biletini alırken veya | uçuşundan 24 saat öncesine kadar ﬂypgs.com'dan | %20'ye varan indirimle sipariş edebilirsin. | Pre-order your meal on ﬂypgs.com | Receive up to 20% oﬀ! | When you pre-order, you can select from more than"
+    },
+    {
+      "id": "menu_menu_bolum_2",
+      "category": "menu",
+      "text": "20 delicious meals including sushi, mushroom | ravioli and salmon salad as well as the kids | menu. Purchase during your booking or on | ﬂypgs.com up to 24 hours before your ﬂight to | receive up to 20% discount. | ENTR | Save up to | ‘ye varan indirim"
+    },
+    {
+      "id": "menu_menu_bolum_3",
+      "category": "menu",
+      "text": "%20 | Gökyüzünün | En Lezzetlisi! | Tastiest on-board menu | of them all! | Pegasus Cafe | İç Hatlar - Domestic Flights | Tavuklu Sandviç"
+    },
+    {
+      "id": "menu_menu_bolum_4",
+      "category": "menu",
+      "text": "ve Coca-Cola | Chicken Sandwich | and Coca-Cola | Fırsat! | Make a Deal! | 23.00 TL | 17.00 TL | Beyaz Peynirli Sandviç"
+    },
+    {
+      "id": "menu_menu_bolum_5",
+      "category": "menu",
+      "text": "ve Coca-Cola | Feta Cheese Sandwich | and Coca-Cola | 21.00 TL | 15.00 TL | Fırsat! | Make a Deal! | PGT-MENU-CD-035 REV:6 - 20.12.2016"
+    },
+    {
+      "id": "menu_menu_bolum_6",
+      "category": "menu",
+      "text": "Su Böreği, Beyaz, Balkan ve | Krem Peynir, Zeytin, Domates, | Bal, Tereyağ, Ekmek. | Kahvaltı sabah uçuşlarında servis | edilir ve yoğun talep nedeniyle | tükenmiş olabilir. | Turkish Style Spinach Pastry, | Feta, Balkan and Cream"
+    },
+    {
+      "id": "menu_menu_bolum_7",
+      "category": "menu",
+      "text": "Cheeses, Olives, Tomato, | Honey, Butter, Freshly Baked Bread | Breakfast is served during our morning ﬂights. | Your selection may occasionally be unavailable. | Kahvaltı | Breakfast | 22.00 TL | Çay ve Kahve Menüleri"
+    },
+    {
+      "id": "menu_menu_bolum_8",
+      "category": "menu",
+      "text": "Tea and Coﬀee Menu | Çay veya kahve | ücretsiz | Get tea or coﬀee | for free | Çay Menü | Tea Menu | Çay keyﬁni kek ya da"
+    },
+    {
+      "id": "menu_menu_bolum_9",
+      "category": "menu",
+      "text": "kruvasan ile tamamla | Have a tasty, sweet snack | with your tea | 12.00 TL | 8.00 TL | Kahve Menü | Coffee Menu | Kahve keyﬁni kek ya da"
+    },
+    {
+      "id": "menu_menu_bolum_10",
+      "category": "menu",
+      "text": "kruvasan ile tamamla | Have a tasty, sweet snack | with your coﬀee | 13.00 TL | 9.00 TL | Bazı ürünlerimiz, yoğun talep nedeni ile tükenmiş olabilir. | Anlayışınız için teşekkür ederiz. | Some products may not be available due to high demand."
+    },
+    {
+      "id": "menu_menu_bolum_11",
+      "category": "menu",
+      "text": "Thank you for your understanding. | Ödemelerinizi kredi kartı ile yapabilirsiniz. We accept credit cards. | -    P REM | ALIT   -   PREM | ALITY | Daha Keyiﬂi bir uçuş deneyimi için | menümüzü yeniledik. Turkish DO &CO | ortaklığı ile Pegasus Cafe’de ürün çeşitliliğini"
+    },
+    {
+      "id": "menu_menu_bolum_12",
+      "category": "menu",
+      "text": "bol, kaliteyi yüksek ve ﬁyatları uygun tuttuk. | Dilediğin gibi tercih yapabilmen ve kendi | menünü yaratabilmen için çeşit çeşit fırsatlar | hazırladık. Keyiﬂe seyahat et diye! | We have refreshed our menu for an even | more pleasurable ﬂight experience. Our | meal choices continue to be varied, with | the food as tasty as ever and the prices"
+    },
+    {
+      "id": "menu_menu_bolum_13",
+      "category": "menu",
+      "text": "aﬀordable via our partnership with | Turkish DO &CO. | There are plenty of special oﬀers to give | you the freedom to create your own | menu. All so you can have the best time | on board! | Pegasus Cafe’ye Hoş Geldin! | Welcome to Pegasus Cafe!"
+    },
+    {
+      "id": "menu_menu_bolum_14",
+      "category": "menu",
+      "text": "Tavuklu Sandviç | ve Coca-Cola | Chicken Sandwich | and Coca-Cola | 23.00 TL | 17.00 TL | Sebzeli ve Beyaz | Peynirli Dürüm"
+    },
+    {
+      "id": "menu_menu_bolum_15",
+      "category": "menu",
+      "text": "Vegetable & Cheese | Wrap | Tavuklu Sandviç | ve Coca-Cola | Chicken Sandwich | and Coca-Cola | Fırsat! | Make a Deal!"
+    },
+    {
+      "id": "menu_menu_bolum_16",
+      "category": "menu",
+      "text": "23.00 TL | 17.00 TL | Beyaz Peynirli Sandviç | ve Coca-Cola | Feta Cheese Sandwich | and Coca-Cola | Fırsat! | Make a Deal!"
+    },
+    {
+      "id": "menu_menu_bolum_17",
+      "category": "menu",
+      "text": "21.00 TL | 15.00 TL | Mini Sandviç ve Çay | Mini Sandwich and Tea | Fırsat! | Make a Deal! | 17.00 TL | 12.00 TL"
+    },
+    {
+      "id": "menu_menu_bolum_18",
+      "category": "menu",
+      "text": "Mini Sandviç | Mini Sandwich | 10.00 TL | 14.00 TL | En Lezzetli, En Taze Sandviçler | The Tastiest and Freshest Sandwiches | Sandviç ekmekleri yükleme yapılan noktalara göre farklılık gösterebilir. | Please note that the type of the sandwich bread may vary depending on availability at the point of departure."
+    },
+    {
+      "id": "menu_menu_bolum_19",
+      "category": "menu",
+      "text": "Tavuklu Sandviç | Chicken Sandwich | Beyaz Peynirli Sandviç | Feta Cheese Sandwich | 14.00 TL | 12.00 TL | Coca-Cola / Coca-Cola Zero | Sprite / Fanta"
+    },
+    {
+      "id": "menu_menu_bolum_20",
+      "category": "menu",
+      "text": "9.00 TL | Soda | Sparkling Water | Water | %100 Cappy Meyve Suyu | Elma, Portakal | %100 Cappy Fruit Juice | Apple, Orange"
+    },
+    {
+      "id": "menu_menu_bolum_21",
+      "category": "menu",
+      "text": "FuseTea Şeftali | FuseTea Peach | Sırma Limonata | Sırma Lemonade | Red Bull | Ferahlatan İçecekler | Refreshing Drinks | Red Bull ve Pringles"
+    },
+    {
+      "id": "menu_menu_bolum_22",
+      "category": "menu",
+      "text": "Red Bull and Pringles | Fırsat! | Make a Deal! | 18.00 TL | 14.00 TL | 9.00 TL | 9.00 TL 8.00 TL | 10.00 TL"
+    },
+    {
+      "id": "menu_menu_bolum_23",
+      "category": "menu",
+      "text": "5.00 TL 3.00 TL | J.P. Chenet | Kırmızı / Roze / Beyaz | Red / Rosé / White | 18 yaşından küçüklere alkollü içki satışı yapılmamaktadır. Gerekli görüldüğünde kabin ekibi tarafından kimlik sorulabilir. | The sale of alcoholic drinks to anyone under the age of 18 years is prohibited. If deemed necessary the cabin crew may request | proof of age through oﬃcial identiﬁcation. | Chivas Regal"
+    },
+    {
+      "id": "menu_menu_bolum_24",
+      "category": "menu",
+      "text": "Jack Daniels | Absolut | Efes Pilsen | Pegasus Mini Bar Seçenekleri | Pegasus Mini Bar Selections | Badem | Roasted Almonds | Fıstık"
+    },
+    {
+      "id": "menu_menu_bolum_25",
+      "category": "menu",
+      "text": "Roasted Peanuts | Yanında  iyi gider! | Add a tasty snack! | 7.00 TL 6.00 TL | 15.00 TL | 27.00 TL 23.00 TL 23.00 TL | 20.00 TL | 2 tane al, az öde!"
+    },
+    {
+      "id": "menu_menu_bolum_26",
+      "category": "menu",
+      "text": "Buy two, pay less ! | 40.00 TL | 30.00 TL | 2 tane al, az öde! | Buy two, pay less ! | 30.00 TL | 22.00 TL | Nescafe Xpress"
+    },
+    {
+      "id": "menu_menu_bolum_27",
+      "category": "menu",
+      "text": "Original | Nescafe | Gold Blend Coﬀee / Cappuccino | Türk Kahvesi | Turkish Coﬀee | Lipton Siyah Çay / Yeşil Çay | Lipton Black Tea / Green Tea | Çay ve Kahveler"
+    },
+    {
+      "id": "menu_menu_bolum_28",
+      "category": "menu",
+      "text": "Teas and Coﬀee | Çay Menü | Tea Menu | Çay keyﬁni kek ya da | kruvasan ile tamamla | Have a tasty, sweet snack | with your tea | 12.00 TL"
+    },
+    {
+      "id": "menu_menu_bolum_29",
+      "category": "menu",
+      "text": "8.00 TL | Kahve Menü | Coffee Menu | Kahve keyﬁni kek ya da | kruvasan ile tamamla | Have a tasty, sweet snack | with your coﬀee | 13.00 TL"
+    },
+    {
+      "id": "menu_menu_bolum_30",
+      "category": "menu",
+      "text": "9.00 TL | 8.00 TL 10.00 TL | 8.00 TL | 7.00 TL | Badem | Roasted Almonds | Fıstık | Roasted Peanuts"
+    },
+    {
+      "id": "menu_menu_bolum_31",
+      "category": "menu",
+      "text": "Pringles | Çikolatalı | Vanilyalı Kek | Chocolate & | Vanilla Cake | 7 Days Kakao | Kremalı Kruvasan | 7 Days Cacao"
+    },
+    {
+      "id": "menu_menu_bolum_32",
+      "category": "menu",
+      "text": "Creme Croissant | En Havalı Atıştırmalıklar | The Best Snacks | Snickers | Kit Kat | 5.00 TL | 5.00 TL | 8.00 TL"
+    },
+    {
+      "id": "menu_menu_bolum_33",
+      "category": "menu",
+      "text": "5.00 TL | 5.00 TL | 7.00 TL | 6.00 TL | Eti Çocuk Seti ve | Peluş Ayıcık | Eti Kids Set and | Teddy Bear"
+    },
+    {
+      "id": "menu_menu_bolum_34",
+      "category": "menu",
+      "text": "20.00 TL | Çocuklar İçin | For Kids | Nesquik Haribo Altın Ayıcık | Haribo Goldbären | Mini Sandviç | Mini Sandwich | Cappy Elma veya Nesquik ile"
+    },
+    {
+      "id": "menu_menu_bolum_35",
+      "category": "menu",
+      "text": "Mini Sandviç | Mini Sandwich with Nesquik or | Cappy Apple Juice | Fırsat! | Make a Deal! | 14.00 TL | Save up to | ‘ye varan indirim"
+    },
+    {
+      "id": "menu_menu_bolum_36",
+      "category": "menu",
+      "text": "5.00 TL | 10.00 TL | 6.00 TL 5.00 TL | Taze Karışık Meyve | Fresh Mixed Fruit | Indomie Hazır Erişte | Dana Eti / Tavuk Aromalı | Indomie Instant Noodle"
+    },
+    {
+      "id": "menu_menu_bolum_37",
+      "category": "menu",
+      "text": "Beef / Chicken Flavour | Knorr Hazır Çorba | Domates / Mercimek | Knorr Instant Soup | Tomato / Lentil | Akdeniz Salatası | Mediterranean Salad | Hub Müsli"
+    },
+    {
+      "id": "menu_menu_bolum_38",
+      "category": "menu",
+      "text": "Hub Muesli | Uçuşuna Tat Kat | Sweeten Up Your Flight | 12.00 TL | 12.00 TL | 10.00 TL | 8.00 TL15.00 TL"
+    },
+    {
+      "id": "bagaj_pegasus_ta_ara",
+      "category": "faq",
+      "text": "Pegasus'ta Ara !x !search ARA !Bagaj Kuralları Bagaj Kuralları !Uçak Bileti Uçak Bileti !Uçak Bileti Bagaj Kuralları !Bagaj Uçak içineölçü sınırının üzerinde veya ek parça getirmeniz durumunda, her ek parça için uçağa biniş esnasında ekstra ücret tahsil edilecektir. Uçuş paketlerinde mevcut olan bagaj haklarını ve kabin bagajı ücretlerini aşağıdaki tablolardan inceleyebilirsiniz: Yurt dışı ve Kıbrıs uçuşlarında kabin bagaj hakkı içeren bir uçuş paketi seçmeyen veya kabin bagaj hakkı satın almayan misafirlerimiz; uçak içerisine yalnızca 1 adet koltuk altına sığacak çanta getirebilir. Yurt dışı ve Kıbrıs uçuşlarında kabin bagaj hakkı olan misafirlerimiz; uçak içerisine 1 adet koltuk altına sığacak çanta ve 1 adet kabin bagajı getirebilir. !Kabin Bagajı Ek olarak Süper Eko, Avantaj ve Comfort Flex paket satın almış misafirlerimizin 20 kg uçak altı bagaj hakkı vardır. Yurt içi uçuşlarında kabin bagajı veuçak altı bagaj haklarında bir değişiklik yoktur. Mevcut kurallarımız uygulanmaya devam edecektir. Uçak içine yalnızca 1 adet en fazla 55 40 23 cm boyutlarında ve 8 kg ağırlığında kabin bagajı getirebilirsiniz. . Değişen Yurt Dışı ve Kıbrıs Uçuş Paketleri Sıkça Sorulan Sorular Sıkça Sorulan Sorular"
+    },
+    {
+      "id": "bagaj_yenilenen_paket_icerikleri_ve_bagaj_kura",
+      "category": "faq",
+      "text": "Yenilenen paket içerikleri ve bagaj kuralları hangi uçuşlar için geçerli? !arrow down !arrow down yellow Kıbrıs ve Yurt Dışı uçuşlarımızda geçerli! Yurt içi uçuş paketlerimizde herhangi bir değişiklik yoktur, yurt içi uçuşlarımızda mevcut kurallar geçerli olmaya devam edecektir."
+    },
+    {
+      "id": "bagaj_kibris_ve_yurt_disi_ucuslarinda_gecerli_",
+      "category": "faq",
+      "text": "Kıbrıs ve yurt dışı uçuşlarında geçerli yeni uçuş paketleri ve içerikleri nelerdir? !arrow down !arrow down yellow 14 Şubat ve sonrasında Light Paket isimli en düşük ücretli, kabin ve uçak altı bagaj hakkı içermeyen yeni paketimiz satışa sunulmuştur. Eğer Light Paket satın alırsanız 40cmx30cmx15cm ölçülerinde ve maksimum 3 kg ağırlığında koltuk altına sığacak tek bir çanta getirebilirsiniz. Yenilenen diğer paketlerimiz sırasıyla Süper Eko, Avantaj ve Comfort Flex'tir. Bu 3 paket içeriğinde de 1 adet koltuk altına sığacak çanta, 1 adet kabin bagajı ve 1 adet uçak altı bagaj hakkı yer almaktadır."
+    },
+    {
+      "id": "bagaj_neden_bagaj_kurallarini_degistiriyorsunu",
+      "category": "faq",
+      "text": "Neden bagaj kurallarını değiştiriyorsunuz? !arrow down !arrow down yellow Yeni bagaj kuralları ile uçağa biniş sırasında oluşan yoğunluğu önlemeyi, boardingi vaktinde tamamlamayı, kabin içindeki baş üstü dolaplarda sıkışıklığı engellemeyi ve misafir deneyimini iyileştirmeyi amaçlıyoruz."
+    },
+    {
+      "id": "bagaj_kabin_bagajini_paketlerinizden_tamamen_k",
+      "category": "faq",
+      "text": "Kabin bagajını paketlerinizden tamamen kaldırıyor musunuz? !arrow down !arrow down yellow Hayır, kaldırmıyoruz! Yurt dışı ve Kıbrıs uçuşlarımızda 1 adet koltuk altına sığacak çanta, 1 adet kabin bagajı ve 1 adet uçak altı bagaj hakkı Süper Eko, Avantaj ve Comfort Flex paketlerimizde yer almaktadır. Sadece en düşük ücretli Light Pakette kabin ve uçak altı bagaj hakkı bulunmamaktadır."
+    },
+    {
+      "id": "bagaj_onceden_satin_aldigim_bilette_yeni_kural",
+      "category": "faq",
+      "text": "Önceden satın aldığım bilette yeni kurallar mı geçerli olacak? !arrow down !arrow down yellow Hayır geçerli olmayacak. Eğer biletinizi 14 Şubat 2024 tarihinden önce satın aldıysanız biletinizi satın aldığınız tarihteki kurallar geçerli olmaya devam edecek."
+    },
+    {
+      "id": "bagaj_baslangic_paketi_olan_light_pakete_ek_ba",
+      "category": "faq",
+      "text": "Başlangıç paketi olan Light Pakete ek bagaj hakkı ekleyebilir miyim? !arrow down !arrow down yellow Evet! Sadece Light Paketi tercih ederseniz dilerseniz flypgs.com veya Pegasus Mobil uygulaması üzerinden uçuşta kabin bagajı limiti olması halinde kabin bagajı veya avantajlı fiyatlarla 12 kg uçak altı bagajı satın alabilirsiniz."
+    },
+    {
+      "id": "bagaj_onceden_kabin_bagajimda_tasidigim_sivi_e",
+      "category": "faq",
+      "text": "Önceden kabin bagajımda taşıdığım sıvı, elektronik eşya vb. özel eşyalarımı Light Paket kapsamında koltuk altına sığacak çantamın içerisinde taşıyabilecek miyim? Uçağın içine alabilecek miyim? !arrow down !arrow down yellow Yurt dışı ve Kıbrıs uçuşlarımızda geçerli olan Light Paket kuralları çerçevesinde küçük çantanızda ölçü ve kilogram sınırını aşmadığınız sürece taşıyabilirsiniz."
+    },
+    {
+      "id": "bagaj_light_paketi_ogrendik_peki_yurt_disi_ve_",
+      "category": "faq",
+      "text": "Light paketi öğrendik. Peki yurt dışı ve Kıbrıs uçuşlarınızda geçerli diğer paketlerin içeriğindeki bagaj hakları ne olacak? !arrow down !arrow down yellow Yurt dışı ve Kıbrıs uçuşlarımızda başlangıç paketimiz olan Light Pakete ek olarak yenilenen 3 farklı paket içeriğimiz daha mevcuttur. Bu paketler sırasıyla; Super Eko, Avantaj ve Comfort Flex paketleridir. Her 3 paket içeriğimizde de 1 adet koltuk altına sığacak çanta, 1 adet kabin bagajı ve 1 adet uçak altı bagaj hakkından faydalanabilirsiniz."
+    },
+    {
+      "id": "bagaj_kabin_bagajimla_ucak_kapisina_geldim_fak",
+      "category": "faq",
+      "text": "Kabin bagajımla uçak kapısına geldim fakat satın almış olduğum paketimde böyle bir bagaj hakkı bulunmuyor. Veya satın almış olduğum paketim dahilinde yer alan parçada ölçü ve kilogram sınırını aştım. Ne olacak? !arrow down !arrow down yellow Ölçü sınırının üzerinde veya paket dahilinde olmayan ek parça getirmeniz durumunda, her ek parça için uçağa biniş esnasında ekstra ücret tahsil edilecektir. Aynı zamanda ölçü sınırının üzerinde veya paket dahilinde olmayan ek parçanız veya parçalarınız kabinde değil, uçak altında taşınacaktır. Bagajınızla seyahat edecekseniz uçuşunuzdan önce dijital kanallarımızdan en uygun fiyatlarla ihtiyacınıza uygun bagaj hakkı satın almanızı öneririz."
+    },
+    {
+      "id": "bagaj_neden_boyle_bir_paket_icerigi_degisiklig",
+      "category": "faq",
+      "text": "Neden böyle bir paket içeriği değişikliğine gittiniz? !arrow down !arrow down yellow Yurt dışı ve Kıbrıs uçuşlarımızda siz değerli misafirlerimizin seyahat gereksinimlerine ve uçuş alışkanlıklarına uygun olacak şekilde 4 paketimizin içeriğini ve bagaj kurallarını güncelledik. Bu güncellemeyle uçağa iniş ve biniş sırasında oluşan yoğunluğu önleyerek misafir deneyimini iyileştirmeyi ve bagaj tercihlerinize göre size en iyi alternatifi sunmayı amaçlıyoruz. Paylaş POPÜLER DESTİNASYONLAR İzmir İstanbul Uçak Bileti Adana İstanbul Uçak Bileti Antalya İstanbul Uçak Bileti İstanbul İzmir Uçak Bileti İstanbul Adana Uçak Bileti İzmir Ankara Uçak Bileti İstanbul Kıbrıs Uçak Bileti İstanbul Bakü Uçak Bileti İstanbul Paris Uçak Bileti İstanbul Londra Uçak Bileti ŞEHİRLER İstanbul Uçak Bileti İzmir Uçak Bileti Antalya Uçak Bileti Ankara Uçak Bileti Adana Uçak Bileti Trabzon Uçak Bileti Belgrad Uçak Bileti Paris Uçak Bileti Bakü Uçak Bileti Amsterdam Uçak Bileti Londra Uçak Bileti Batum Uçak Bileti ÜLKELER Kıbrıs Uçak Bileti Karadağ Uçak Bileti Almanya Uçak Bileti Sırbistan Uçak Bileti Azerbaycan Uçak Bileti İtalya Uçak Bileti Makedonya Uçak Bileti Rusya Uçak Bileti Arnavutluk Uçak Bileti Hollanda Uçak Bileti İngiltere Uçak Bileti Fransa Uçak Bileti GEZİ REHBERLERİ İstanbul Gezi Rehberi Berlin Gezi Rehberi Viyana Gezi Rehberi Belgrad Gezi Rehberi Paris Gezi Rehberi Amsterdam Gezi Rehberi Prag Gezi Rehberi Roma Gezi Rehberi Barselona Gezi Rehberi İtalya Gezi Rehberi HAVALİMANLARI Antalya Hava Limanı Esenboğa Havalimanı Sabiha Gökçen Havalimanı Çukurova Havalimanı Dalaman Havalimanı Milas Bodrum Havalimanı Londra Stansted Havalimanı Paris Orly Havalimanı Frankfurt Havalimanı Ercan Havalimanı Zürih Havalimanı Roma Havalimanı KURUMSAL Sürdürülebilirlik Pegasus Hakkında Basın Odası Bilgi Toplumu Hizmetleri / Yatırımcı İlişkileri SGHM Toplumsal Cinsiyet Dengesi Geliştirme Komisyonu Pegasus Kargo Zamanında Kalkış Performansı YARDIM Yardım Merkezi Sıkça Sorulan Sorular İletişim Yardım Gereksinimi Olan Misafirler Ödeme Yöntemleri İNSAN KAYNAKLARI İnsan Kaynakları Politikamız Pegasus Ücret Yönetimi Politikası Olanaklarımız Kariyer GİZLİLİK & GÜVENLİK Çerez Tercihleri Genel Kurallar Gizlilik Uyumluluk Yolcu Hakları İşlem Rehberi Site Haritası Uçak Biletlerini Pegasus Mobil Uygulamasından Al Kampanyalardan 1 gün önce haberdar olmak için mobil uygulamamı ücretsiz indir! Hemen İndir Seyahatinin tüm adımlarını tek ekrandan kolayca yönet. !Seyahatinin tüm adımlarını tek ekrandan kolayca yönet. !Pegasus App Pegasus u Takip et Pegasus Hava Taşımacılığı Anonim Şirketi Pegasus Hava Taşımacılığı Anonim Şirketi Türkiye Cumhuriyeti yasaları uyarınca faaliyet göstermektedir. Şirket merkez adresi: Aeropark, Yenişehir Mah. Osmanlı Bul. No:11/A Kurtköy 34912 Pendik – İstanbul/TÜRKİYE. © 2026, All Rights Reserved !Yukarı Yukarı"
+    },
+    {
+      "id": "paket_pegasus_ta_ara",
+      "category": "faq",
+      "text": "Pegasus'ta Ara !x !search ARA !Uçuş Paketleri Uçuş Paketleri !Uçak Bileti Uçak Bileti !Uçak Bileti Uçuş Paketleri Seçim özgürlüğü Pegasus ta! Herkese göre bir paket var. İhtiyaçlarına, uçuş alışkanlıklarına ve farklı fiyat seçeneklerine göre oluşturulan 4 akıllı uçuş paketiyle seyahatine nasıl başlayacağına sen karar ver, ihtiyacın kadarını öde, rahat uç. Paketleri Karşılaştır Kapat | LIGHT PAKET | SÜPER EKO PAKET | AVANTAJ PAKET | COMFORT FLEX PAKET | | | | !FLY&WATCH FLY &WATCH; (Sadece Yurt dışı ve Kıbrıs uçuşlarında geçerlidir.) | | | | !KOLTUK ALTINA SIĞACAK ÇANTA \\(Sadece Yurt dışı ve Kıbrıs uçuşlarında geçerli\\) KOLTUK ALTINA SIĞACAK ÇANTA (Sadece Yurt dışı ve Kıbrıs uçuşlarında geçerli) | | | | !UÇUŞ BİLETİ UÇUŞ BİLETİ | | | | !BolPuan BolPuan | | | | !KABİN BAGAJI KABİN BAGAJI | | | | !UÇAK ALTI BAGAJ HAKKI UÇAK ALTI BAGAJ HAKKI | | | | !ÜCRETSİZ KOLTUK SEÇİMİ ÜCRETSİZ KOLTUK SEÇİMİ | | | Ekstra diz mesafesi hariç | Ekstra diz mesafesi dahil !SICAK YEMEK SICAK YEMEK | | | | !ESNEK DEĞİŞİKLİK/ İPTAL HAKKI \\(1 kez\\) ESNEK DEĞİŞİKLİK/ İPTAL HAKKI (1 kez) | | | | Paketleri Karşılaştır POPÜLER DESTİNASYONLAR İzmir İstanbul Uçak Bileti Adana İstanbul Uçak Bileti Antalya İstanbul Uçak Bileti İstanbul İzmir Uçak Bileti İstanbul Adana Uçak Bileti İzmir Ankara Uçak Bileti İstanbul Kıbrıs Uçak Bileti İstanbul Bakü Uçak Bileti İstanbul Paris Uçak Bileti İstanbul Londra Uçak Bileti ŞEHİRLER İstanbul Uçak Bileti İzmir Uçak Bileti Antalya Uçak Bileti Ankara Uçak Bileti Adana Uçak Bileti Trabzon Uçak Bileti Belgrad Uçak Bileti Paris Uçak Bileti Bakü Uçak Bileti Amsterdam Uçak Bileti Londra Uçak Bileti Batum Uçak Bileti ÜLKELER Kıbrıs Uçak Bileti Karadağ Uçak Bileti Almanya Uçak Bileti Sırbistan Uçak Bileti Azerbaycan Uçak Bileti İtalya Uçak Bileti Makedonya Uçak Bileti Rusya Uçak Bileti Arnavutluk Uçak Bileti Hollanda Uçak Bileti İngiltere Uçak Bileti Fransa Uçak Bileti GEZİ REHBERLERİ İstanbul Gezi Rehberi Berlin Gezi Rehberi Viyana Gezi Rehberi Belgrad Gezi Rehberi Paris Gezi Rehberi Amsterdam Gezi Rehberi Prag Gezi Rehberi Roma Gezi Rehberi Barselona Gezi Rehberi İtalya Gezi Rehberi HAVALİMANLARI Antalya Hava Limanı Esenboğa Havalimanı Sabiha Gökçen Havalimanı Çukurova Havalimanı Dalaman Havalimanı Milas Bodrum Havalimanı Londra Stansted Havalimanı Paris Orly Havalimanı Frankfurt Havalimanı Ercan Havalimanı Zürih Havalimanı Roma Havalimanı KURUMSAL Sürdürülebilirlik Pegasus Hakkında Basın Odası Bilgi Toplumu Hizmetleri / Yatırımcı İlişkileri SGHM Toplumsal Cinsiyet Dengesi Geliştirme Komisyonu Pegasus Kargo Zamanında Kalkış Performansı YARDIM Yardım Merkezi Sıkça Sorulan Sorular İletişim Yardım Gereksinimi Olan Misafirler Ödeme Yöntemleri İNSAN KAYNAKLARI İnsan Kaynakları Politikamız Pegasus Ücret Yönetimi Politikası Olanaklarımız Kariyer GİZLİLİK & GÜVENLİK Çerez Tercihleri Genel Kurallar Gizlilik Uyumluluk Yolcu Hakları İşlem Rehberi Site Haritası Uçak Biletlerini Pegasus Mobil Uygulamasından Al Kampanyalardan 1 gün önce haberdar olmak için mobil uygulamamı ücretsiz indir! Hemen İndir Seyahatinin tüm adımlarını tek ekrandan kolayca yönet. !Seyahatinin tüm adımlarını tek ekrandan kolayca yönet. !Pegasus App Pegasus u Takip et Pegasus Hava Taşımacılığı Anonim Şirketi Pegasus Hava Taşımacılığı Anonim Şirketi Türkiye Cumhuriyeti yasaları uyarınca faaliyet göstermektedir. Şirket merkez adresi: Aeropark, Yenişehir Mah. Osmanlı Bul. No:11/A Kurtköy 34912 Pendik – İstanbul/TÜRKİYE. © 2026, All Rights Reserved !Yukarı Yukarı"
+    },
+    {
+      "id": "koltuk_pegasus_ta_ara",
+      "category": "faq",
+      "text": "Pegasus'ta Ara !x !search ARA !Koltuk Seçimi Koltuk Seçimi !Uçak Bileti Uçak Bileti !Uçak Bileti Koltuk Seçimi Pegasus misafiri olarak,uçuş boyunca hangi koltukta oturacağını seçebilirsin. Koltuğunu Seç ? DEVAM !forward Ekstra Diz Mesafesi Uzun boylu olanlar ve rahat etmek isteyenler için YURTIÇI 299 99 TL den başlayan YURT DIŞI 15 99 € dan başlayan DEVAM PNR Numaramı Bilmiyorum Ön Koltuklar Rahatça inip binmek isteyenler için. YURTIÇI 279 99 TL den başlayan YURT DIŞI 11 99 € dan başlayan DEVAM PNR Numaramı Bilmiyorum Pencere Kenarı Rahatsız edilmek istemeyenler için YURTIÇI 169 99 TL den başlayan YURT DIŞI 7 99 € dan başlayan DEVAM PNR Numaramı Bilmiyorum Koridor Kenarı Sıkça yerinden kalkanlar için YURTIÇI 149 99 TL den başlayan YURT DIŞI 6 99 € dan başlayan DEVAM PNR Numaramı Bilmiyorum Diğer Koltuklar Birlikte oturmak isteyenler için YURTIÇI 149 99 TL den başlayan YURT DIŞI 6 99 € dan başlayan DEVAM PNR Numaramı Bilmiyorum !rounded plus Koltuğunu diğerleri ile birlikte al, avantajlı çık! Koltuk mu satın alıyorsun? Pegasus’un Uçuş Paketleri’nden kendine uygun olanı seçerek ekstra avantajlardan da yararlanmak istemez misin? Sadece koltuk satın almak yerine Uçuş Paketleri sayesinde bagajını ve yemeğini de çok daha ucuza satın alabilirsin."
+    },
+    {
+      "id": "koltuk_light_paket",
+      "category": "faq",
+      "text": "[LIGHT PAKET !LIGHT PAKET !LIGHT PAKET !LIGHT PAKET ](/seyahat hizmetlerimiz/ucus ile ilgili hizmetlerimiz/ucus paketleri light paket) SÜPER EKO PAKET AVANTAJ PAKET COMFORT FLEX PAKET Paketleri Karşılaştır Kapat | LIGHT PAKET | SÜPER EKO PAKET | AVANTAJ PAKET | COMFORT FLEX PAKET | | | | !FLY&WATCH FLY &WATCH; (Sadece Yurt dışı ve Kıbrıs uçuşlarında geçerlidir.) | | | | !KOLTUK ALTINA SIĞACAK ÇANTA \\(Sadece Yurt dışı ve Kıbrıs uçuşlarında geçerli\\) KOLTUK ALTINA SIĞACAK ÇANTA (Sadece Yurt dışı ve Kıbrıs uçuşlarında geçerli) | | | | !UÇUŞ BİLETİ UÇUŞ BİLETİ | | | | !BolPuan BolPuan | | | | !KABİN BAGAJI KABİN BAGAJI | | | | !UÇAK ALTI BAGAJ HAKKI UÇAK ALTI BAGAJ HAKKI | | | | !ÜCRETSİZ KOLTUK SEÇİMİ ÜCRETSİZ KOLTUK SEÇİMİ | | | Ekstra diz mesafesi hariç | Ekstra diz mesafesi dahil !SICAK YEMEK SICAK YEMEK | | | | !ESNEK DEĞİŞİKLİK/ İPTAL HAKKI \\(1 kez\\) ESNEK DEĞİŞİKLİK/ İPTAL HAKKI (1 kez) | | | | Paketleri Karşılaştır POPÜLER DESTİNASYONLAR İzmir İstanbul Uçak Bileti Adana İstanbul Uçak Bileti Antalya İstanbul Uçak Bileti İstanbul İzmir Uçak Bileti İstanbul Adana Uçak Bileti İzmir Ankara Uçak Bileti İstanbul Kıbrıs Uçak Bileti İstanbul Bakü Uçak Bileti İstanbul Paris Uçak Bileti İstanbul Londra Uçak Bileti ŞEHİRLER İstanbul Uçak Bileti İzmir Uçak Bileti Antalya Uçak Bileti Ankara Uçak Bileti Adana Uçak Bileti Trabzon Uçak Bileti Belgrad Uçak Bileti Paris Uçak Bileti Bakü Uçak Bileti Amsterdam Uçak Bileti Londra Uçak Bileti Batum Uçak Bileti ÜLKELER Kıbrıs Uçak Bileti Karadağ Uçak Bileti Almanya Uçak Bileti Sırbistan Uçak Bileti Azerbaycan Uçak Bileti İtalya Uçak Bileti Makedonya Uçak Bileti Rusya Uçak Bileti Arnavutluk Uçak Bileti Hollanda Uçak Bileti İngiltere Uçak Bileti Fransa Uçak Bileti GEZİ REHBERLERİ İstanbul Gezi Rehberi Berlin Gezi Rehberi Viyana Gezi Rehberi Belgrad Gezi Rehberi Paris Gezi Rehberi Amsterdam Gezi Rehberi Prag Gezi Rehberi Roma Gezi Rehberi Barselona Gezi Rehberi İtalya Gezi Rehberi HAVALİMANLARI Antalya Hava Limanı Esenboğa Havalimanı Sabiha Gökçen Havalimanı Çukurova Havalimanı Dalaman Havalimanı Milas Bodrum Havalimanı Londra Stansted Havalimanı Paris Orly Havalimanı Frankfurt Havalimanı Ercan Havalimanı Zürih Havalimanı Roma Havalimanı KURUMSAL Sürdürülebilirlik Pegasus Hakkında Basın Odası Bilgi Toplumu Hizmetleri / Yatırımcı İlişkileri SGHM Toplumsal Cinsiyet Dengesi Geliştirme Komisyonu Pegasus Kargo Zamanında Kalkış Performansı YARDIM Yardım Merkezi Sıkça Sorulan Sorular İletişim Yardım Gereksinimi Olan Misafirler Ödeme Yöntemleri İNSAN KAYNAKLARI İnsan Kaynakları Politikamız Pegasus Ücret Yönetimi Politikası Olanaklarımız Kariyer GİZLİLİK & GÜVENLİK Çerez Tercihleri Genel Kurallar Gizlilik Uyumluluk Yolcu Hakları İşlem Rehberi Site Haritası Uçak Biletlerini Pegasus Mobil Uygulamasından Al Kampanyalardan 1 gün önce haberdar olmak için mobil uygulamamı ücretsiz indir! Hemen İndir Seyahatinin tüm adımlarını tek ekrandan kolayca yönet. !Seyahatinin tüm adımlarını tek ekrandan kolayca yönet. !Pegasus App Pegasus u Takip et Pegasus Hava Taşımacılığı Anonim Şirketi Pegasus Hava Taşımacılığı Anonim Şirketi Türkiye Cumhuriyeti yasaları uyarınca faaliyet göstermektedir. Şirket merkez adresi: Aeropark, Yenişehir Mah. Osmanlı Bul. No:11/A Kurtköy 34912 Pendik – İstanbul/TÜRKİYE. © 2026, All Rights Reserved !Yukarı Yukarı"
+    },
+    {
+      "id": "sss_pegasus_ta_ara",
+      "category": "faq",
+      "text": "Pegasus'ta Ara !x !search ARA"
+    },
+    {
+      "id": "sss_sikca_sorulan_sorular",
+      "category": "faq",
+      "text": "Sıkça Sorulan Sorular Sıkça Sorulan Sorular !Bilet işlemlerim Bilet i şlemlerim !arrow icon Nas ıl bilet satın alabilirim? !arrow icon Biletlerinizi www.flypgs.com ana sayfasında sol tarafta bulunan Bilet Satış sekmesinden veya akıllı telefon/tabletiniz ile iOS, Android uygulamalarımız üzerinden Visa/Mastercard kredi kartlarınızı kullanarak satın alabilirsiniz. Ayrıca 0888 228 12 12 numaralı çağrı merkezimiz ya da acentelerimiz aracılığı ile de biletinizi satın alabilirsiniz. Bilet sat ın almak istiyorum fakat odemem gereken para birimini değiştirmek istiyorum. Nasıl yapabilirim? !arrow icon Sağ tarafta \"Sepetiniz\" bölümünde bulunan \"Para Birimini Değiştir\" kutusuna tıklayıp seçeneklerden birini tercih ederek farklı bir para birimiyle bilet satın alma işleminizi yapabilirsiniz. Sat ın almış olduğum biletim ile ilgili nasıl değişiklik yapabilirim? !arrow icon Biletini flypgs.com veya mobil kanallardan satın almış misafirlerimiz flypgs.com ana sayfada yer alan \"Bilet İşlemlerim\" bölümü üzerinden Rezervasyon (PNR) Numarası ve soyadlarını girerek uçuşlarına ulaşabilir ve kolayca değişiklik yapabilirler. Biletini acente veya çağrı merkezinden almış misafirlerimizin ise değişiklik işlemleri için 0888 228 12 12 numaralı çağrı merkezimize başvurmaları gerekir. Değişiklik kurallarının detayları için genel kurallar bölümünde \"Rezervasyon Değişikliği ve Bilet İptali\" başlığını incelemenizi öneririz. U çuşlarımın tamamını ya da belirli bir uçuşumu nasıl iptal edebilirim? !arrow icon Biletini flypgs.com veya mobil kanallardan satın almış misafirlerimiz flypgs.com ana sayfada yer alan \"Bilet İşlemlerim\" bölümü üzerinden Rezervasyon (PNR) Numarası ve soyadlarını girerek uçuşlarına ulaşabilir ve belirli uçuşlarının veya uçuşlarının tamamının iptalini gerçekleştirebilir. İptal kurallarının detayları için genel kurallar bölümünü incelemenizi öneririz. Biletime ek hizmet/servis ekleyebilir miyim? !arrow icon Biletini satın almış misafirlerimiz flypgs.com ana sayfada yer alan \"Seyahat Hizmetlerimiz\" başlığı altındaki \"Uçuş ile İlgili Hizmetlerimiz\"den, Rezervasyon (PNR) Numarası ve soyadları ile uçuşlarına eklemek istedikleri hizmeti seçebilirler. Elektronik biletimi nereden g oruntuleyebilirim? !arrow icon Dilerseniz flypgs.com ana sayfadaki \"Bilet İşlemlerim\" kısmından Rezervasyon (PNR) Numarası ve soyadı ile biletlerinizi görüntüleyip çıktısını alabilirsiniz. Bilet uzerinde isim değişikliği yapabilir miyim? !arrow icon Rezervasyon yapılmış veya satın alınmış bir bilet üzerinde isim değişikliği yapılması mümkün değildir. Sat ın aldığım biletimdeki iletişim bilgilerimi nasıl değiştirebilirim? !arrow icon Biletini flypgs.com veya mobil kanallardan satın almış misafirlerimiz flypgs.com ana sayfada yer alan \"Bilet İşlemlerim\" bölümü üzerinden Rezervasyon (PNR) Numarası ve soyadlarını girerek uçuşlarına ulaşabilir ve ilgili alandan biletlerini satın alırken ilettikleri iletişim bilgilerini değiştirebilirler. U çuşum iptal oldu ya da uçuşumda sefer saat değişikliği meydana geldi. Ne yapmalıyım? !arrow icon Uçuşa 14 günden fazla zaman varken sefer saatinin 15 dakika ve üzerinde değişmesi halinde misafirlerimize ücretsiz iptal ya da değişiklik hakları sunulmaktadır. 14 günden az zaman varken yapılan sefer saat değişikliklerinde ise Genel Kurallarda yer alan 5.2. madde uyarınca gerekli işlemler yapılır. Hava muhalefetinden dolay ı seferim iptal oldu. Başka bir uçuşa değişiklik yapmak istiyorum. Ne yapmalıyım? !arrow icon Uçuş günü hava muhalefetinden dolayı iptal olan bir uçuş yerine Pegasus Havayolları’nın aynı parkurda olan bir başka uçuşuna boş koltuk durumuna bağlı olarak ücretsiz değişiklik yapabilirsiniz. Belirtilen kısıtlamalar dışında yapılan talepler için sadece kesintisiz bilet ücret iadesi imkanı sunulmaktadır. Hava muhalefetinden dolay ı seferim iptal oldu. Ücret iadesi mumkun mudur? !arrow icon İptal olan uçuş ve aynı gün bu iptal olan uçuşa bağlantı veren veya bağlantı alan Pegasus Havayolları uçuşu için kesintisiz bilet ücret iadesi, biletin son geçerlilik tarihine kadar talep edilebilir. İptal edilen seferin bağlantılı bulunan sonraki uçuşunun da iadesi için, ilgili bağlantı uçuşunun yolcu tarafından gerçekleştirilmemiş olması gerekmektedir. Biletin üzerinde bulunan diğer uçuşlar için normal ücret kuralları uygulanır. Sat ın almış olduğum biletime bebeğimi/çocuğumu eklemek için ne yapmam lazım? !arrow icon Bu işlemler için 0888 228 12 12 numaralı çağrı merkezimizle iletişime geçebilirsiniz. Biletimi a çığa almak istiyorum. Ne yapmalıyım? !arrow icon Misafirimiz mevcut biletinin ilk uçuşunu yapmadan açığa aldırdığı taktirde, açık bileti değiştirdiği tarihten itibaren 1 yıl içerisinde kullanabilir. Bu işlem için sadece ilgili sınıfın ceza ücreti uygulanır. Tarihlendirirken arada ücret farkı varsa yalnızca onu öder, herhangi bir ceza tekrar ödemez. Bu işlemi sitemizdeki Bilet İşlemleri bölümünden veya 0888 228 12 12 numaralı çağrı merkezimiz aracılığı ile gerçekleştirebilirsiniz. Misafir biletini açık bilete değiştirirken ilgili sınıfın ceza kuralları uygulanır. Açık bilet devredilemez, isim değişikliği yapılmaz. Rezervasyon kodumu ve Bilet numaram ı unuttum, uçuş bilgilerime nasıl ulaşabilirim? !arrow icon 0888 228 12 12 numaralı çağrı merkezimizi arayarak uçuş bilgileriniz hakkında bilgi alabilirsiniz. Pegasus Havayollar ı'nın bir kampanyasından ucretsiz hediye bilet kazandım. Nasıl kullanabilirim? !arrow icon Kazanmış olduğunuz hediye biletinizle ilgili işlemleriniz için 0888 228 12 12 numaralı çağrı merkezimizle iletişime geçebilirsiniz. !Rezervasyon İşlemleri Rezervasyon İşlemleri !arrow icon Ücretli rezervasyon nedir? Nasıl yapabilirim? !arrow icon Ücretli rezervasyon arama yaptığınız uçuşta yakaladığınız fiyatı kaçırmak istemediğiniz ve/veya daha sonra satın almak istediğiniz durumda belirli ücret karşılığında belirli bir süreliğine yakaladığınız fiyat üzerinden yer ayırtmadır. Ücretli rezervasyon uçuş araması yaptıktan sonra uçuşların listelendiği sayfada uçuşları seçtiğiniz bölümün altında başında bir kilit ikonu ile birlikte yer almaktadır. \"Fiyatı Sabitlemek İstiyorum\" kutusu seçilip \"Devam\" butonuna basarak yönlendirildiğiniz sayfada kaç gün rezervasyon yapacağınızı seçebilirsiniz. Bilet rezervasyonu yapabilir miyim? !arrow icon Web üzerinden seçtiğiniz uçuşa ait biletinizin fiyatını sabitleyip ücretli rezervasyon yapabilirsiniz. Ücretli rezervasyon yaptığım biletimi sonrasında nasıl satın alabilirim? !arrow icon Flypgs.com ana sayfasında yer alan \"Bilet İşlemlerim\" bölümüne Rezervasyon (PNR) Numarası ve soyadı ile giriş yapıp satın alma sayfasına yönlendirilerek bilet satın alma işleminizi tamamlayabilirsiniz. Fiyat ını sabitleyip ucretli rezervasyon yaptığım uçuş için tarih değişikliği yapabilir miyim? !arrow icon Evet, yapabilirsiniz ancak ücretli rezervasyon süresi ortadan kalkar ve biletleme işleminizi tamamlamanız ya da tekrar fiyatlayıp ücretli rezervasyon yapmanız gerekir. E posta adresime ucretli rezervasyon bilgilerim gelmedi, ne yapmalıyım? !arrow icon Sadece satın alınan biletlerin uçuş bilgileri mail yoluyla bilgilendirilmektedir. Ka ç kişiye kadar grup rezervasyonu talebinde bulunabilirim? !arrow icon Web sitemiz üzerinden 10 – 25 kişi için direk olarak rezervasyon yapabilir, 26 100 kişi için taleplerinizi talep formu aracılığı ile bizlere iletebilirsiniz. Grup rezervasyonlarınız ile ilgili diğer detaylara buradan ulaşabilirsiniz. !Check In Check In !arrow icon Android cihaz ımda SMS linki ile gelen barkod açılmıyor, ne yapmalıyım? !arrow icon Android işletim sistemini kullanan telefonunuza gönderilen SMS’teki linke tıkladığınızda açılan yönlendirmede “Bağlantıyı Aç”ı seçin. Ardından size sunulan “Birlikte Aç” seçenekleri arasından varsayılan olarak işaretlediğiniz tarayıcıyı seçin. Barkodu Pegasus mobil uygulamasında açmak istediğiniz takdirde, uygulama ana sayfasına yönlendirilirsiniz. Daha kolay ve hızlı birşekilde barkodunuza ulaşmak için lütfen yukarıda önerilen yolu izleyiniz. Online check in nedir? Ne i şe yarar? !arrow icon Check in işlemi havaalanında bagaj verme ve bilet kontrol işleminden geçme olayıdır. Misafirlerimiz havaalanına gitmeden önce flypgs.com'dan Check in sekmesinden Rezervasyon (PNR) Numarası ve ad soyadınızı girerek işleminizi yapabilirsiniz. Havaalanlarında size ayrılmış online check in kontuarlarında işleminizi daha hızlı yapabilirsiniz. Bagajı olmayan misafirlerimiz ise online check in işleminden sonra biniş kartını e posta yolu ile veya cep telefonunuza mesaj olarak gönderebilir ve biniş kartınız ile güvenlik şeridini geçerek uçağınızın kalkış yapacağı kapı numarasına geçiş yapabilirsiniz. Nas ıl online check in yapabilirim? !arrow icon Online check in işlemlerinizi flypgs.com'da yer alan Check in sekmesinden Rezervasyon (PNR) Numarası ve ad soyadınızı girerek yapabilirsiniz. Ayrıca check in işleminizi mobil cihazlar üzerinden mobil uygulamalarımız ve mobil web sitemiz üzerinden de yapabilirsiniz. Online check in i şlemini ne zaman yapabilirim? !arrow icon Web sitemiz, Çağrı Merkezimiz, acentelerimiz ve havalimanı satış ofislerimizden satın aldığınız biletlerinize en erken 7 gün öncesinden, en geç uçuşunuza iç hatlarda 45 dakika, dış hatlarda ise 60 dakika kalana kadar flypgs.com veya mobil uygulamalar üzerinden check in yapabilirsiniz. Mobil Uygulamalar uzerinden check in işlemini yapabilir miyim? !arrow icon Misafirlerimiz Pegasus’un iPhone, Android ve iPad uygulamaları üzerinden check in işlemi yapabilir. Ana menüdeki check in butonuna tıklayıp Rezervasyon (PNR) Numarası ve ad ve soyadları ile check in işlemlerini tamamlayabilirler. Ayrıca cep telefonundan mobile.flypgs.com mobil sitesine girerek mobil check in yapabilirler. Mobil cihazlar üzerinden check in yapan misafirlerimize e mail ya da SMS yoluyla (iPhone kullanıcıları wallet uygulamasını kullanarak) iletilen mobil biniş kartını (barkodu) S. Gökçen çıkışlı dış hat uçuşları ve yurt içindeki belirli havaalanlarında biniş kapılarına konulan akıllı mobil biniş kartı (barkod) okuyuculara mobil biniş kartlarınıı (barkodlarını) okutarak uçağa geçiş yapabilirler. Mobil Bini ş Kartı (Barkod) nedir? Ne işe yarar? !arrow icon Mobil biniş kartı (barkod) Pegasus misafirlerine check in yaptıkları durumda gönderilen biniş kartı yerine kullanılabilen QR (kare) kodudur. Mobil biniş kartı (barkodu) bulunan misafirlerimiz S.Gökçen çıkışlı dıs hat uçuşları ve yurt içindeki havaalanlarında biniş kapılarındaki akıllı cihazlara/mobil biniş kartı (barkod) okuyuculara barkodlarını okutarak uçaklarına binebilirler. Mobil biniş kartı (barkod) hem web sitesi hem de mobil platformlardan yapılan check in işlemlerinde temin edilebilir. · Web üzerinden www.flypgs.com veya cep telefonlarından mobile.flypgs.com mobil sitesi veya Pegasus’un i Phone, Android ve i Pad uygulamaları üzerinden check in işlemine başlanır. · Check in menüsüne tıklanır. · Rezervasyon Kodu (PNR), Ad ve Soyad bilgileri girilerek check in'e uygun uçuşlar sorgulanır. · İlgili uçuş seçilerek, check in işlemi, sayfadaki adımlar takip edilerek tamamlanır. · Check in işlemi tamamlandıktan sonra Cep Telefonu ve E posta bilgilerinin gireleceği sayfa gelir. Buraya bilgiler girilir ve onaylanır. · Verilen cep telefonu ve e posta adresine uçuş bilgilerini ve mobil biniş kartı (barkod) linkini içeren mesaj (SMS ve/veya e posta) gönderilir. · Gelen linke tıklandığında biniş kartı yerine kullanılabilecek olan mobil biniş kartı (barkod) açılır. · Bagajı olmayan misafirler bu mobil biniş kartını (barkodu) güvenlik geçişlerindeki görevlilere ve uçağa girmeden önce boarding işlemi yapan görevlilere göstererek hızlı ve kolayca geçiş sağlarlar. Misafirlerimize, mobil biniş kartı (barkodu) ekranının görüntüsünü almalarını önermekteyiz. Internet bağlantısının olmaması halinde, alınan ekran görüntüsü üzerinden de mobil biniş kartı (barkodu çalışmaktadır. Mobil Bini ş Kartıma (Barkod) Tekrardan Nasıl Ulaşabilirim? !arrow icon Mobil biniş kartınıza (barkodu) hem web sitesi hem de mobil uygulama üzerinden tekrardan ulaşabilirsiniz. Web sitesi üzerinden mobil barkodunuza ulaşmak için, \\ www.flypgs.com adresine giriş yapın. \\ “Online Check In” butonuna tıklayın. \\ Bilgilerinizi doldurarak giriş yapın. \\ SMS ya da E posta olarak mobil barkodunuzu gönderin. Pegasus mobil uygulama üzerinden mobil barkoda ulaşmak için; \\ Pegasus uygulamasını cep telefonunuza indirin. \\ Ana ekranda yer alan “Mobil Biniş Kartlarım” menüsüne tıklayın. \\ Bilgilerinizi doldurarak giriş yapın. \\ SMS ya da E posta olarak mobil barkodunuzu gönderin. Bilet sat ın alırken uçuş ozetinden gorunen \"Check In Bedeli\" nedir? !arrow icon Check in işlemlerinin gerçekleştirildiği kanaldan bağımsız olarak, uygulama kuralları çerçevesinde bilet satım aşamasında, Pegasus’un tüm satış kanallarında (acente, web, çağrı merkezi, satış ofisleri, mobil ) alınan işlem bedelidir. Check in bedeli kurallar ı nelerdir? !arrow icon Satın alınacak tüm biletlerden, biletleme esnasında Rezervasyon (PNR) Numarasındaki her bir yolcu ve her bir uçuş segmenti için yapılacak seyahatlerde iç hatlarda 15 TRY, KKTC uçuşlarında KKTC varışlı uçuşlar için 2 ABD Doları ve KKTC kalkışlı uçuşlar için 2 Avro, dış hatlarda 10 USD (veya karşılığı mahalli para birimi) dan başlayan check in bedeli tahsil edilir. Bu bedel, ülkeler ve uçuş yapılacak hatlar bazında değişiklik gösterir. Aynı uçuş numarası ile gerçekleşen transit uçuşlar için tek check in bedeli, farklı uçuş numaraları ile gerçekleşen bağlantılı uçuşlarda, her bir uçuş numarası için ayrı ayrı check–in bedeli uygulanır. Check in bedeli odendiğinde check in işlemleri gerçekleştirilmiş oluyor mu? !arrow icon Hayır, olmuyor. Check in işlemleri uçuş öncesinde, Pegasus genel kuralları çerçevesinde, check in işlemleri için açık kanallar kullanılarak gerçekleştirilmelidir. Ayn ı Rezervasyon(PNR) Numarasında birden fazla uçuş varsa check in yapabilir miyim? !arrow icon Rezervasyon(PNR) Numaranızda bulunan her bir uçuş için ayrı ayrı check in işleminin yapılması gerekmektedir. Ayn ı Rezervasyon(PNR) Numarasında birden fazla yolcu varsa check in yapabilir miyim? !arrow icon Rezervasyon(PNR) Numaranızda bulunan her bir yolcu için check in işleminin yapılması gerekmektedir. Check in işlemini her bir yolcu için ayrı ayrı yapabileceğiniz gibi hepsini aynı anda da yapabilirsiniz. Ba ğlantılı uçuşlarıma check in yapabilir miyim? !arrow icon Rezervasyon (PNR) Numarasındaki her bir uçuşa check in yapılabilir. Her bir uçuşun biniş kartları ayrı ayrı basılabilmektedir. Bağlantılı uçuşu olan misafirlerimizin havaalanına gelmeden önce bağlantı noktasında zaman kaybetmemek için check in yaptıkları bağlantılı uçuşların biniş kartlarını basmaları önerilir. Koltuk sat ın aldım, check in yapmama gerek var mı? !arrow icon Ücretli koltuk satın alma aynı zamanda bir check in işlemi değildir. !Paket Satış Sistemi Paket Sat ış Sistemi !arrow icon Paket sat ış sistemi nedir? !arrow icon Paket satış sistemi, siz değerli misafirlerlerimize seyahatinizi istek ve ihtiyaçlarınız doğrultusunda özelleştirme imkanı sunarken, dört farklı paket seçeneği ile Pegasus’un sunduğu koltuk seçimi, ek bagaj, ikram ve esnek iade ve iptal hakkı gibi hizmetlerden indirimli olarak faydalanmanızı sağlayacaktır. Paket sat ış sisteminden nasıl yararlanabiliyorum? !arrow icon flypgs.com üzerinden uçuş araması yaptığınızda, uçuş sonuçlarının gösterildiği sayfada paketli uçuş seçimi yapabiliyorsunuz. Ka ç tip paket var ve ozellikleri neler? !arrow icon 4 tip paketimiz bulunuyor; Süper Eko Paket yalnızca dış hat uçuşlarında geçerlidir ve şimdilik sadece flypgs.com’dan satın alınabilir. Uçuşunuzu ihtiyacınıza uygun ek hizmetlerle, dilediğiniz gibi şekillendirebilirsiniz. Eko Paket ile uygun fiyata uçarsınız. Yurt içinde 15 kg, yurt dışında 20 kg bagaj hakkına ilaveten, Eko Paket’i ihtiyacınıza uygun ek hizmetlerle, dilediğiniz gibi şekillendirebilirsiniz. Avantaj Paket , uygun fiyatlı bilete ek olarak Pegasus’un en çok tercih edilen ek hizmetlerini indirimli olarak sunar. Daha konforlu bir seyahat için, tüm ek hizmetlere %50’ye varan indirimle sahip olabilirsiniz. Comfort Flex Paket , konforlu ve esnek bir seyahat sunar. Koltuk seçimi, bilet değiştirme ve iptal etme gibi ayrıcalıkların tümüne %50’ye varan indirimle sahip olabilirsiniz. Paketlerle ilgili daha detaylı bilgi için tıklayın. Paket sat ın alarak nasıl bir avantaja sahip oluyorum? !arrow icon Ek hizmetleri ayrı ayrı almak yerine toplu alarak fiyat avantajına sahip oluyorsunuz. Paketli u çuşlar yurt içi yurt dışı tum uçuşlarınızı kapsıyor mu? !arrow icon Pegasus’un uçmakta olduğu birçok destinasyon için paketli uçuş olanağı mevcuttur. Bir paketin ozelliğini kendi tercihlerime gore duzenleyebiliyor muyum? !arrow icon Avantaj ve Comfort Flex Paket özellikleri standart olarak tasarlandı. Paket içeriğinde koltuk seçimi veya yemek seçimi bulunuyorsa, koltuk ve yemek seçeneklerinden kendinize uyanı seçebilirsiniz. Ya da Eko Paket’i tercih ederek, uçuşunuza istediğiniz ek hizmeti ilave etme şansınız var. Ancak bu durumda Avantaj ve Comfort Flex Paketlerin maliyet avantajını göz ardı etmemenizi öneririz. Birden fazla misafir i çin bilet alırken, aynı parkurda farklı misafirlere farklı paket seçebiliyor muyum? !arrow icon Biletinizi birden fazla misafir için satın alıyorsanız, tüm misafirler için aynı paket seçilir. Örneğin misafirlerden biri için avantaj paket seçtiyseniz, diğer misafir/misafirler için de avantaj paket seçmiş olursunuz. Gidi ş ve donuş uçuşlarımda ayrı paketler seçebiliyor muyum? !arrow icon Evet, gidiş dönüş farklı paket seçme imkanı bulunuyor. Sat ın aldığım paket dahilindeki içerikleri biletimde gorebiliyor muyum? !arrow icon Aldığınız paket kapsamındaki içerikler ile ilgili bilgiyi web sitemizden alabilirsiniz. Hangi paketi aldığınıza dair kod bilet üzerinden bulunmaktadır. Ba ğlantılı bir uçuşum var. Paketli uçuş mantığı ne şekilde olacak? !arrow icon Bağlantılı uçuşunuzun her bir parkurunda uçuşunuz için seçtiğiniz paket geçerlidir. Ancak seyahat edeceğiniz destinasyonlara göre seçeceğiniz ikram, ek bagaj hakkı farklı olabilir. Paketli bir u çuşta, yemek veya sandviç seçimi yapabiliyor muyum? !arrow icon Evet, paket tipinizin kapsamına göre farklı sandviç veya yemek/kahvaltı çeşitlerinden dilediğinizi seçerek uçuşunuza keyif katabilirsiniz. Paketli bir u çuşta, satın alma sırasında seçmiş olduğum koltuk numaramı ya da yemek seçimimi daha sonra değiştirebiliyor muyum? !arrow icon Yemeğinizi değiştirmeniz maalesef mümkün olamıyor. Koltuk numaranızı değiştirmeniz için ise uçuş gününüzde uçağınızda uygun koltuk bulunuyorsa kontuar görevlilerimiz yardımcı olmaya çalışacaktır. Pegasus BolBol uyesiyim. Paketli uçuşlardan da puan kazanabiliyor muyum? !arrow icon Elbette. Paketli uçuşunuzun fiyatına göre uçuş puan kazanırsınız. Mobil sitenizden/Uygulaman ızdan paketli uçuş satın alabiliyor muyum? !arrow icon Evet. Pegasus mobil site/uygulamasından paketli uçuş imkanı sunulmakta. Paketli bir bilet sat ın aldım. Uçuş tarihimi değiştirmek istediğimde paketimdeki ikram, koltuk ve bagajım yeni uçuşuma taşınacak mı? !arrow icon Mevcut ek hizmetlerin birebir aynıları var ise direkt taşınır, taşınamayan ek hizmetlerin alternatif seçimleri için yeniden yönlendirme yapılır. Eğer seçilen yeni uçuşta önceki uçuşta satın alınmış ek hizmet mevcut değil ise ücret iadesi yapılır. Avantaj Paket sat ın aldım. Rezervasyonumu değiştirmek istersem veya uçuşumu iptal ettirirsem koltuk, yemek, ek bagaj hakkını kapsayan paket ucretim kesintisiz iade edilecek mi? !arrow icon Avantaj Pakette rezervasyon değişiklikleri ve iptallerde bilet ücreti üzerinden ücret kesintisi yapılmaktadır. Dolayısıyla uçuşunuzdaki ücret sınıfının kuralları gereği ücret kesintisi paket ücretinden düşülerek kalan miktar iade edilir. Kullanılan ücret sınıflarına göre uygulanan işlem ücretleri web sitemizde Genel Kurallar / Rezervasyon Değişikliği ve Bilet İptali menüsünde tablolar halinde sunulmaktadır. Comfort Flex Paket sat ın aldım. Rezervasyonumu değiştirmek istersem veya uçuşumu iptal ettirirsem koltuk, yemek, ek bagaj hakkını kapsayan paket ucretim kesintisiz iade edilecek mi? !arrow icon Comfort Flex Paket’te, Eko ve Avantaj Paketlerinden farklı olarak uçuşa 2 saat kalana dek yaptıracağınız rezervasyon değişiklikleri ve iptallerde ücret kesintisi yapılmamaktadır. Ancak yeni uçuşunuzdaki ücret, orijinal biletinizden daha yüksek ise aradaki ücret farkı tahsil edilir. İptal durumlarında ise bilet satın alma esnasında ödediğiniz ‘hizmet bedeli’ hariç tüm bilet ücretiniz kesintisiz iade edilir. U çuşumun zamanı geçtikten sonra başka bir tarih ile değiştirerek biletimi kullanabilir miyim? !arrow icon Uçuş değişiklikleri ve iptallerin uçuşa 2 saat kala yapılması gerekmektedir. 2 saatten daha az zaman kala Comfort Flex Paketli biletlerde dahi yapılan rezervasyon değişiklikleri ve iptallerde iade yapılamaz. Bu tür bir durumda Comfort Flex pakette sadece havalimanı vergileri iade edilir. Beraberimde seyahat eden çocuğum ve bebeğime de paketli uçuş alabilir miyim? !arrow icon Çocuklar için paket alınabilir. 0 2 yaş bebekler için biletleme yapılmamaktadır. Paketli bir bilette verilecek hizmetlerin i çeriklerini nereden gorebilirim? !arrow icon Paket içeriklerini, paket satış sisteminin anlattığı sayfalarımızdan veya uçuş seçimi yaptığınız sayfada paket isimlerinin üzerine mouse ile geldiğinizde görüntüleyebilirsiniz. A çık tarihli biletlerde paket satın alabilir miyim? !arrow icon Açık tarihli biletlerde paket alınması mümkün değildir. !GIG Seyahat Sigortası GIG Seyahat Sigortas ı !arrow icon Gulf Sigorta kimdir? !arrow icon 2013 yılından bu yana Turins Sigorta adıyla hizmet vermekte olan şirket, 2016 yılı Haziran ayında çok uluslu GULF INSURANCE GROUP K.S.C.P’nin yatırımı ile “GULF SİGORTA” olarak Türkiye Pazar’ına hizmet vermeye başlamıştır. GULF INSURANCE GROUP K.S.C.P %44 hissesi Kuwait Projects Company (KIPCO), %41,4 hissesi Fairfax Financial Holdings Limited ve kalan hisseleri hazine ve halka açık olan GULF INSURANCE GROUP K.S.C.P 1962 yılında şirket temellerini atmış olup bölgesindeki iki dev şirketin bilgi ve tecrübesinin ortaklığında 9 farklı ülkede faaliyetine devam etmektedir. Gulf Sigorta A. Ş., Turkiye'de kaç bolgede faaliyet gostermektedir? !arrow icon Gulf Sigorta, Türkiye'de Genel Müdürlük dışında 5 ayrı Bölge Müdürlüğü ile faaliyet göstermektedir. Bunlar; İstanbul, Ankara, İzmir, Adana, Bursa Bölge Müdürlükleridir. Seyahat sigortas ı nedir? !arrow icon Gerek yurtiçinde gerekse yurtdışında seyahat eden kişileri ferdi kaza ve tedavi teminatlarının yanısıra seyahat aksaklıklarına karşı güvence altına alan sigorta ürün ve seçenekleridir. Pegasus Havayollar ı'nın internet sitesi uzerinden seyahat sigortasına nasıl sahip olunur? !arrow icon flypgs.com Pegasus Havayolları sitesinden 2 farklı şekilde seyahat sigortasına sahip olabilirsiniz: 1. Pegasus Havayolları uçak biletiniz beraberinde (Biletli Sigorta) 2. Seyahat sigortaları için özel olarak hazırlanmış olan bölümden sizin için uygun olduğunu düşündüğünüz sigorta ürününü satın alarak (İsteğe bağlı sigorta) Biletli sigorta nedir? !arrow icon Biletli sigorta, Pegasus Havayolları ile uçmayı tercih eden Pegasus Havayolları yolcularına özel olarak hazırlanmıştır ve avantajlı fırsatlar sunar. Biletli seyahat sigortası, tek yön satın alınan uçak bileti beraberinde 48 saat, gidiş dönüş satın alınan uçak bileti beraberinde ise 30 gün boyunca geçerlidir. Seyahat sigortası, seyahatinizden yaşadığınız şehire döndüğünüzde sona erer. Dikkat edilmesi gereken önemli husus; biletli seyahat sigortasının Pegasus Havayolları ile seyahat edilmesi durumunda geçerli olmasıdır. Herkes biletli sigortaya sahip olabilir mi? !arrow icon Hayır. Biletli sigortaya sadece Pegasus Havayolları ile seyahat etmeniz durumunda sahip olabilirsiniz. Biletli seyahat sigortas ının iadesi ya da iptali mumkun mudur? !arrow icon Biletli seyahat sigortasının iptali olmadığından dolayı prim iadesi de mümkün değildir. Gidi ş Donuş uçak biletimle beraber seyahat sigortası aldım. Fakat daha sonra uçuş tarihimi 15 gun sonraya değiştirdim. Bu durumda 30 gun geçerli olan seyahat sigortamdan sadece 15 gun mu faydalanacağım? !arrow icon Hayır. Seyahat sigortanız biletinizin ayrılmaz bir parçasıdır. Uçuş tarihinizi değiştirmeniz durumunda, seyahat sigortanız yeni uçuş tarihi itibariyle 30 gün boyunca geçerli olacaktır. Seyahat Sigortas ında yaş sınırı nedir? !arrow icon Biletli seyahat sigortasında minimum yaş 2 ay olup, maksimum yaş sınırı bulunmamaktadır. Ancak biletli seyahat sigortasında 64 yaş üstü yolcularda bazı muafiyetler uygulanmaktadır. İsteğe bağlı seyahat sigortalarında minimum yaş 6 ay olup, Schengen Vize Sağlık Sigortası 80 yaş, Travel Guard Yıllık Seyahat Sigortası 65 yaş ve diğer sigorta seçenekleri 75 yaş ile sınırlıdır. Seyahat Sigortas ının geçerlilik suresi nedir? !arrow icon Seyahat sigortası, sigortalı tarafından belirlenen poliçe başlangıç ve bitiş tarihleri arasında geçerlidir. Yurt i çi Seyahat Sigortası nerelerde geçerlidir? !arrow icon Türkiye sınırları içerisinde geçerlidir ve sizi Türkiye sınırları içerisinde yapacak olduğunuz seyahatlerinizde teminat altına alır. Seyahat Sigortas ı poliçeleri hangi bolgelerde geçerlidir? !arrow icon Pegasus Havayolları müşterileri için özel olarak hazırlanmış olan Biletli Seyahat Sigortası, Pegasus Havayolları ile uçuşun gerçekleştirildiği yerlerde geçerlidir. Diğer tüm seyahat sigortası ürünleri için geçerli olan bölgeler aşağıdaki gibidir: · Schengen Ürünleri: Tüm Schengen ülkelerinde · Tüm Dünya Ürünleri: Afganistan, Küba, Demokratik Kongo Cumhuriyeti, İran, Suriye, Sudan, Kuzey Kore veya Kırım bölgesi hariç tün dünyada geçerlidir. · Yurtiçi Ürünleri: Türkiye sınırları içerisinde Gulf Sigorta 'nın hedeflediği muşteri profili nedir? !arrow icon Yurt içi ve yurt dışına seyahat eden ve yaş haddine uygun herkes. Seyahat Sigortas ı poliçesi ile hangi teminatlara sahip olacağım? !arrow icon Ürünler ve teminat içerikleri ile ilgili detaylı bilgi için \"Ürünler\" yada \"Poliçe Özel Şartları\" bölümünü lütfen ziyaret ediniz. Seyahat Sigortas ı poliçelerine asistan hizmeti dahil midir? !arrow icon Evet, dâhildir. Acil bir durumda Gulf Sigorta A. Ş' ne nasıl ulaşabilirim? !arrow icon Yurtışında, Gulf Sigorta Asistans Servisi’ne aşağıdaki numaralardan ulaşabilirsiniz. 24 Saat Acil Yardım & Seyahat Danışma Hattı Gulf Sigorta Asistans Servisi Tel: +90 212 318 0872 Tel: +90 850 488 0472 Gulf Sigorta A.Ş. : + 90 216 681 75 30 pegasusseyahat@gulfsigorta.com.tr Tazminat talebimi kime bildirmeliyim? !arrow icon Tazminata sebep olan olay vukuu bulduktan sonra bizleri 0216 681 75 30 numaralı telefondan arayarak ihbarda bulununuz. Hangi durumlarda Acil T ıbbi Nakil Teminatından yararlanabilirim? !arrow icon Acil tıbbi nakil teminatının kullanılabilmesi için öncelikle +90 212 318 0872 /+90 850 488 0472 nolu telefonu arayarak Gulf Asistans Servisi’nden onay alınması veya bu irtibatın Gulf Sigorta A.Ş. Aracılığı ile kurulması gerekmektedir. Tazminat talebinde bulunmak i çin, hangi evrakları gondermeliyim? !arrow icon \"Hasar Anında Yapılması Gerekeneler\" linkine tıklayarak detaylı bilgi elde edebilirsiniz. Tazminat talepleri ka ç gun içerinde değerlendirilir? !arrow icon Tazminat talebiniz, poliçenizin Genel ve Özel Şartları dahilinde, tüm evraklarınızın dosyaya intikalini müteakip 2 iş günü içinde değerlendirilecektir Seyahat esnas ında dişimde şiddetli ağrı oluştu ve tedavi için dişçiye başvurdum. Poliçem diş tedavi giderimi karşılar mı? !arrow icon Ani olarak seyahatte başlayan ve poliçe ile teminat altına alınmış seyahat sırasında olduğu doktor raporuyla belgelenmiş olan doğal ve sağlam diş tedavileri, diş başına azami 100$ olmak üzere diş doldurma, cerrahi müdahale, hizmet ya da ilaç karşılığı ödenecektir. Gezi s ırasında, yediğim gıdadan dolayı zehirlendim; faturalarımı kendim odedim, sigorta şirketinden tedavi masraflarımı geri alabilir miyim? !arrow icon Sigortalının seyahat süresinde ilk defa tanı almış ve belirti veren hastalık veya bir kaza sonucu yaralanması halinde tedavileri için gerekli hizmet ve ilaç giderlerinin sigorta poliçesindeki yazılı limitlere kadar sigorta poliçesi genel ve özel şartları çerçevesinde ödenecektir. Bu durumda yapılması gerekenler hakkında detaylı bilgiye hasar anında yapılması gerekenler linkine tıklayarak ulaşabilirsiniz. Yolculuk esnas ında sırt çantamdaki saatimi kaybettim, bagaj kaybı teminatından bunu karşılayabilir miyim ? !arrow icon Bagaj, havayolunun kontrol ettiği ve emanetinde bulundurduğu yolculara ait eşya anlamına geldiğinden, bagaj kaybı teminatınızdan tazminat talebiniz karşılanamaz. !Özel İhtiyaçlar / Durumlar Ö zel İhtiyaçlar / Durumlar !arrow icon Bebek ve çocuk yolcu için uçuş koşulları nelerdir? !arrow icon Seyahatin başladığı gün 3 yaşına erişmemiş (0 24 ay) bebek, yolcu olarak kabul edilir. Doğumdan itibaren ilk 48 saat içinde bebek yolcu ve anneleri, doktor raporu olsa dahi uçuşa kabul edilmezler. İlk 48 saatten itibaren ilk 7 günün sonuna kadar ise, anne ve bebeğin uçakla seyahatinde engel olmadığını belirten yazılı doktor raporu temin etmeleri tavsiye edilmektedir. Uçuş içi emniyet kuralları gereği bir yetişkin en fazla bir bebeğe refakat edebilir.” 8 günlük 3 yaşından gün almamış bebek yolcular: · 18 yaşından gün almış ebeveyn / yetkili kişi ile seyahat edebilir. · Bebek ücreti uygulanır. · Refakat kabin memuru verilmez. · 3 yaşından gün almış 7 yaşından gün almamış çocuk yolcular · Yalnız başına seyahat edemezler. · 18 yaşından gün almış ebeveyn / yetkili kişi ile seyahat edebilir. · Refakat kabin memuru verilmez. · Çocuk ücreti / indirimi (promosyonel ücretler hariç) uygulanır. · 7 yaşından gün almış 13 yaşından gün almamış çocuk yolcular · Refakatsiz Çocuk prosedürü uygulanmak koşulu ile yalnız başına seyahat edebilirler.Detaylı bilgi aşağıda ‘Refakatsiz Çocuk Uygulaması’ paragrafında verilmektedir. · Çocuk ücreti / indirimi (promosyonel ücretler hariç) uygulanır. · Bağlantılı uçuşlarda seyahat edemezler. Daha detaylı bilgi için misafirlerimizin Genel Kurallar sayfasında \"Bebek ve Çocuk Yolcular\" başlığını ziyaret etmeleri önerilir. 2 12 ya ş arasındaki çocuğum tek başına uçması gerekiyor, internet uzerinden bilet satın alamıyorum neden? !arrow icon 2 12 yaş arası çocuk misafirlerimiz için tek başlarına uçuşları gerçekleştirmeleri için bilet satın alma işlemlerini 0 888 228 12 12 numaralı çağrı merkezimiz aracılığıyla tamamlamaları gerekmektedir. Tekerlekli sandalye talebim oldu ğunda ne yapmalıyım? !arrow icon"
+    },
+    {
+      "id": "sss_kendime_ait_tekerlekli_sandalyem_yok_hav",
+      "category": "faq",
+      "text": "Kendime ait tekerlekli sandalyem yok ,havaalanında talep edeceğim Çağrı merkezimizden, havalimanı satış ofislerimizden ve acentelerimizden satın alınacak biletlerde rezervasyon aşamasında ihtiyacınıza uygun tekerlekli sandalye talebinizi bilet satış görevlisine mutlaka bildiriniz. Pegasus Havayolları olarak sağlık sorunları nedeni ile havaalanında tekerlekli sandalye ihtiyacı duyan misafirlerimize zamanında hizmet verebilmemiz için taleplerinizi uçuş saatinizden en az 48 öncesinde kadar Türkiye ‘den yapılacak aramalarda 0850 250 67 02 numaralı, diğer ülkelerden yapılacak aramalarda 0090 850 250 67 77 numaralı ücretsiz hattımız üzerinden iletebilirsiniz. Tekerlekli sandalye talepleri uçaktaki limitler dahilinde değerlendirileceğinden uçuş saatine 48 saatten az kala ya da rezervasyonsuz olarak havaalanında yapılan talepler için hizmette gecikme ve aksaklık yaşanabilir. Bilet ve bagaj işlemleriniz için uçuş saatinizden en az 2 saat öncesinde havalimanında hazır bulunmanız gerekmektedir. Havalimanında ÖZEL HİZMET KONTUARI olup olmadığını öğreniniz; varsa bu kontuarlardan işlem yaptırınız. Tekerlekli sandalye hizmet talebinizi yaparken ihtiyacınızı net olarak belirleyiniz. Uzun mesafe yürümek,uçak merdivenlerini çıkmak ya da uçak içindeki koltuğunuza yardımsız geçmek ile ilgili olarak özel durumunuzu bildiriniz.Rezervasyon ya da check in sırasında yapacağınız doğru bilgilendirme uçağa transferiniz sırasında ile yaşanabilecek gecikmeleri ve aksaklıkları engelleyecektir."
+    },
+    {
+      "id": "sss_kendime_ait_akusuz_tekerlekli_sandalyemi",
+      "category": "faq",
+      "text": "Kendime ait aküsüz tekerlekli sandalyemi kullanmak istiyorum Çağrı merkezimizden, havalimanı satış ofislerimizden ve acentelerimizden satın alınacak biletlerde rezervasyon aşamasında ihtiyacınıza uygun tekerlekli sandalye talebinizi bilet satış görevlisine mutlaka bildiriniz. Pegasus Havayolları olarak sağlık sorunları nedeni ile havaalanında tekerlekli sandalye ihtiyacı duyan misafirlerimize zamanında hizmet verebilmemiz için taleplerinizi uçuş saatinizden en az 48 öncesinde kadar Türkiye ‘den yapılacak aramalarda 0850 250 67 02 numaralı, diğer ülkelerden yapılacak aramalarda 0090 850 250 67 77 numaralı ücretsiz hattımız üzerinden iletebilirsiniz. Tekerlekli sandalye talepleri uçaktaki limitler dahilinde değerlendirileceğinden uçuş saatine 48 saatten az kala ya da rezervasyonsuz olarak havaalanında yapılan talepler karşılanamayabilir ya da hizmette gecikme ve aksaklık yaşanabilir. Bilet ve bagaj işlemleriniz için uçuş saatinizden en az 2 saat öncesinde havalimanında hazır bulunmanız gerekmektedir. Havalimanında ÖZEL HİZMET KONTUARI olup olmadığını öğreniniz; varsa bu kontuarlardan işlem yaptırınız. Tekerlekli sandalye hizmet talebinizi yaparken ihtiyacınızı net olarak belirleyiniz. Uzun mesafe yürümek,uçak merdivenlerini çıkmak ya da uçak içindeki koltuğunuza yardımsız geçmek ile ilgili olarak özel durumunuzu bildiriniz.Rezervasyon ya da check in sırasında yapacağınız doğru bilgilendirme uçağa transferiniz sırasında ile yaşanabilecek gecikmeleri ve aksaklıkları engelleyecektir. Tekerlekli sandalyenizi bilet ve bagaj işlemlerinizi yaparken kontuarlarda ya da kayıt altına aldırdıktan sonra ;uçağa binişiniz sırasında teslim edebilirsiniz.Havalimanında ilgili personelden konu hakkında detaylı bilgi alabilirsiniz. Misafir beraberinde getirilen aküsüz ve katlanabilir tekerlekli sandalyeler uçak altında ve ücretsiz taşınır ;serbest bagaj hakkına dahil edilmezler."
+    },
+    {
+      "id": "sss_kendime_ait_akulu_tekerlekli_sandalyemi_",
+      "category": "faq",
+      "text": "Kendime ait akülü tekerlekli sandalyemi kullanmak istiyorum Çağrı merkezimizden, havalimanı satış ofislerimizden ve acentelerimizden satın alınacak biletlerde rezervasyon aşamasında ihtiyacınıza uygun tekerlekli sandalye talebinizi bilet satış görevlisine mutlaka bildiriniz. Pegasus Havayolları olarak sağlık sorunları nedeni ile havaalanında tekerlekli sandalye ihtiyacı duyan misafirlerimize zamanında hizmet verebilmemiz için taleplerinizi uçuş saatinizden en az 48 öncesinde kadar Türkiye ‘den yapılacak aramalarda 0850 250 67 02 numaralı, diğer ülkelerden yapılacak aramalarda 0090 850 250 67 77 numaralı ücretsiz hattımız üzerinden iletebilirsiniz. Tekerlekli sandalye talepleri uçaktaki limitler dahilinde değerlendirileceğinden uçuş saatine 48 saatten az kala ya da rezervasyonsuz olarak havaalanında yapılan talepler için hizmette gecikme ve aksaklık yaşanabilir. Bilet ve bagaj işlemleriniz için uçuş saatinizden en az 2 saat öncesinde havalimanında hazır bulunmanız gerekmektedir. Havalimanında ÖZEL HİZMET KONTUARI olup olmadığını öğreniniz varsa bu kontuarlardan işlem yaptırınız. Tekerlekli sandalye hizmet talebinizi yaparken ihtiyacınızı net olarak belirleyiniz. Uzun mesafe yürümek,uçak merdivenlerini çıkmak ya da uçak içindeki koltuğunuza yardımsız geçmek ile ilgili olarak özel durumunuzu bildiriniz.Rezervasyon ya da check in sırasında yapacağınız doğru bilgilendirme uçağa transferiniz sırasında yaşanabilecek gecikmeleri ve aksaklıkları engelleyecektir Uçuştan önce misafirlerimizin sandalyelerinde kullandıkları aküleri ile ilgili hazırlık yapmaları gerekmektedir. Uçuşlarımızda sıvı aküler taşınmaz. Kuru Akülü tekerlekli sandalyeler batarya akü başlarının kısa devreyi engelleyecek şekilde korunması koşulu ile tekerlekli sandalye güvenli bir şekilde bağlanmış veya kısa devre yapması engellenmiş olarak taşınır. Batarya gücü ile çalışan ve özellikle kullanıcı tarafından ayarlanabilir şekilde dizayn edilmiş bataryalı araçlar(örneğin:portatif) için gerekli önlemler alınır: 1. Batarya(lar) çıkarıldıktan sonra tekerlekli sandalyeler kontrol edilmiş (Uçak Altı) bagaj olarak herhangi bir kısıtlama olmadan taşınabilir. 2. Bataryaların akü başlıkları izole edilerek kısa devreden korunmalıdır. (Örneğin Kutup başlıkları bantlanarak) 3. Koruyucu kılıfa konularak çıkartılan bataryaların hasar görmesi önlenmelidir. Batarya(lar) yolcu kabininde taşınmalıdır. 4. Ekipmanın batarya ayırma işlemi kullanım talimatı izlenerek veya sahibi tarafından yapılmalıdır. 5. Maksimum 1 adet 300 Wh’ı geçmeyen yedek batarya veya 2 adet her biri 160Wh’i geçmeyen yedek batarya taşınabilir Lütfen Pegasus Havayolları Uçaklarında Lıtyum Bataryaların Yolcu Bagajında Taşınması Tablosu'nu kontrol ediniz. Lütfen Pegasus Havayolları Uçaklarında Yolcu ve Mürettabat için Tehlikeli Madde Taşıma Şartları (IATA Tablo 2.3.A’yı) kontrol ediniz. Misafir beraberinde getirilen tekerlekli sandalyeler uçak altında ve ücretsiz taşınır,serbest bagaj hakkına dahil edilmezler. Evcil hayvan ımla ile seyahat koşulları nedir? !arrow icon Şirketimiz uçuşlarında evcil hayvan sadece kuş, köpek ve kedi ile sınırlı olup kabin içinde 55x40x20 cm (1 Ocak 2019 tarihi itibariyle olan uçuşlarımızda ölçüler 32 32 50 olarak güncellenmiştir) ölçülerinde, yolcularımızın temin ettiği kutularda ve kafes ile birlikte toplam en fazla 8 Kg ağırlığında olması halinde ücret karşılığında taşınabilir. 8 kg'ın üstündeki evcil hayvanlar kargo ambarında seyahat edebilmektedirler. Pegasus Çağrı Merkezini (0 888 228 12 12) arayarak beraberinizde taşımayı planladığınız evcil hayvan için mutlaka rezervasyon yaptırmanız gerekmektedir. İngiltere, Birleşik Arap Emirlikleri ve Katar ülkelerine yurt dışından canlı hayvan kabul edilmemesi nedeniyle evcil hayvanların bu ülkelere seyahatleri gerçekleştirilememektedir. Daha detaylı bilgi için misafirlerimizin Genel Kurallar sayfasında \"Evcil Hayvanlarla Seyahat\" başlığını ziyaret etmeleri önerilir. Transit u çuşum var ne yapmalıyım? !arrow icon İÇ HAT UÇUŞLARDAN GELEN YOLCULAR İÇİN Dış hat uçuşa devamınız varsa en kısa sürede terminal değiştirmeden üst katta bulunan gidiş salonuna çıkmanızı ve dış hat pasaport kontrolünden geçerek uçuş kapılarına gitmenizi rica ederiz. İç hat uçuşa devamınız varsa bagaj teslim salonuna gelmeden iç hatlar transfer bankosuna müracaat etmenizi ve üst katta bulunan gidiş salonuna çıkarak uçuş kapılarına gitmenizi rica ederiz. DIŞ HAT UÇUŞLARDAN GELEN YOLCULAR İÇİN Dış hat uçuşa devamınız varsa pasaport kontrolünden geçmeden dış hatlar transfer bankosuna müracaat etmenizi ve üst katta bulunan gidiş salonuna çıkarak uçuş kapılarına gitmenizi rica ederiz. İç hat uçuşa devamınız varsa pasaport kontrolünden sonra terminal değiştirmeden üst katta bulunan gidiş salonuna çıkmanızı ve iç hat güvenlik kontrolünden geçerek uçuş kapılarına gitmenizi rica ederiz. Dış hat uçuşlardan gelip uçak içinde Duty Free alışverişi yaptıysanız güvenlik geçişinde sorun yaşamamak için ürünlerinizin faturası ile birlikte kilitli poşette teslim edildiğini kontrol ediniz. !Diğer Di ğer !arrow icon U çuşumu yapmak için hangi resmi evraklara ihtiyacım var? !arrow icon Güvenlik kuralları gereği, yolcu kimlik kontrolünde sadece aşağıdaki belirtilen evraklar kabul edilebilmektedir. · Nüfus Cüzdanı · Ehliyet · Pasaport ve Pasaport yerine geçen belgeler · Evlilik cüzdanı · Doğumdan bir ay sonrasına kadar doğum belgesi, (ebeveyn kimliğiyle beraber olması koşuluyla.) · Dış hat uçuşlarında ayrıca Vize ve/veya Pasaport Schengen ulkelerine seyahat edeceğim, nelere dikkat etmeliyim? !arrow icon 610/2013 sayılı AB Düzenlenmesinin yürürlüğe girmesiyle, 3. ülke vatandaşlarının AB'ye giriş koşullarını düzenleyen 562/2006 Düzenlenmesinin 5. Maddesi değişmiştir. Kısa süreli kalmayı hedefleyen AB üyesi olmayan tüm ülke vatandaşlarının elinde olması gereken seyahat belgesinin şu kriterleri yerine getirmesi gerekmektedir: Seyahat Belgesi'nin Üye Ülkeler bölgesinden öngörülen ayrılış tarihini müteakip en az 3 ay süreyle daha geçerli olması gerekmektedir. Bu seyahat belgesinin son 10 yıl içinde verilmiş olması gerekmektir. Sınır Denetleme (Border Control) hizmetleri bu seyahat belgesinin yukarıdaki iki kriteri yerine getirmemesi durumunda idari para cezası uygulayacak. Hasta oldu ğum için/Cenazem olduğu için uçuşa katılamayacağım bu durumda biletimle ilgili nasıl yardımcı olabilirsiniz? !arrow icon Hasta olmanız halinde doktor raporunuzu imzalı ve kaşeli olacak şekilde web sayfamız üzerinden Bize Ulaşın Bize Yazın kısmından durumunuzu belirtip, raporunuzu da dosya olarak ekleyip göndermeniz gerekmektedir. Birinci dereceden yakınınızın cenazesi olması durumunda ise birinci dereceden yakınınız için ölüm belgesini dosya olarak ekleyip göndermeniz gerekmektedir. Yanıtını aradığınız başka bir soru varsa diğer soru kategorilerini görmek için tıklayınız. Acentelik i şlemleri nereden yapılır? !arrow icon Acentelik işlemleri için acentedestek@flypgs.com adresi ile iletişime geçebilirsiniz Uygulamay ı açtığımda guncelleme bildirimi çıkıyor; fakat Play Store'da uygulama guncellenmiyor, ne yapmalıyım? !arrow icon Maalesef, Pegasus mobil uygulamamızın Android işletim sistemi versiyonu, 4.2 altında kalan versiyonları desteklememektedir. Android işletim sisteminizi güncelleyerek uygulamamızı kullanmaya devam edebilirsiniz. Bagaj ım geciktiğinde ne yapmalıyım? !arrow icon Uçuşunuzun ardından bagajınızı teslim aldığınızda bagajınız gecikirse, aşağıdaki adımları takip etmeniz gerekir: Havalimanından ayrılmadan önce, ilgili kayıp eşya ofisine (Lost & Found) başvurarak Bagaj Raporu (PIR) düzenlettirin. Bu rapor, hasarın tespit edildiği ana dair resmi bir belge niteliğindedir ve sonraki işlemler için gereklidir. Raporunuzu oluşturduktan sonra, hasarınızın takibi için Pegasus Asistan üzerinden online başvuru formunu doldurabilirsiniz. Değerlendirme süreci:Raporunuzu oluşturduktan sonra, bagajınızın durumu Pegasus tarafından takip edilir ve ulaştığında tarafınıza teslim edilir.. Teslim süresi ülkeye ve havalimanına göre değişkenlik gösterebilir. Başvurunuzun takibi:Geciken bagajınızın durumunu online olarak takip etmek için Pegasus Asistan'dan başvuru durumunuzu sorgulayabilirsiniz. !Pegasus BolBol Pegasus BolBol !arrow icon Pegasus BolBol nedir? !arrow icon Pegasus BolBol, Pegasus Hava Yolları misafirlerinin uçuşlarından ve koltuk, yemek, fazla bagaj hakkı gibi ek hizmet alımlarından, Pegasus BolBol program ortağı olan işyerlerinde yaptıkları harcamalardan BolPuan kazanmalarını ve kazandıkları BolPuanları yine Pegasus Hava Yolları bünyesinde uçuş ve ek hizmet alımları için kullanmalarını sağlayan bir uçuş programıdır. Pegasus BolBol üyeleri programa hiçbir ücret ödemeden üye olup programın tüm kampanya ve ayrıcalıklarından, BolPuan kazandıran faaliyetlerin dışında herhangi bir ücret ödemeden faydalanırlar. İş Birlikleri kampanyalarından nasıl faydalanabilirim? !arrow icon Güncel iş birlikleri ve BolPuan kazandıran kampanyalar için <https://www.flypgs.com/bolbol/kampanyalar sayfasını takip edebilirsiniz. Pegasus BolBol uyeliğinin bana kazandıracağı avantajlar nelerdir? !arrow icon Pegasus Bolbol üyeleri Pegasus mobil uygulaması, flypgs.com ve diğer kanallardan satın alınan biletler üzerinden her 2 TL’lik harcamaya 1 BolPuan kazanırlar. Online seyahat acentelerinden satın alınan biletlerden BolPuan kazanamazlar. Örneğin 1000 TL’lik bir uçuş bileti alındığında, uçuş gerçekleştirildikten sonra 500 BolPuan kazanılır. Yapılan ek hizmet ve paket alımlarında da bu kazanım kuralı geçerlidir. Pegasus Bolbol üyeleri kendileriyle beraber uçan evcil hayvanları için de BolPuan kazanıyorlar. Minik dostlarımız için ödenen her 2 TL için 1 BolPuan kazanılır. Bu kural değişikliği 06.02.2025 tarihinden sonra satın alınan biletleri kapsamaktadır. İletişim bilgilerimi değiştirmek istiyorum, ne yapmalıyım? !arrow icon Pegasus BolBol sayfasına üye girişi yaparak, cep telefonu ve e mail bilgilerinizi güncelleyebilirsiniz. Bir defadan fazla değişiklik yapmak isterseniz “Yardım Merkezi” bölümünde yer alan formu doldurarak talep oluşturabilirsiniz. Nas ıl uye olabilirim? Hangi kanallardan başvurabilirim? !arrow icon flypgs.com adresinde ve mobil web sitemiz üzerinde Pegasus BolBol sayfaları altında veya mobil uygulamamızda yer alan üyelik formunu doldurarak üyeliğinizi oluşturup BolPuan kazanmaya ve kullanmaya başlayabilirsiniz. Üyelik bilgilerinizde yer alan cep telefonu numaranız ve üyeliğiniz oluştuğunda size iletilen şifre ile üyelik sayfanıza giriş yaparak hem size özel kampanyalara hem de uçuş ve puan bilgilerinize ulaşabilirsiniz. Pegasus BolBol uyelik numaram nedir? Kartım olacak mı? !arrow icon Pegasus BolBol üyelik numarası, cep telefonu numaranızdır ve işlemlerinizi online olarak gerçekleştirirsiniz. Herhangi fiziksel bir kart yoktur. Program ortaklarından ING Bank ile ortak markalı olarak çıkarılan Pegasus BolBol Kredi Kartı ise bir kredi kartıdır ve başvuruları ING Bank üzerinden yapılır. Kredi kartı sahipleri de Pegasus BolBol üyeliğinin tüm haklarına sahiptir ve Pegasus işlemleri için bankaya ibraz ettikleri cep telefonu numarasını kullanabilirler. Üyelik suresi ne kadardır? !arrow icon Pegasus BolBol’da üyelik süresinde herhangi bir kısıtlama yoktur. Zaman aşımı ile üyeliğiniz iptal olmaz veya yeniden aktive etmeniz gerekmez. Online seyahat acentesinden sat ın aldığım uçuşlardan BolPuan kazanabilir miyim? !arrow icon Pegasus Bolbol üyeleri online seyahat acentesi kanalından satın aldıkları uçuşlardan BolPuan kazanamazlar. Ancak bu uçuşlarını satın aldıktan sonra Pegasus mobil uygulaması ve flypgs.com üzerinden koltuk, bagaj ve yemek gibi ek hizmetler ekleyebilirler ve yalnızca ek hizmetlerden BolPuan kazanabilirler. Üyeliğimi benim adıma başka birisi de kullanabilir mi? !arrow icon Pegasus BolBol’da üyelikler kişiye özeldir ve üyelik bilgileri gizlidir. BolPuanlarınızı kullanmak için sistemde kayıtlı olan cep telefonu numaranızı ve 8/16 haneli şifrenizi girerek üye girişi yapmanız gerekmektedir. Kazandığınız BolPuanlarınızı kullanarak başkası adına bilet alabilirsiniz. Başkasın adına BolPuanlarınızla bilet almak için öncelikli olarak kendi adınıza BolPuanlarınızla bilet satın almış olmanız gereklidir. Kişisel bilgi güvenliğiniz nedeniyle şifrenizi başkalarıyla paylaşmamanız gerekmektedir. Şifremi ve kullanıcı adımı hatırlamıyorum, ne yapmalıyım? !arrow icon Pegasus BolBol’da üyelik numaranız cep telefonu numaranızdır. Üyelik numarası gördüğünüz tüm alanlara üyeliğinizde kayıtlı olan cep telefonu numaranızı girebilirsiniz. Eğer şifrenizi unuttuysanız flypgs.com veya Pegasus mobil uygulaması üzerinden Pegasus BolBol sayfasına girerek üye girişi esnasında \"Şifremi Unuttum\" seçeneği ile yeni şifre talebinde bulunabilirsiniz. İsterseniz, BolBol üyelerimize özel ücretsiz çağrı merkezi 0 (850) 399 17 01 numarasını arayarak konuyla ilgili destek alabilirsiniz. İki uyeliğim bulunuyor, bu iki uyeliğimi birleştirebilir miyim ? !arrow icon Aynı kişiye ait olduğu tespit edilen üyelikler birleştirilebilir. Belli başlı bazı bilgileri aynı olan üyelikler sistem tarafından ayırt edilerek otomatik olarak birleştirilmektedir. Bunun dışında aynı kişiye ait hesap birleştirme talepleriniz için çağrı merkezimizi arayabilir veya flypgs.com üzerinden “Bize Yazın” alanından talep oluşturabilirsiniz. Birleştirilen hesaplarda mevcut olan BolPuanlar var ise bu puanlar birleştirilerek yeni hesap üzerinden takip edilebilir Üyeliğimi iptal etmek istiyorum, ne yapmalıyım? !arrow icon Pegasus BolBol üyeliğinizi iptal etmek için üye sayfasına giriş yaptıktan sonra “Profil Ayarları” bölümünde bulunan \"Üyelikten Ayrıl\" alanına tıklayabilir;Bize yazın bölümünden iptal talebi oluşturabilir ya da çağrı merkezimizi arayabilirsiniz. Hesab ımı ilk kez kullandığımda harcayabilecek BolPuanım olacak mı? !arrow icon Hesabınızda BolPuan biriktirebilmek için uçuş yapmanız gerekmektedir. İlk uçuşunuzdan sonra kazanacağınız BolPuanlara ek olarak 1000 BolPuan da Pegasus BolBol tarafından hesabınıza hediye olarak eklenecektir. 2. uçuşunuzdan itibaren de hesabınızda bulunan BolPuanları kullanmaya başlayabilirsiniz. BolPuan ile bilet alabilmek için hesabınızda minimum 2000 BolPuan bulunmalıdır. Program ortaklıklarından kazanılan BolPuanlar için uçuş yapma zorunluluğu bulunmamaktadır. Üyeler program ortaklıklarından BolPuan kazanmışlar ise ilk uçuşlarından itibaren puanlarını kullanmaya başlayabilirler. BolPuanlar ımı nasıl kullanabilirim? !arrow icon !BolPuanlarımı nasıl harcarım Üye girişi yaptıysanız, uçuş arama ekranında uçuşunuzu aradıktan sonra internet sayfasında sağ üst köşede, mobil uygulamalarda ise sağ alt köşede bulunan TL BolPuan dönüştürme butonu ile BolPuanlarınızı görüntüleyebilir ve biletlerin tutarlarını BolPuan cinsinden görebilirsiniz. BolPuan tutarıyla ilerleyerek son adımda ödemelerinizi BolPuan cinsinden yapabilirsiniz. Ödeme adımında hesabınızdaki BolPuan miktarına göre size farklı teklifler çıkacak ve birini seçmeniz istenecektir. Hesabınızdaki BolPuanlar sepette gördüğünüz tutara yetmiyor olsa da ödeme adımında buna göre BolPuanlarınızı kullanabileceğiniz bir teklif görürsünüz. BolPuan ile bilet alabilmeniz için hesabınızda en az 2000 BolPuan olması gerekmektedir. Bilet alabilmek i çin kaç BolPuan'ım olmalıdır? !arrow icon BolPuan kullanarak bilet alabilmek için hesabınızda en az 2000 BolPuan olmalıdır. Hesabınızda 2000 BolPuan olduğu takdirde BolPuan’larınızı kullanıp, eksik bilet tutarınızı da para ile ödeyerek biletleme yapabilirsiniz. BolPuan’lı bilet alımında bilet tutarı yurt içi kış dönemi 10.000 BolPuan+vergi ve ek ücretler, yurt içi yaz dönemi 15.000 BolPuan+vergi ve ek ücretler yurt dışı uçuşlarda kış dönemi 25.000 BolPuan+vergi ve ek ücretler, yurt dışı yaz dönemi 30.000 BolPuan+vergi ve ek ücretlerdir. Hesabınızda bilet tutarının tamamını BolPuan’la ödemeye yetecek kadar puanınızın olması durumunda, ödeme adımına geçmeden önce ödeme seçenekleri arasından seçim yaparak bilet tutarının tamamını BolPuan’larınızla ödeyebilirsiniz. BolPuan 'larımı nerelerde harcayabilirim? !arrow icon BolPuanlarınızı, flypgs.com ve mobil uygulamamız üzerinden Pegasus’tan bilet alırken, koltuk seçimi, fazla bagaj ödemesi, bilete Pegasus Flex (sınırsız değişiklik hakkı) ekleme ve ön bildirimli yemek siparişlerinizde kullanabilirsiniz. BolPuanlarınızı biriktirip ödemelerinizin tamamını BolPuanlarınızla yapabilirsiniz veya mevcut BolPuanlarınızı üzerine para ile ödeme yaparak da kullanabilirsiniz. BolPuan 'la aldığım biletimi nasıl iptal ederim? !arrow icon BolPuan kullanılarak ödenmiş olan biletlerin iptal edilmesi halinde, Üyeler’den Yurt İçi uçuşları için 400 TL, Kıbrıs uçuşları için 25 EUR ve Yurt Dışı Uçuşlarında ise 55 EUR tahsil edilmesi gerekmektedir. Tahsil edilmesi gereken tutar, varsa iade edilecek para tutarından düşülecek, BolPuan’lı kısım kesintisiz iade edilecektir. İade edilecek para tutarı, tahsil edilmesi gereken iade bedelini karşılamıyorsa, eksik kısım tahsil edilip BolPuan cinsinden olan tutar kesintisiz iade edilecektir. İade işlemi tamamen BolPuan’la satın alınmış bir bilet için yapılıyorsa, iade bedeli yukarıda belirtildiği şekilde, yurt içi uçuşlar için 400 TL, Kıbrıs uçuşları için 25 EUR ve yurt dışı uçuşlar için 55 EUR tahsil edilerek yapılabilecektir. İade işlemi sırasında üyeye iade edilen net tutar biletteki vergi bedelinden düşük ise, iptal işlemi sırasında iade bedeli tahsil edilmeyecek, yalnızca vergi iadesi yapılacaktır. Ne kadar BolPuan ım olduğunu nasıl oğrenebilirim? !arrow icon Ne kadar BolPuanınız olduğunu flypgs.com’da Pegasus BolBol sayfasından veya Pegasus mobil uygulamasından giriş yaparak ve çağrı merkezimiz üzerinden üye numaranız ve şifreniz ile giriş yaparak öğrenebilirsiniz. Uygulamay ı guncelledim BolPuanlarımı goremiyorum ne yapmalıyım? !arrow icon Uygulamayı güncelledikten sonra Pegasus BolBol hesabınıza yeniden giriş yaptığınızda BolPuanlarınızı görüp dilediğiniz gibi kullanabilirsiniz. Bolbol ile ilgili talep ve sorularınız için 0(850) 3991701 no’lu ücretsiz çağrı merkezimizi arayabilirsiniz. BolPuanlar ımın kullanım suresi var mıdır? !arrow icon Kazanılan BolPuanlar içinde bulunulan takvim yılını takip eden 2. yılın sonunda geçerliliklerini yitirir. Kazanılan BolPuanların geçerlilik süreleri Pegasus tarafından belirlenen kazanım koşullarına bağlı olarak değişiklik gösterebilir. Pegasus kazandırdığı BolPuanların geçerlilik süresini, kazanımdan önce belirtmek kaydıyla, farklılaştırma hakkını saklı tutar. En erken kazandığınız BolPuan, sistem tarafından ilk harcanandır. Kullanım süresi dolan BolPuanlarınız hesabınızdan otomatik olarak silinir. Pegasus, kullanım süresi dolacak olan BolPuanlarla ilgili Üyelere bilgilendirme yapmakla yükümlü değildir. BolPuan kullanılarak alınmış olan biletlerin puanların geçerliliğini yitirdiği tarihten sonra iade edilmesi durumunda BolPuanlar otomatik olarak silinir ve üyenin hesabında “süresi dolan puan” şeklinde yer alır, üyenin bakiyesine yansımaz, üye bu puanları tekrar kullanamaz. BolPuanların geçerliliği süresince yapılan bilet iadelerinde ceza varsa kesintisi yapılıp kalan miktar üyenin BolBol hesabına iade edilir ve üye bu puanları tekrar kullanabilir. Kullanım süresi dolacak olan BolPuanlarınızın takibini flypgs.com altında yer alan Pegasus BolBol sayfalarından cep telefonu numaranız ve şifreniz ile üye girişi yaparak görebilirsiniz. BolPuanlar ımı paraya çevirebilir miyim? !arrow icon Pegasus BolBol üyelik programında kazanılan BolPuanlar nakit para olarak talep edilemez. Ald ığım biletin BolPuanını goremiyorum, ne yapmam lazım? !arrow icon Aldığınız bilet ve ek hizmetlerden kazandığınız BolPuanların hesabınıza geçirilmesi uçuşunuz gerçekleştikten sonra 72 saat içinde gerçekleştirilecektir. BolPuanlarınızın otomatik olarak hesabınıza işlenmesi için bilet alımınız sırasında üye girişi yapmanız veya yolcu bilgilerinizi girerken Pegasus BolBol üye numarası alanına programda kayıtlı olan cep telefonu numaranızı girmeniz gerekmektedir. Bilet alırken BolBol üyelik numaranızı girmenize ve uçuşunuzu gerçekleştirdikten sonra 72 saati geçmesine rağmen BolPuanlarınızı hesabınızda göremiyorsanız çağrı merkezimizi arayabilir ya da flypgs.com üzerinde ‘bize yazın’ bölümünden bu talebinizi bize ulaştırabilirsiniz. Ge çmişte yapmış olduğum uçuşlardan BolPuan kazanabilir miyim? !arrow icon Bulunduğunuz tarihten 3 ay öncesine kadar gerçekleştirdiğiniz uçuşlardan BolPuan kazanma talebinde bulunabilirsiniz. Online Seyahat Acentelerinden satın alınan uçuşlar BolBol üyeliklerine eklenebilir. Ancak bu uçuşlardan BolPuan kazanılmaz. Üyeliğe uçuş̧ ekleme özelliği, flypgs.com web sitesi üzerinden gerçekleştirilemez. Bu işlemi Pegasus mobil uygulaması üzerinden kendiniz yapabilir, bize yazın üzerinden talep oluşturabilir veya çağrı merkezini arayarak gerçekleştirebilirsiniz. Pegasus BolBol’da geçmiş uçuşlarınızı ekleyebileceğiniz gibi üyelik numaranızı yazmadan aldığınız gelecek uçuşlarınızı da ekleyip uçuşunuz gerçekleştiğinde BolPuanlarınızı otomatik olarak kazanmış olursunuz. Gelecek uçuşlarınızı işlemek için bir tarih sınırlaması bulunmamaktadır. Geçmiş ve gelecek uçuşlarınızı hesabınıza ekleyebilmek için Pegasus mobil uygulaması altındaki Pegasus BolBol sayfasından üye girişi yaparak “Puan Durumu” bölümünde bulunan Uçuş Ekle seçeneğinden uçuşunuza ait PNR veya e bilet numarası bilgilerinizi girmeniz gerekmektedir. E şimin hesabındaki BolPuanla kendi BolPuanımı birleştirebiliyor muyum? !arrow icon Farklı kişilere ait hesaplar birleştirilemez ancak kendi BolPuanlarınızı kullanarak başkasına bilet alabilirsiniz. Transfer özelliği ile BolPuanlarınızı sevdiklerinizle paylaşabilirsiniz. BolPuanlar ımı başkasına gonderebilir miyim? !arrow icon BolBol üyeleri BolPuanlarını üyelikleri altından belli kurallar dahilinde diğer BolBol üyelerine gönderebilirsin. Bu işlem için BolBol hesaplarına giriş yapıp BolPuan detayları altında yer alan \"BolPuan Transferi\" alanını kullanabilirsin. İşleme ait haklar bu sayfadan takip edilebilir. Çocuğum benimle uçuyor, onun BolPuanlarını kullanabilir miyim? !arrow icon 2 18 yaş arasındaki misafirlerimiz ancak ebeveynlerinin hesaplarına bağlı olmak koşulu ile üyelik başlatabilirler. Bu üyelerimizin kazanacakları BolPuanlar bağlı oldukları hesaplara eklenmektedir. Hesabınıza bağlı üyelik oluşturmak için flypgs.com altında yer alan Pegasus BolBol sayfasından üye girişi yapmanız ve “Çocuk ve Genç Hesapları” sayfasına gelmeniz gerekmektedir. Bu sayfadan 2 18 yaş arasındaki çocuklarınız için kendi hesabınıza bağlı üyelikler oluşturabilir, çocuklarınızın uçuşlarından da BolPuanlar kazanmaya başlayabilirsiniz. Çocuklarınız 18 yaşına geldiklerinde size bağlı üyelikleri silinecektir. BolPuan kazanmaya devam edebilmeleri için kendileri adına tekrar hesap açarak BolPuan kazanmaya devam edebilirler. Çocuğuma BolPuanlarımla bilet alabillir miyim? !arrow icon Puanlarınızla çocuğunuz veya istediğiniz herhangi bir kişi adına bilet veya ek hizmet satın alabilirsiniz. Başkası adına BolPuanlarınızla bilet almak için öncelikli olarak kendi adınıza BolPuanlarınızla bilet satın almış olmanız gereklidir. 2 12 yaş arası çocukların yalnız uçak yolcuğu yapmaları genel uçuş kuralları ile sınırlıdır. Bunun için uçuş kurallarını incelemenizi tavsiye ederiz. Gen ç BolBol Nedir? !arrow icon Genç BolBol Pegasus BolBol'un 12 27 yaş arasındaki üyeleri için oluşturduğu programdır. 18 27 yaş aralığındaki BolBol üyeleri hesaplarına giriş yaparak üyelik altında \"Genç BolBol\" sayfasından katılabilirler. 12 17 yaş aralığındaki bağlı üyelerin başvurusu asıl üyeleri tarafından yapılmaktadır. Katılım başvruları 1 2 gün içerisinde değerlendirilerek koşulları sağlaması durumunda Genç BolBollu olabilirler. ING Pegasus BolBol Classic kart sahibiyim Pegasus BolBol avantajlar ından faydalanabilir miyim? !arrow icon ING Pegasus BolBol Classic Kredi Kartı sahipleri, Pegasus BolBol programının tüm avantajlarına sahip oldukları gibi, ING Bonus'un taksit yapma ve Bonus puan kazandırma avantajlarından da faydalanırlar. ING Pegasus BolBol Classic Kredi Kartı ile yapacağınız her 10 TL harcamaya 1 BolPuan, yapacağınız her 5 TL’lik Pegasus uçak bileti veya hizmet harcamasından da 2 BolPuan kazanırsınız. Kartınızın temassız özelliğini kullanarak ödemelerinizi kolayca yapabilirsiniz. Fatura ve vergi ödemeleri, sigorta hizmetleri, kamu işlemleri ve hizmetleri, köprü ve otoyol ücretleri ve para cezaları BolPuan kazanımına dahil değildir. Bir ekstre döneminde limitin üzerinde yapılan harcamalardan ilave BolPuan kazanımı olmaz. ING Pegasus BolBol Premium Kart sahibiyim, avantajlar ım nelerdir? !arrow icon ING Pegasus BolBol Premium Kredi Kartı sahipleri, Pegasus BolBol programının tüm avantajlarına sahip olacağı gibi, ING Bonus'un taksit yapma ve Bonus puan kazandırma avantajlarından da faydalanırlar. ING Pegasus BolBol Premium Kredi Kartı ile yapacağınız her 3 TL harcamaya 1 BolPuan, her 1 TL Pegasus bilet veya hizmet harcamasından da 1 BolPuan kazanırsınız. Kartınızın temassız özelliğini kullanarak ödemelerinizi kolayca yapabilir ve yılda 1 kez ücretsiz Seyahat Sigortası hizmetinden yararlanabilirsiniz. ING Pegasus BolBol Premium Kredi Kartınızla Sabiha Gökçen Havalimanı’nda geçerli; yılda 10 kez ücretsiz Flash Pass hizmetinden faydalanabilirsiniz. Fatura ve vergi ödemeleri, sigorta hizmetleri, kamu işlemleri ve hizmetleri, köprü ve otoyol ücretleri ve para cezaları BolPuan kazanımına dahil değildir. Bir ekstre döneminde limitin üzerinde yapılan harcamalardan ilave BolPuan kazanımı olmaz. ING Pegasus BolBol Premium Kart 'a nasıl başvurabilirim? !arrow icon ING Pegasus BolBol Premium Kredi Kartı'na başvurmak için tıklayınız. Konu hakkında varsa detaylı sorularınızı ING BANK’a iletmeniz gerekmektedir. ING Pegasus BolBol Classic Kart 'a nasıl başvurabilirim? !arrow icon ING Pegasus BolBol Classic Kredi Kartı'na başvurmak için tıklayınız. Konu hakkında sorularınızı ING'ye iletmeniz gerekmektedir. Airbnb ile yapt ığım konaklamalarımdan nasıl BolPuan kazanırım? !arrow icon Airbnb ile yapacağınız konaklamalarda 500 BolPuan kazanırsınız. Kampanya hakkında detaylı bilgi için tıklayınız. Rent Go 'dan yaptığım araç kiralamalarından nasıl BolPuan kazanabilirim? !arrow icon Pegasus BolBol üyeleri iş birliği süresince Rent Go üzerinden yapacakları kiralamalarda 30.000’e varan BolPuan kazanır. Detaylar için iş birliği sayfamızı ziyaret edebilirsiniz. Flypgs.com ya da Pegasus mobil aplikasyonu uzerinden yaptığım araç kiralamalarda nasıl BolPuan kazanabilirim? !arrow icon Pegasus BolBol üyeleri, www.cars.flypgs.com üzerinden ya da Pegasus mobil aplikasyonu üzerinden yapacakları her araç kiralamada, kiralama yaptığı marka, araç grubu ve kiralama süresi gibi bilgilerle belirlenen değişen oranda BolPuan kazanırlar. Kazanılacak BolPuan tutarı kiralama aşamasında ilgili ekranda görüntülenebilecektir. Yapılan kiralama işlemlerine ilişkin olarak Pegasus’un resmi iş ortağı CarTrawler’ın ve CarTrawler’ın sağladığı www.cars.flypgs.com‘da yer alan markaların genel kiralama koşulları geçerlidir. Detaylar için iş birliği sayfamızı ziyaret edebilirsiniz. Zuppin 'den yaptığım araç kiralamalarından nasıl BolPuan kazanırım? !arrow icon Pegasus BolBol üyesi olarak iş birliği süresince Zuppin aplikasyonundan yapacağınız şoförlü araç kiralamalarında harcanacak her 1 TL’ye 1 BolPuan kazanılacaktır. Detaylar için iş birliği sayfamızı ziyaret edebilirsiniz. !MasterPass MasterPass !arrow icon MasterPass Nedir? !arrow icon MasterPass internete bağlı tüm cihazlarla her seferinde ödeme kartı bilgisi girmeden kolay ve güvenli alışveriş yapmanızı sağlayan MasterCard’ın online ödeme çözümüdür. MasterPass 'e nasıl uye olabilirim? !arrow icon MasterPass’e iki farklı şekilde üye olabilirsiniz: · MasterPass Türkiye websitesi üzerinden (www.masterpassturkiye.com) · MasterPass’in geçerli olduğu işyerlerinde ödeme esnasında MasterPass kullanıcı adiniz kayıt esnasında verdiğiniz cep telefonu numaranızdır. Ödeme esnasında yapılan kayıt işlemi sonrasında MasterPass hesap şifreniz kayıt esnasında kullandığınız cep telefonuna SMS ile iletilecektir. MasterPass kullan ımı guvenli midir? !arrow icon MasterPass, MasterCard tarafından sunulan global bir dijital ödeme çözümüdür. MasterPass’e eklediğiniz bilgileriniz bankadaki kayıtlı cep telefonunuz ile doğrulanarak, SMS onay sonrası eklenebilir veya değiştirilebilir. MasterCard’in uygulaması olan MasterPass ile güvenle alışveriş yapabilirsiniz. MasterPass 'e nasıl kart eklerim? !arrow icon MasterPass Türkiye web sitesi üzerinden hesabınıza giriş yaparak MasterPass’e kart ekleyebileceğiniz gibi, MasterPass’in geçerli olduğu mağazalardan alışveriş gerçekleştirirken de kart ekleyebilirsiniz. Kart bilgilerinizi girdikten sonra kartınızın bağlı olduğu bankadan onaylı cep telefonunuza iletilen doğrulama SMS’inde yer alan kodu girerek işlemi güvenli bir şekilde tamamlayabilirsiniz. MasterPass 'e hangi kartları ekleyebilirim? !arrow icon MasterPass’e aşağıdaki listede yer alan bankaların MasterCard, Visa ve American Express logolu kredi kartlarını ekleyebilirsiniz: · Akbank · Aktifbank · Albaraka Türk · ING Bank · Denizbank · Finansbank · Garanti Bankası · Halk Bankası · HSBC · Odeabank · Türkiye İs Bankası · Vakıfbank · Yapı Kredi · Ziraat Bankası MasterPass 'e kayıtlı kartlarımı nasıl yonetebilirim? !arrow icon MasterPass Türkiye web sitesi üzerinden hesabınıza giriş yaparak MasterPass’te kayıtlı bulunan kartlarınızı yönetebilirsiniz. Ayrıca MasterPass’in geçerli olduğu işyerlerinin (varsa) kullanıcı profili yönetim ekranlarından ya da ilgili işyerlerinden alışveriş yaparken de kartlarınızı ekleyip çıkarabilirsiniz. MasterPass kullan ımı ucretli mi? !arrow icon MasterPass kullanıcılar için ücretsiz bir hizmettir. MasterPass 'i alışveriş yapmak için nasıl kullanabilirim? !arrow icon MasterPass’in geçerli olduğu her işyerindeki ilk alışverişinizde güvenliğiniz için MasterPass hesabınızda bulunan kartlardan birine ait bankadaki kayıtlı cep telefonunuza gönderilen tek kullanımlık şifre ile kendinizi doğrulamanız gerekmektedir. Sonrasında gerçekleştirdiğiniz alışverişlerde hesabınızdaki kartlardan herhangi biri ile güvenli ve kolay bir şekilde alışverişlerinizi tamamlayabilirsiniz. Ayrıca yeni kart ve adres eklemek için MasterPass Türkiye internet sitesini kullanabilirsiniz. MasterPass ile odeme yaparken odul/puan kullanabilir miyim? !arrow icon MasterPass ile yaptığınız ödemelerde ödül/puan kazanımlarınız kartınızın bağlı olduğu bankanın sizin için belirlediği kurallar çerçevesinde devam eder. MasterPass’e kaydettiğiniz kartınızda biriken ödülleri/puanları alışveriş yaptığınız işyeri desteklediği takdirde kullanabilirsiniz. MasterPass ile odeme yaparken taksit kullanabilir miyim? !arrow icon Alışveriş yaptığınız işyeri taksitli ödemeyi destekliyorsa, ödeme yaparken taksit kullanabilirsiniz. Bir i şyerinde MasterPass'e bağlanmak ne demek? Bunu nasıl yapabilirim? !arrow icon MasterPass üyesi is yerlerinde hesabınızı kullanabilmek için is yerinin (varsa) kullanıcı profili yönetim ekranlarında ya da alışveriş esnasında MasterPass’e kayıtlı cep telefon numaranızı girdikten sonra MasterPass’e kayıtlı kartlarınızdan birinin bağlı olduğu bankadan size gelen doğrulama mesajını işyerinin websitesinde/mobil uygulamasında açılan ekrana girmeniz gerekmektedir. Bu işlemin ardından daha önce kaydetmiş olduğunuz ödeme bilgileriniz işlem yapmak istediğiniz MasterPass üyesi işyerinde kullanımınıza açılacaktır. Bu işlem sonrasında ödeme bilgilerinizi seçerek işleminizi hızlı ve güvenli bir şekilde tamamlayabilirsiniz. MasterPass 'i hangi işyerlerinde kullanabilirim? !arrow icon Hesabınıza eklediğiniz ödeme bilgilerinizi MasterPass logosu gördüğünüz dünya çapındaki binlerce işyerinde kullanabilirsiniz. Güncel işyeri listesini takip etmek için www.masterpassturkiye.com'yi ziyaret edebilirsiniz. MasterPass 'i yurtdışında kullanabilir miyim? !arrow icon Masterpass’inize kayıtlı kartlarınızı kullanarak MasterPass’in geçerli olduğu dünya çapındaki tüm işyerlerinde alışveriş yapabilirsiniz. Güncel işyeri listesini takip etmek için <https://shopnow.masterpass.com adresini ziyaret edebilirsiniz. MasterPass 'i hangi web veya mobil tarayıcılarda kullanabilirim? !arrow icon MasterPass’in geçerli olduğu işyerlerinin hizmet verdiği tüm güncel web ve mobil tarayıcılarda kullanabilirsiniz. Kullanmak istedi ğim kartımın işyerinde kabul edilmemesi durumunda ne yapmalıyım? !arrow icon MasterPass hesabınıza kaydedilen kartlarla tüm işyerlerinde alışveriş yapabilirsiniz. Bazı durumlarda (limit yetersizliği, kartınızın internet alışverişine açık olmaması, işyerinin yetkileri, vb.) işyeri ya da kartınızın bağlı olduğu banka işlemlerinizi onaylamayabilir. Bu durumda alışveriş yaptığınız işyeri ya da bankanızın müşteri temsilcisiyle görüşmeniz gerekmektedir. Ödeme esnasında MasterPass hesap şifrem soruluyor, ne yapmalıyım? !arrow icon Bazı işyerleri alışveriş sırasındaki sahtecilik risklerini azaltmak için MasterPass tarafından sağlanan çeşitli güvenlik mekanizmalarından faydalanır. İşlem sırasında MasterPass hesap şifrenizle kendinizi doğrulama da MasterPass’in işlem güvenliğini sağlamak için kurguladığı ekstra güvenlik adımlarından biridir. Şifreniz üye işyeri ile paylaşılmamakta, MasterPass’e ait sunucularda güvenli bir şekilde tutulmaktadır. Tek kullan ımlık şifre (OTP) nedir, nasıl kullanabilirim? !arrow icon Bazı işyerleri alışveriş sırasındaki sahtecilik risklerini azaltmak için MasterPass tarafından sağlanan çeşitli güvenlik mekanizmalarından faydalanır. İşlem sırasında tek kullanımlık şifre ile doğrulama da MasterPass’in işlem güvenliğini sağlamak için kurguladığı ekstra güvenlik adımlarından biridir. Bu doğrulama şifresi kartınızın bağlı olduğu bankada kayıtlı cep telefonunuza SMS ile iletilir ve sadece sizin tarafınızdan tek bir defaya mahsus kullanılabilir. MasterPass tek kullanımlık şifre prosedürleri aşağıdaki gibidir: · İşlem esnasında doğrulama şifresini 3 defa art arda yanlış girdiğinizde “Tek kullanımlık şifre deneme hakkiniz dolmuştur“ uyarısı gösterilir. Bu uyarıyı aldıktan sonra işleminize devam edemezsiniz, tekrar başlamanız gerekmektedir. · Tek kullanımlık şifre cep telefonuna gönderildikten sonra 3 dk içinde kullanılmalıdır. Süre dolduktan sonra girildiğinde “Tek kullanımlık şifre kullanım süresi dolmuştur” uyarısı gösterilir. Bu uyarıyı aldıktan sonra işleminize devam edemezsiniz, tekrar başlamanız gerekmektedir. · İşyeri websitesi/mobil uygulamasında doğrulama ekranı gösterildikten sonra 15 dk içerisinde herhangi bir zamanda ekrandaki “Tekrar şifre gönder” ibaresine tıklayarak tek kullanımlık şifre talep edebilirsiniz. Ayni işlemde en fazla 3 defa tekrar OTP gönderilmesini talep edebilirsiniz. 4. defa talep ettiğinizde “Tek kullanımlık şifre talebi limitinizi aştınız. Lütfen başka bir işlemde 3 dk sonra tekrar deneyiniz.” Uyarısı gösterilir. MasterPass 'e kartımı ekleyemiyorum, ne yapmalıyım? !arrow icon · Kart bilgilerinizi doğru girdiğinizden emin olunuz. Kart bilgileriniz doğru bir şekilde girdiyseniz kartınızın bağlı olduğu Banka tarafında kayıtlı cep telefonu numaranıza tek kullanımlık şifrenin yer aldığı SMS’in geldiğinden emin olunuz. · Kart bilgilerinizi doğru girmenize rağmen doğrulama SMS almıyorsanız, kartınızın bağlı olduğu bankayla iletişime geçerek cep telefonu ve diğer kişisel bilgilerinizin doğru bir şekilde tanımlandığından emin olunuz. · Doğrulama SMS’ini alıp ekrana doğru bir şekilde girmenize rağmen hata alıyorsanız, lütfen MasterpassTurkiye@echoccs.com adresinden bizimle iletişime geçiniz. MasterPass şifremi unuttum nasıl sıfırlayabilirim? !arrow icon · Şifrenizi unutmanız durumunda \"Şifremi Unuttum\" sayfasından şifrenizi sıfırlayabilirsiniz. MasterPass’e kayıtlı kartlarınızdan herhangi birine ait bilgileri girerek kartınızın bağlı olduğu bankada kayıtlı cep telefonunuza iletilen doğrulama SMS’inde yer alan kodu girerek kendinizi doğruladıktan sonra şifrenizi sıfırlayabilirsiniz. · Kart bilgilerinizi doğru girmenize rağmen doğrulama SMS’i almıyorsanız, kartınızın bağlı olduğu bankayla iletişime geçerek cep telefonu ve diğer kişisel bilgilerinizin doğru bir şekilde tanımlandığından emin olunuz. · Doğrulama SMS’ini doğru girmenize rağmen hata alıyorsanız, lütfen MasterpassTurkiye@echoccs.com adresinden bizimle iletişime geçiniz. · Kart bilgilerinizi hatirlamiyorsaniz, lütfen MasterpassTurkiye@echoccs.comadresinden bizimle iletişime geçiniz. MasterPass 'e kayıt olurken kullandığım cep telefonu numaram değişti, ne yapmalıyım? !arrow icon Eğer MasterPass’e kaydolurken kullandığınız cep telefonu numaranız değiştiyse, yeni numaranızı kullanarak MasterPass’e üye olabilirsiniz. Eski numaranıza ait MasterPass hesabınızı silinmesini istiyorsanız MasterpassTurkiye@echoccs.com üzerinden bize ulaşabilirsiniz. MasterPass hesab ımı nasıl silebilirim? !arrow icon Hesabınızı silmenizi gerektiren nedenleri sizden duymak isteriz. MasterpassTurkiye@echoccs.com adresinden bizimle iletişime geçerek hesap silme konusunda destek alabilirsiniz. Hesab ım Kilitlendi, ne yapmalıyım? !arrow icon MasterPass kart sahiplerini çeşitli istenmeyen durumlardan korumak adına bazı yöntemler uygulamaktadır. Hesabınızın kilitlenmesi de bu kapsamda yapılan uygulamalardan biridir. Hesabınız kilitlendiğinde güvenliğiniz için MasterPass hesabınız alışverişe kapatılır ve MasterPass’e kayıtlı kartlarınız ile işlem gerçekleştirilmesine izin verilmez. MasterPass hesabınız bloklandığında \"Şifremi Unuttum\" sayfasından şifrenizi sıfırlayarak hesabınızdaki blokeyi kaldırabilirsiniz. MasterPass hesab ımın olduğu telefon çalındı, ne yapmalıyım? !arrow icon Endişelenmeyin, MasterPass telefonunuzda size ait bir veri barındırmaz. Ancak yine de MasterpassTurkiye@echoccs.com üzerinden bizimle iletişime geçtiğiniz takdirde MasterPass hesabınızı geçici olarak devre dışı bırakmak için size yardımcı olacağız. !Ek Hizmet / Servis Satın Alma Ek Hizmet / Servis Sat ın Alma !arrow icon U çakta yemek yemek istiyorum. Yemek siparişini onceden verebilir miyim? !arrow icon Uçuşunuz için yemek satın alımı uçuştan 24 saat önceye kadar bilet satın alma aşamasında veya bilet satın alındıktan sonra flypgs.com ana sayfasındaki \"Bilet İşlemlerim\" başlığından Rezervasyon (PNR) Numarası ve soyadı ile yapılabilir. Yemek men unuzde neler var? !arrow icon Pegasus Cafe yemek menüsüne flypgs.com ana başlıklarındaki \"Seyahat Hizmetlerimiz Uçuş ile İlgili Hizmetlerimiz Online Yemek Siparişi” başlığına tıklayarak ya da bu linkten ulaşabilirsiniz. Ücretli yemek siparişimi uçuşumdan kaç saat once yapmalıyım? !arrow icon Yemek siparişinizi uçuş saatinize 24 saat kalana kadar verebilirsiniz. Uçuşunuza 24 saatten daha az zaman varsa, yemek siparişi verilememektedir. Yemek sipari şimi iptal edebilir miyim? !arrow icon Uçuşunuzu iptal etmeniz durumunda satın alınan menünün ücreti iade edilmemektedir. U çakta istediğim koltukta uçabilir miyim? !arrow icon Uçuşlar için koltuk atamaları check in işlemi sırasında otomatik olarak yapılmaktadır. Dilediğiniz koltukta uçmak istiyorsanız, bilet satın alma aşamasında ücretli koltuk seçimi yapabilirsiniz. Ayrıca biletinizi satın alındıktan sonra flypgs.com ana sayfasındaki \"Seyahat Hizmetlerimiz Uçuş ile İlgili Hizmetlerimiz Koltuk Seçimi\" başlığı altından Rezervasyon (PNR) Numarası ve soyadı ile de koltuk satın alması yapılabilmektedir. Koltuk sat ın almadan işlem yapabilir miyim? !arrow icon Online chek in sırasında sistem size ücretsiz koltuk atayacaktır. Dilerseniz koltuk satın almadan otomatik atanan koltuk ile check in işleminizi tamamlayabilirsiniz. Sat ın almış olduğum koltuğu iptal edebilir miyim? !arrow icon Satın almış olduğunuz koltuğunuzun iadesi yapılamamaktadır. U çuşumdaki bagaj hakkım kaç kilodur? !arrow icon Uçuşunuzda taşıyabileceğiniz iki tip bagaj bulunmaktadır. El bagajı ve kayıtlı bagaj. El bagajı beraberinizde kabin içerisine aldığınız bagaj tipidir. boyutları ve ağırlığıyla ilgili bilgiye \"Genel Kurallar\"dan ulaşabilirsiniz. Kayıtlı bagaj ise uçağın kargo bölümünde taşınan bagaj tipidir. Misafirlerimizin kayıtlı bagaj hakları uçuş biletinin paket tipine göre farklılık göstermektedir. Uçuşunuzdaki kayıtlı bagaj hakkınızı \"Genel Kurallar\" bölümündeki \"Genel bagaj ve taşınabilir aletler\" kısmından öğrenebilirsiniz. Kay ıtlı bagaj hakkım dışında fazla bagaj satın alabilir miyim? !arrow icon Beraberinizde taşıyacağınız ve serbest bagaj hakkını aşan kilolarınız için flypgs.com’daki genel kurallar bölümünde belirtilen ücretlerle uçuşa 3 saat kalana kadar havalimanına oranla daha düşük ücretlerle satın alabilirsiniz. Ek bagaj hakkınızı biletinizi satın alırken alabileceğiniz gibi biletinizi satın alındıktan sonra flypgs.com ana sayfasındaki \"Seyahat Hizmetlerimiz Uçuş ile İgili Hizmetlerimiz Bagaj Hakkı Satışı\" başlığı altından Rezervasyon (PNR) Numarası ve soyadı ile de ek bagaj satın alması yapılabilmektedir. Uçuşa getirilen bagaj ağırlığı toplam bagaj hakkından fazla ise aradaki kg farkı kadar havalimanında da ödeme yapılabilmektedir. 2 ya şından kuçuk bebeğim var, bagaj hakkı kaç kg'dır? !arrow icon 2 yaşından küçük bebek misafirlerimizin serbest bagaj hakkı 10 kg'dır. Bebek misafirlerimiz için ücretli ektra bagaj satın alamamaktadır. Spor Malzemesi ta şımak istiyorum. Ekstra odeme yapmam gerekiyor mu? !arrow icon Spor malzemeleri özel bagajlara dahil olduğu için genel kurallarda yazan ücretler doğrultusunda ekstra ücrete tabidir. Seyahatim esnas ında evcil hayvanımı beraberimde taşıyabilir miyim? !arrow icon Evet, taşıyabilirsiniz. Öncelikle 0888 228 12 12 numaralı Pegasus Çağrı Merkezi'ni arayarak beraberinizde taşımayı planladığınız evcil hayvan için rezervasyon yaptırmanız gerekmektedir. Uçuşlarımızda sadece kedi, köpek ve kuş (sadece iç hatlarda) taşımacılığı yapılabilmektedir. Detaylı bilgi için Genel Kurallar sayfasından \"Evcil Hayvanlarla Seyahat\" başlığını kontrol edebilirsiniz. Evcil hayvan ımı taşımak istiyorum. Bunun için herhangi bir belge gerekli midir? !arrow icon AB ülkelerine seyahat edecek misafirlerimizin, seyahatleri esnasında taşımayı planladıkları evcil hayvan için yanlarında evcil hayvan pasaportu bulundurmaları gerekmektedir. Ayrıca kuş taşımacılığı yapmak isteyen misafirlerimizin veteriner hekimden alınmış evcil hayvan sağlık raporunu da bulundurması gerekmektedir. Yavru evcil hayvan ımı taşıyabilir miyim? !arrow icon Evcil hayvanlarınız 3 aylarını doldurduktan sonra taşınabilmektedir. Özel bagajlarımı nasıl taşıyabilirim? !arrow icon AMBL Ambulift AVIH(S) 8 kg ile 15 kg arasında ağırlığı olan, uçak altında taşınabilen evcil hayvan AVIH(B) 15 kg üzerinde ağırlığı olan uçak altında taşınabilen evcil hayvan BBAG Bebek Arabası Koruma Ambalajı BIKE Bisiklet DIVE Dalgıç Takımı GAEX Yurtiçi çıkışlı seferlerde uçuşa kabul esnasında tespit edilen limit dışı el bagajı GAXB Yurtdışı çıkışlı seferlerde uçuşa kabul esnasında tespit edilen limit dışı el bagajı GOLF Golf HUM1 Cenaze HUMC Çocuk Cenazesi LNGE Lounge PETC 8 kg'a kadar ağılığı olan kabinde taşınan evcil hayvan SKI Kayak Takımı SPEQ Özel Taşınabilir Aletler SURF Sörf UMNR Refakatsiz Çocuk WCHC Tekerlekli Sandalye (Kabine kadar) WCHR Tekerlekli Sandalye (Uçak merdivenine kadar) WCHS Tekerlekli Sandalye (Sadece merdivene kadar) SPEQ olarak kabul edilen taşınabilir alet ve malzemeler, Sörf Takımı, Uçurtma, Kano, Delta Kanat, Yamaç Paraşütü, Sportif Amaçlı Taşınabilen Av Tüfeği, Eskrim malzemeleri, Olta Takımıdır. Fiyatları görmek için tıklayınız. 1 Golf seti 14 golf sopası, 24 top ve bir çift ayakkabıdan oluşur ve maksimum 20 kg için geçerlidir. Golf ve Kayak ekipmanı taşıyan transfer misafirlerimizden tabloda belirtilen ücretler her bir parkur için ayrı olarak tahsil edilir. Golf ve Kayak takımları diğer özel bagajlarda olduğu gibi parça başı üzerinden ücretlendirilecek olup, 20kg üzerindeki golf takımı için parca başı ücrete ek olarak her bir kg için o parkurun fazla bagaj tarifesi üzerinden tahsilat yapılacaktır. Ağırlığı 20 kg'ın üzerinde olan 1 parça golf bagajdan, parça başı sabit ücrete ilave olarak, üzeri her kg için, uçuş yapılan parkurun fazla bagaj ücreti tahsil edilir. Aynı çanta içerisinde getirilen Golf takımı veya kar kayak malzemelerinin ikinci ve sonraki çiftleri, getirilen ilave parça sayısı kadar, uçuş gerçekleştirilen parkurun tarifesine göre Pegasus Havayolları'nın özel bagaj ücretleri ile hesaplanarak ücretlendirilir. Futbol,basketbol,vs. gibi şişme topların havasının inme gerekliliği yoktur, bu şekilde uçaklarımızda taşınabilir. Sportif amaçlı silahlardan ücret alınır. Pegasus Cafe i çerisinde sunduğunuz etler İslami koşullara uygun mu? !arrow icon Pegasus Cafe'de sunulan ürünlerimizin hepsi İslami koşullara uygun koşullarda hazırlanmaktadır. Tedarikçilerimizin helal et sertfikalarına aşağıdaki bağlantılardan ulaşabilirsiniz. Banvit Helal Et Sertifikası Namet Helal Et Sertifikası POPÜLER DESTİNASYONLAR İzmir İstanbul Uçak Bileti Adana İstanbul Uçak Bileti Antalya İstanbul Uçak Bileti İstanbul İzmir Uçak Bileti İstanbul Adana Uçak Bileti İzmir Ankara Uçak Bileti İstanbul Kıbrıs Uçak Bileti İstanbul Bakü Uçak Bileti İstanbul Paris Uçak Bileti İstanbul Londra Uçak Bileti ŞEHİRLER İstanbul Uçak Bileti İzmir Uçak Bileti Antalya Uçak Bileti Ankara Uçak Bileti Adana Uçak Bileti Trabzon Uçak Bileti Belgrad Uçak Bileti Paris Uçak Bileti Bakü Uçak Bileti Amsterdam Uçak Bileti Londra Uçak Bileti Batum Uçak Bileti ÜLKELER Kıbrıs Uçak Bileti Karadağ Uçak Bileti Almanya Uçak Bileti Sırbistan Uçak Bileti Azerbaycan Uçak Bileti İtalya Uçak Bileti Makedonya Uçak Bileti Rusya Uçak Bileti Arnavutluk Uçak Bileti Hollanda Uçak Bileti İngiltere Uçak Bileti Fransa Uçak Bileti GEZİ REHBERLERİ İstanbul Gezi Rehberi Berlin Gezi Rehberi Viyana Gezi Rehberi Belgrad Gezi Rehberi Paris Gezi Rehberi Amsterdam Gezi Rehberi Prag Gezi Rehberi Roma Gezi Rehberi Barselona Gezi Rehberi İtalya Gezi Rehberi HAVALİMANLARI Antalya Hava Limanı Esenboğa Havalimanı Sabiha Gökçen Havalimanı Çukurova Havalimanı Dalaman Havalimanı Milas Bodrum Havalimanı Londra Stansted Havalimanı Paris Orly Havalimanı Frankfurt Havalimanı Ercan Havalimanı Zürih Havalimanı Roma Havalimanı KURUMSAL Sürdürülebilirlik Pegasus Hakkında Basın Odası Bilgi Toplumu Hizmetleri / Yatırımcı İlişkileri SGHM Toplumsal Cinsiyet Dengesi Geliştirme Komisyonu Pegasus Kargo Zamanında Kalkış Performansı YARDIM Yardım Merkezi Sıkça Sorulan Sorular İletişim Yardım Gereksinimi Olan Misafirler Ödeme Yöntemleri İNSAN KAYNAKLARI İnsan Kaynakları Politikamız Pegasus Ücret Yönetimi Politikası Olanaklarımız Kariyer GİZLİLİK & GÜVENLİK Çerez Tercihleri Genel Kurallar Gizlilik Uyumluluk Yolcu Hakları İşlem Rehberi Site Haritası Uçak Biletlerini Pegasus Mobil Uygulamasından Al Kampanyalardan 1 gün önce haberdar olmak için mobil uygulamamı ücretsiz indir! Hemen İndir Seyahatinin tüm adımlarını tek ekrandan kolayca yönet. !Seyahatinin tüm adımlarını tek ekrandan kolayca yönet. !Pegasus App Pegasus u Takip et Pegasus Hava Taşımacılığı Anonim Şirketi Pegasus Hava Taşımacılığı Anonim Şirketi Türkiye Cumhuriyeti yasaları uyarınca faaliyet göstermektedir. Şirket merkez adresi: Aeropark, Yenişehir Mah. Osmanlı Bul. No:11/A Kurtköy 34912 Pendik – İstanbul/TÜRKİYE. © 2026, All Rights Reserved !Yukarı Yukarı"
+    },
+    {
+      "id": "yardim_bolbol_uyelik_i_slemleri",
+      "category": "faq",
+      "text": "BolBol Üyelik İşlemleri: Pegasus BolBol Üyeliği, cep telefonu numaranız ve e posta adresinizle kolayca katılabileceğiniz bir uçuş programıdır. Program kapsamında: Pegasus uçuşları ve iş ortaklarından yapılan harcamalarda BolPuan kazanabilir. Kazandığınız BolPuanları, bilet alımında veya ek hizmetlerde kullanabilirsiniz. Detaylı bilgi için BolBol Nedir? sayfasını ziyaret edebilirsiniz Hemen üye ol, avantajlarla dolu seyahat dünyasına adım at!"
+    },
+    {
+      "id": "yardim_bolpuan_i_slemleri",
+      "category": "faq",
+      "text": "BolPuan İşlemleri: BolPuanlar, Pegasus uçuşları ve programa dahil iş ortaklarından yapılan harcamalarla kazanılır. Kazanılan puanlar, flypgs.com ve Pegasus mobil uygulamasında: Bilet alımında (en az 2000 BolPuan) Ek ürün ve hizmetlerde (en az 500 BolPuan) kullanılabilir. Geçerlilik Süresi ve Transfer BolPuanlar, kazanıldığı yılın sonundan itibaren iki takvim yılı sonunda geçerliliğini yitirir. Mevcut BolPuanlar, başka bir Pegasus BolBol üyesine aylık limitler dahilinde transfer edilebilir. Detaylı bilgi için BolBol Nedir? sayfasını inceleyebilirsiniz."
+    },
+    {
+      "id": "yardim_bolbol_kampanyalar_i",
+      "category": "faq",
+      "text": "BolBol Kampanyalar ı: BolBol Kampanyaları , BolBol üyelerine özel fırsatları ve kampanyaları tek bir yerde sunar. Kampanyalar düzenli olarak güncellenir ve belirli koşullar ile tarihlere sahiptir. Seni neler bekliyor? Bilet indirimleri Ekstra BolPuan kazanımı Üyelere özel teklifler Partner iş birliklerine özel kampanyalar Güncel fırsatları kaçırmamak için Pegasus BolBol Kampanyaları sayfasını düzenli olarak ziyaret etmeni öneririz."
+    },
+    {
+      "id": "yardim_ing_pegasus_bolbol_premium_ve_classic_kr",
+      "category": "faq",
+      "text": "ING Pegasus BolBol Premium ve Classic Kredi Kartlar ı: ING Bank ve Pegasus Hava Yolları iş birliğiyle sunulan bu kart, avantajlarla dolu bir seyahat deneyimi sunar. Pegasus uçuşları ve iş ortaklarından yapılan harcamalarda BolPuan kazanabilir, Kazandığınız BolPuanları, bilet alımında veya ek hizmetlerde kullanabilirsiniz. Kart avantajları ve başvuru detayları için ING BolBol Kredi Kartı sayfasını inceleyebilirsiniz."
+    },
+    {
+      "id": "yardim_bilet_al_im",
+      "category": "faq",
+      "text": "Bilet Al ım: Biletinizi flypgs.com veya Pegasus mobil uygulaması üzerinden kolayca satın alabilirsiniz. Bilet alım sürecinde: Uçuş tarihlerini, kalkış ve varış noktalarını belirleyebilir Koltuk seçimi yapabilir İhtiyaca göre ek hizmetler (bagaj, yemek vb.) ekleyebilirsiniz. Önemli Notlar: Her PNR ve bu kapsamda düzenlenen biletler kişiye özeldir. Başkasına devredilemez, isim soyisim değişikliği yapılamaz."
+    },
+    {
+      "id": "yardim_de_gisiklik_ve_i_ptal",
+      "category": "faq",
+      "text": "De ğişiklik ve İptal: flypgs.com veya Pegasus mobil uygulamasından bilet alan misafirler: Bilet İşlemleri sayfasından Rezervasyon (PNR) Numarası ve soyad ile uçuş bilgilerine ulaşabilir, Kolayca Genel Kurallara uygun olmak koşuluyla bilet değişikliği ve bilet iptali yapabilirler. Acente veya çağrı merkezi aracılığıyla bilet alan misafirler: Değişiklik ve iptal işlemleri için biletin alındığı acente ile iletişime geçilmeli Ya da 0888 228 12 12 numaralı çağrı merkezi aranmalıdır Detaylı bilgi için Genel Kurallar sayfasındaki \"Rezervasyon Değişikliği ve Bilet İptali\" başlığını inceleyebilirsiniz."
+    },
+    {
+      "id": "yardim_koltuk_yemek_di_ger_ucus_hizmetleri",
+      "category": "faq",
+      "text": "Koltuk / Yemek / Di ğer Uçuş Hizmetleri: Seyahatinizi daha konforlu ve keyifli hale getirmek için uçuş öncesinde veya sonrasında çeşitli ek hizmetlerden yararlanabilirsiniz. Tüm bu hizmetleri bilet satın alma aşamasında veya sonrasında kolayca ekleyebilirsiniz. Ek hizmetlerimiz ile ilgili detaylar için Ek Hizmetler sayfasını inceleyebilirsiniz. İhtiyaçlarınıza, uçuş alışkanlıklarınıza ve farklı fiyat seçeneklerine göre ek hizmetlerinizi seçin, seyahatinize nasıl başlayacağınıza siz karar verin, ihtiyacınız kadarını ödeyin, rahat rahat uçun!"
+    },
+    {
+      "id": "yardim_i_ade_talebi",
+      "category": "faq",
+      "text": "İade Talebi: İade işlemi yapmak isteyen kullanıcılar: İade şartları , biletin sınıfına, pakete ve uçuşa kalan süreye göre değişir. Promosyon biletlerde ücret iadesi yapılmaz, sadece vergi iadesi mümkündür. Standart biletlerde , belirli işlem bedelleri düşülerek iade yapılabilir. Detaylı bilgi için biletinizin kurallarını kontrol etmenizi öneririz. İade sürecini tamamlayan ve iadesini bekleyen kullanıcılar: Biletinizi iptal ettiyseniz, iadeniz ödeme yaptığınız kart ya da hesaba otomatik olarak yapılır. Ancak, bankalar arası işlem süresi nedeniyle yansıma süresi değişebilir. İade Süreleri Türk bankaları: Genellikle 2 3 iş günü Yabancı bankalar: Ülkeye bağlı olarak 3 7 iş günü Biletinizi yetkili bir acente aracılığıyla aldıysanız, detaylı bilgi için doğrudan acentenizle iletişime geçmeniz gerekir."
+    },
+    {
+      "id": "yardim_hasarl_i_bagaj",
+      "category": "faq",
+      "text": "Hasarl ı Bagaj: Uçuşunuzun ardından bagajınızı teslim aldığınızda hasar olduğunu fark ederseniz , aşağıdaki adımları takip etmeniz gerekir: Havalimanından ayrılmadan önce , ilgili kayıp eşya ofisine (Lost & Found) başvurarak Bagaj Raporu (PIR) düzenlettirin. Bu rapor, hasarın tespit edildiği ana dair resmi bir belge niteliğindedir ve sonraki işlemler için gereklidir. Raporunuzu oluşturduktan sonra, hasarınızın takibi için Pegasus Asistan üzerinden online başvuru formunu doldurabilirsiniz. Değerlendirme süreci: Başvurunuzun ardından Pegasus ekibi, talebinizi inceleyerek en kısa sürede geri dönüş sağlar. Başvurunuzun takibi: Hasarlı bagajınızın durumunu online olarak takip etmek için Pegasus Asistan'dan başvuru durumunuzu sorgulayabilirsiniz."
+    },
+    {
+      "id": "yardim_geciken_bagaj",
+      "category": "faq",
+      "text": "Geciken Bagaj: Uçuşunuzun ardından bagajınızı teslim aldığınızda bagajınız gecikirse , aşağıdaki adımları takip etmeniz gerekir: Havalimanından ayrılmadan önce , ilgili kayıp eşya ofisine (Lost & Found) başvurarak Bagaj Raporu (PIR) düzenlettirin. Bu rapor, hasarın tespit edildiği ana dair resmi bir belge niteliğindedir ve sonraki işlemler için gereklidir. Raporunuzu oluşturduktan sonra, hasarınızın takibi için Pegasus Asistan üzerinden online başvuru formunu doldurabilirsiniz. Değerlendirme süreci: Raporunuzu oluşturduktan sonra, bagajınızın durumu Pegasus tarafından takip edilir ve ulaştığında tarafınıza teslim edilir.. Teslim süresi ülkeye ve havalimanına göre değişkenlik gösterebilir. Başvurunuzun takibi: Geciken bagajınızın durumunu online olarak takip etmek için Pegasus Asistan'dan başvuru durumunuzu sorgulayabilirsiniz."
+    },
+    {
+      "id": "yardim_di_ger_tasiyabileceklerim",
+      "category": "faq",
+      "text": "Di ğer Taşıyabileceklerim: Uçuş sırasında bazı özel eşyalar , belirli kurallar doğrultusunda kabin içinde veya uçak altı bagajında taşınabilir. Boyut ve ağırlık sınırlarını aşan eşyalar, uçak altı bagajında taşınmak zorundadır ve taşıma ücreti doğurabilir. Güvenlik prosedürleri nedeniyle bazı eşyaların taşınması tamamen yasaktır veya özel izin gerektirebilir. Eşyaların nerede taşınabileceği, içeriğine, boyutuna ve ağırlığına göre değerlendirilir. Detaylı bilgi için Özel Hizmet / Ekipman Taşıma Kural ve Ücretleri sayfasını inceleyebilirsiniz."
+    },
+    {
+      "id": "yardim_kampanyalar_imiz",
+      "category": "faq",
+      "text": "Kampanyalar ımız: Pegasus, yıl boyunca bilet indirimleri, ekstra BolPuan fırsatları ve özel dönemlere yönelik avantajlar sunar. Bazı kampanyalar partner iş birliklerini veya yurt içi/yurt dışı uçuşlara özel teklifleri de kapsayabilir. Kampanyalardan haberdar olmak için: Bilet alırken e posta ve SMS izni verebilir veya Kampanyalar bölümünden e posta adresinizi kaydedebilirsiniz. Size özel fırsatları görmek için Kampanyalarımız sayfasını ziyaret edebilir, BolBol üyesi olarak kampanyalardan erken haberdar olabilirsiniz."
+    },
+    {
+      "id": "yardim_ki_sisel_verilerim",
+      "category": "faq",
+      "text": "Ki şisel Verilerim: 6698 sayılı Kişisel Verilerin Korunması Kanunu ve uygulanabilir diğer mevzuat kapsamında kişisel verileriniz ile ilgili taleplerinizi aşağıdaki yöntemlerden biriyle: Yazılı ve imzalı olarak Kişisel Verilerin Korunması Yöneticisi adına Aeropark, Yenişehir Mahallesi, Osmanlı Bulvarı No: 11/A Kurtköy 34912 Pendik İstanbul, Türkiye’deki Genel Müdürlük adresimize, 25.08.2011 tarihli Resmî Gazete’de yayımlanan \"Kayıtlı Elektronik Posta Sistemine İlişkin Usul ve Esaslar Hakkında Yönetmelik\" kapsamında oluşturulan geçerli kayıtlı elektronik posta hesabınız üzerinden iletilecek bir kayıtlı elektronik posta bildirimiyle pegasus@hs05.kep.tr kayıtlı elektronik posta adresimize, Şirketimiz sisteminde kayıtlı bulunan elektronik posta adresiniz üzerinden iletilecek bir elektronik posta bildirimiyle, Şirketimiz tarafından açıkça bu amaca yönelik olarak kullanılabileceği belirtilmiş kurumsal elektronik posta adresimize , 6698 sayılı Kişisel Verilerin Korunması Kanunu ve uygulanabilir diğer mevzuat kapsamında başvurunuzun işleme alınabilmesi için başvuruda: Ad, soyad ve başvuru yazılı ise imza, T.C. vatandaşları için T.C. kimlik numarası, yabancılar için uyruğu, pasaport numarası veya varsa kimlik numarası, Tebligata esas yerleşim yeri veya işyeri adresi, Varsa bildirime esas elektronik posta adresi, telefon ve faks numarası, Talep konusu belirtilmesi zorunludur. Varsa, konuya ilişkin bilgi ve belgeler başvuruya eklenmelidir. Açıkça geçerli bir dayanaktan yoksun olduğu veya kötüye kullanım amacı taşıdığı tespit edilen başvurular işleme alınmaz. Şirketimiz, 6698 sayılı Kişisel Verilerin Korunması Kanunu ve uygulanabilir diğer mevzuat kapsamında yapılan başvurular için ücret almamaktadır. Başvurunun olağan dışı maliyet gerektirmesi durumunda bu giderin başvuru sahibi tarafından karşılanması talep edilebilir. Kural olarak yalnız veri sahibi sıfatını haiz ilgili kişilerin kişisel verilere ilişkin talepleri işleme alınır. Başka bir kişi adına iletilecek talepler için ayrıca veri sahibi ilgili kişinin rızası ve/veya güvenlik kontrollerinin başarılı şekilde tamamlanması tabidir."
+    },
+    {
+      "id": "yardim_transfer_yolcu",
+      "category": "faq",
+      "text": "Transfer Yolcu: Aynı rezervasyon (PNR) altında düzenlenen Pegasus uçuşlarınız, transfer uçuş olarak adlandırılır ve işlemleriniz buna göre planlanır. Uçuş Gecikmeleri İlk uçuşunuz gecikirse , bağlantılı uçuşunuzu kaçırabilirsiniz. Aynı PNR ile düzenlenen uçuşlarda, Pegasus sizi bir sonraki uygun uçuşa yönlendirir. Farklı PNR’ler ile düzenlenen uçuşlarda, aksaklıklar yolcunun sorumluluğundadır. Bagaj Aktarımı Aynı PNR ile düzenlenen uçuşlarda, bagajınız varış noktasına kadar transfer edilir. Ancak, yurt dışından yurt içi gümrüksüz havalimanlarına devam edecek yolcular , bagajlarını aktarma havalimanında alıp, tekrar check in yapmalıdır. Farklı PNR’ler ile düzenlenen uçuşlar için ayrı check in ve bagaj teslimi yapılır ve yolcunun sorumluluğundadır. Gümrük ve Pasaport İşlemleri Dış hat bağlantılarında, bazı ülkelerde pasaport kontrolü veya vize işlemleri gerekebilir. Kapı ve Terminal Bilgileri Transfer uçuşlarınız için kapı ve terminal bilgilerini Pegasus mobil uygulaması ve havalimanı ekranlarından takip edebilirsiniz. Büyük havalimanlarında terminal geçişleri zaman alabilir, bu nedenle yeterli süreniz olduğundan emin olun. Uçuş Kaçırma veya İptal Durumu Aynı PNR içindeki uçuşu kaçırırsanız, Pegasus sizi bir sonraki uygun uçuşa yönlendirir. Farklı PNR’ler ile düzenlenen uçuşlarda, aksaklıklar yolcunun sorumluluğundadır. Seyahatinize çıkmadan önce bilet detaylarınızı ve rezervasyon bilgilerinizi mutlaka kontrol edin. Transfer uçuş kuralları hakkında detaylı bilgi için Transfer Uçuşlarda Ne Yapmalısınız? sayfasını ziyaret edebilirsiniz."
+    },
+    {
+      "id": "yardim_sefer_gecikmeleri",
+      "category": "faq",
+      "text": "Sefer Gecikmeleri: Pegasus Hava Yolları, uçuşlarımızı zamanında gerçekleştirmek için tüm operasyonel süreci titizlikle yönetir. Ancak, hava koşulları , operasyonel nedenler veya havacılık otoriteleri tarafından alınan kararlar gibi kontrolümüz dışında gerçekleşen durumlar nedeniyle gecikmeler yaşanabilir. Gecikme durumunda: Yolculara, SMS, e posta, mobil uygulama bildirimi ve havalimanı anonsları ile bilgilendirme yapılır. Rezervasyon sırasında verdiğiniz iletişim bilgilerinizin doğru ve güncel olması önemlidir. Uçuşunuzun son durumu hakkında bilgi almak için Kalkış Varış Bilgileri sayfamızı ziyaret edebilirsiniz. Flypgs.com veya mobil uygulama üzerinden bilet aldıysanız, Bilet İşlemleri sayfasından rezervasyon numarası (PNR) ve soyadınızla işlem yapabilirsiniz. Biletinizi yetkili bir acente aracılığıyla aldıysanız, detaylı bilgi için doğrudan acentenizle iletişime geçmeniz gerekir. Detaylı bilgi için Yolcu Hakları sayfasını inceleyebilirsiniz."
+    },
+    {
+      "id": "yardim_sefer_i_ptalleri",
+      "category": "faq",
+      "text": "Sefer İptalleri: Sefer iptalleri, hava koşulları , operasyonel nedenler veya havacılık otoriteleri tarafından alınan kararlar gibi kontrolümüz dışında gerçekleşen durumlar nedeniyle gerçekleşebilir. İptal durumunda: Yolculara, SMS ve e posta ile bilgilendirme yapılır. Rezervasyon sırasında verdiğiniz iletişim bilgilerinizin doğru ve güncel olması önemlidir. Uçuşunuzun son durumu hakkında bilgi almak için Kalkış Varış Bilgileri sayfamızı ziyaret edebilirsiniz. Flypgs.com veya mobil uygulama üzerinden bilet aldıysanız, Bilet İşlemleri sayfasından rezervasyon numarası (PNR) ve soyadınızla işlem yapabilirsiniz. İptal durumunda, bilet ücreti iadesi, tarih değişikliği veya açığa alma gibi seçenekler ücretsiz sunulmaktadır. Biletinizi yetkili bir acente aracılığıyla aldıysanız, detaylı bilgi için doğrudan acentenizle iletişime geçmeniz gerekir. Detaylı bilgi için Yolcu Hakları sayfasını inceleyebilirsiniz."
+    },
+    {
+      "id": "yardim_tarife_ve_saat_de_gisikligi",
+      "category": "faq",
+      "text": "Tarife ve Saat De ğişikliği: Tarife ve saat değişiklikleri, hava koşulları , operasyonel nedenler veya havacılık otoriteleri tarafından alınan kararlar gibi kontrolümüz dışında gerçekleşen durumlar nedeniyle gerçekleşebilir. Tarife ve saat değişikliği durumunda: Yolculara, SMS ve e posta ile bilgilendirme yapılır. Rezervasyon sırasında verdiğiniz iletişim bilgilerinizin doğru ve güncel olması önemlidir. Uçuşunuzun son durumu hakkında bilgi almak için Kalkış Varış Bilgileri sayfamızı ziyaret edebilirsiniz. Flypgs.com veya mobil uygulama üzerinden bilet aldıysanız, Bilet İşlemleri sayfasından rezervasyon numarası (PNR) ve soyadınızla işlem yapabilirsiniz. Uçuş saatinizde değişiklik olması halinde mağduriyet yaşamamanız için uçuş bilgilerinizi seyahatten önce kontrol etmenizi öneririz. Biletinizi yetkili bir acente aracılığıyla aldıysanız, detaylı bilgi için doğrudan acentenizle iletişime geçmeniz gerekir. Detaylı bilgi için Yolcu Hakları sayfasını inceleyebilirsiniz."
+    },
+    {
+      "id": "yardim_check_in",
+      "category": "faq",
+      "text": "Check in: Uçuş öncesi check in işleminizi zamanında ve eksiksiz tamamlamanız önemlidir. Online Check in Süresi: Uçuşa 7 gün kala başlar. Yurt içi uçuşlarda: Kalkışa 45 dakika kala sona erer. KKTC ve dış hatlarda: Kalkışa 1 saat kala sona erer. Bazı havalimanlarında farklılık olabilir. Havalimanları Online Check in Uygunlukları sayfasını kontrol etmeniz önerilir. Check in Yapabileceğiniz Kanallar: flypgs.com Pegasus mobil uygulaması Havalimanı kontuarları (Bazı durumlarda ek hizmet bedeli alınabilir) Koltuk Seçimi: Ücretli koltuk seçimi bilet alırken ya da check in sırasında yapılabilir. Seçim yapılmazsa, sistem otomatik koltuk ataması yapar. Bagaj Teslimi: Online check in yaptıysanız, yalnızca bagaj teslimi için kontuara gelmeniz yeterli. Teslim işlemleri check in süresi içinde yapılmalıdır. Önemli Notlar: Uçuş saatinden önce havaalanında yeterli süreyle bulunmanız önerilir. Check in yapılmazsa uçağa kabul edilmeyebilirsiniz. Bazı destinasyonlar için ek belgeler gerekebilir. Seyahat edeceğiniz ülkenin gerekliliklerini kontrol edin. Check in süreciyle ilgili daha fazla bilgiye ulaşmak ve işlem yapmak için Check in sayfasını ziyaret edebilirsiniz."
+    },
+    {
+      "id": "yardim_u_cusa_kabul_edilmeme",
+      "category": "faq",
+      "text": "U çuşa Kabul Edilmeme: Pegasus Hava Yolları, uçuş emniyeti ve güvenliğini sağlamak amacıyla bazı durumlarda yolcuları uçuşa kabul etmeme hakkını saklı tutar. Bu tür durumlarla karşılaşmamak için yolcuların bazı kurallara dikkat etmesi önemlidir. Uçuşa kabul edilmeme sebepleri: Biletteki adınızın doğruluğunu kanıtlayamamak Geçerli seyahat belgelerinin eksik olması Alkol veya farklı sebepler nedeniyle diğer yolculara veya ekibe zarar verme riski Davranışlarınızın güvenliği tehdit etmesi Önemli Notlar: Seyahat belgelerinizi kontrol edin ve geçerli olduğundan emin olun. Kurallara ve kabin ekibinin talimatlarına uymaya dikkat edin. Yukarıda belirtilen sebepler dışında uçuşa kabul edilmediğinizi düşünüyorsanız; durumunuzun incelenebilmesi için lütfen bizimle iletişime geçin."
+    },
+    {
+      "id": "yardim_di_ger_havalimani_hizmetleri",
+      "category": "faq",
+      "text": "Di ğer Havalimanı Hizmetleri: Pegasus Hava Yolları , yolcularına çeşitli havalimanı hizmetleri sunmaktadır. Havaalanı Lounge Otopark Transfer Araç Kiralama Hızlı Geçiş (Allways)"
+    },
+    {
+      "id": "yardim_bilet_sat_is_kanallari",
+      "category": "faq",
+      "text": "Bilet Sat ış Kanalları: Bilet Satış Kanalları Pegasus uçak biletinizi şu kanallardan güvenle alabilirsiniz: flypgs.com Mobil Uygulama Yetkili Seyahat Acenteleri: Pegasus iş ortaklarıyla bilet satın alabilirsiniz Havalimanı Satış Ofisleri: Türkiye ve yurt dışındaki ofislerden destek alabilirsiniz Destek Kanalları Uçuşunuzla ilgili bilgi almak, değişiklik veya iptal işlemleri yapmak, özel hizmet taleplerinde bulunmak için şu kanallardan destek alabilirsiniz: Pegasus Asistan (Canlı Destek & Chatbot): Web ve mobil uygulamada 7/24 destek. Yardım Merkezi: Konu bazlı destek başlıklarında arama yapabilirsiniz. Her adımda hızlı ve kolay çözüm için her zaman yanınızdayız."
+    },
+    {
+      "id": "yardim_otel_ara_c_diger_seyahat_hizmetleri",
+      "category": "faq",
+      "text": "Otel / Ara ç / Diğer Seyahat Hizmetleri: Otel konaklama, araç kiralama ve seyahat sigortası gibi hizmetler, flypgs.com ve Pegasus mobil uygulamamız üzerinden iş birliği yaptığımız firmalar tarafından sunulmaktadır. İptal ve değişiklik kuralları , hizmeti satın aldığınız firmanın kendi hüküm ve koşullarına göre değişiklik gösterebilir. Detaylı bilgi ve destek için ilgili firma ile iletişime geçmenizi öneririz."
+    },
+    {
+      "id": "yardim_u_cus_ve_ucak_i_ci",
+      "category": "faq",
+      "text": "U çuş ve Uçak İçi: Pegasus Hava Yolları, yolcularına konforlu ve güvenli bir uçuş deneyimi sunmak için çeşitli hizmetler sağlar: Yiyecek ve İçecek Servisi: Uçuş sırasında ücretli menü seçenekleri sunulur. flypgs.com veya mobil uygulama üzerinden ön sipariş verebilirsiniz. Elektronik Cihaz Kullanımı: Kalkış ve iniş dışında uçak modu açık olmak kaydıyla cihaz kullanılabilir. Koltuk Seçimi: Koltuklar otomatik atanır, ancak ücretli koltuk seçimi yaparak tercihinize uygun bir koltuk alabilirsiniz. Uçuş Bilgilendirmeleri: Pegasus mobil uygulaması veya flypgs.com üzerinden uçuş bilgilerinizi takip edebilirsiniz. Güvenlik kuralları uçuş öncesi kabin ekibi tarafından aktarılır. Özel hizmet ihtiyacı olan yolcularımız , daha fazla bilgiye buradan ulaşabilirler."
+    },
+    {
+      "id": "yardim_s_urdurebilirlik",
+      "category": "faq",
+      "text": "S urdurebilirlik: Uçmak herkesin hakkı mottosuyla 2005 yılında yola çıktık. Düşük maliyetli iş modelimizle , misafirlerimize uçuşlarını kişiselleştirebileceği bir deneyim sunduk. Her yıl daha fazla kişi için hava yoluyla seyahati erişilebilir kılmak ve geleceğimizi sürdürülebilir hale getirmekten gurur duyuyoruz. Sürdürülebilirlik ve sürdürülebilir kalkınmayı etkileyen çevresel, sosyal ve yönetişim (ESG) bağlamında yaptığımız çalışmaların detaylarına Sürdürülebilirlik sayfasından ulaşabilir, Sürdürülebilirlik Raporlarımız için Yatırımcı İlişkileri sayfasını ziyaret edebilirsiniz."
+    }
   ]
 }
