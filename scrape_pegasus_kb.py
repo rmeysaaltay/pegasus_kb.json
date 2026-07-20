@@ -1,15 +1,3 @@
-"""
-Pegasus (flypgs.com) sitesinden bagaj/menü/SSS içeriğini çekip
-pegasus_kb.json dosyasındaki "knowledge_base" alanını günceller.
-"destinations" (uçuş ağı) alanına dokunmaz — o ayrı, daha nadir
-değişen bir veridir ve elle güncellenmesi önerilir.
-
-Bu script GitHub Actions üzerinde (cron ile) çalışacak şekilde
-tasarlanmıştır. Yerelde de çalıştırılabilir:
-    pip install requests html2text pypdf
-    python scrape_pegasus_kb.py
-"""
-
 import io
 import json
 import re
@@ -176,9 +164,6 @@ def main():
     except FileNotFoundError:
         existing = {"destinations": {}, "knowledge_base": []}
 
-    # Scraper'ın "sahip olduğu" id önekleri: bu önekle başlayan eski kayıtlar
-    # yeni scrape sonucuyla değiştirilir. Bu öneklerle başlamayan kayıtlar
-    # (örn. elle eklenmiş "kurumsal_*" bilgileri) OLDUĞU GİBİ korunur.
     managed_prefixes = tuple(f"{src['prefix']}_" for src in SOURCES)
     preserved = [
         item for item in existing.get("knowledge_base", [])
@@ -215,7 +200,6 @@ def main():
         print("Hiçbir kaynaktan veri çekilemedi, pegasus_kb.json değiştirilmeyecek.", file=sys.stderr)
         sys.exit(1)
 
-    # id bazında tekilleştir (aynı id'den son gelen kazanır)
     dedup = {item["id"]: item for item in preserved + new_kb}
     final_kb = list(dedup.values())
 
