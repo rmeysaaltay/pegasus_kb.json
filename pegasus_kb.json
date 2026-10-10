@@ -347,7 +347,7 @@
     {
       "id": "menu_menu_bolum_0",
       "category": "menu",
-      "text": "-    PREM | ALIT   -   PREM | ALITY | Bu Lezzetler ﬂypgs.com’da | Delicious ﬂavours on ﬂypgs.com | Flypgs.com'da yemek siparişi | %20'ye varan indirimle! | Uçuş öncesinde ön siparişe özel sushiden mantarlı"
+      "text": "-    PREM | ALIT   -   PREMIU | ALITY | Bu Lezzetler ﬂypgs.com’da | Delicious ﬂavours on ﬂypgs.com | Flypgs.com'da yemek siparişi | %20'ye varan indirimle! | Uçuş öncesinde ön siparişe özel sushiden mantarlı"
     },
     {
       "id": "menu_menu_bolum_1",
@@ -402,7 +402,7 @@
     {
       "id": "menu_menu_bolum_11",
       "category": "menu",
-      "text": "Thank you for your understanding. | Ödemelerinizi kredi kartı ile yapabilirsiniz. We accept credit cards. | -    P REM | ALIT   -   PREM | ALITY | Daha Keyiﬂi bir uçuş deneyimi için | menümüzü yeniledik. Turkish DO &CO | ortaklığı ile Pegasus Cafe’de ürün çeşitliliğini"
+      "text": "Thank you for your understanding. | Ödemelerinizi kredi kartı ile yapabilirsiniz. We accept credit cards. | -    P REM | ALIT   -   PREMIU | ALITY | Daha Keyiﬂi bir uçuş deneyimi için | menümüzü yeniledik. Turkish DO &CO | ortaklığı ile Pegasus Cafe’de ürün çeşitliliğini"
     },
     {
       "id": "menu_menu_bolum_12",
@@ -457,87 +457,87 @@
     {
       "id": "menu_menu_bolum_22",
       "category": "menu",
-      "text": "Red Bull and Pringles | Fırsat! | Make a Deal! | 18.00 TL | 14.00 TL | 9.00 TL | 9.00 TL 8.00 TL | 10.00 TL"
+      "text": "Red Bull and Pringles | Fırsat! | Make a Deal! | 18.00 TL | 14.00 TL | 9.00 TL | 9.00 TL 8.00 TL 10.00 TL | 5.00 TL 3.00 TL"
     },
     {
       "id": "menu_menu_bolum_23",
       "category": "menu",
-      "text": "5.00 TL 3.00 TL | J.P. Chenet | Kırmızı / Roze / Beyaz | Red / Rosé / White | 18 yaşından küçüklere alkollü içki satışı yapılmamaktadır. Gerekli görüldüğünde kabin ekibi tarafından kimlik sorulabilir. | The sale of alcoholic drinks to anyone under the age of 18 years is prohibited. If deemed necessary the cabin crew may request | proof of age through oﬃcial identiﬁcation. | Chivas Regal"
+      "text": "J.P. Chenet | Kırmızı / Roze / Beyaz | Red / Rosé / White | 18 yaşından küçüklere alkollü içki satışı yapılmamaktadır. Gerekli görüldüğünde kabin ekibi tarafından kimlik sorulabilir. | The sale of alcoholic drinks to anyone under the age of 18 years is prohibited. If deemed necessary the cabin crew may request | proof of age through oﬃcial identiﬁcation. | Chivas Regal | Jack Daniels"
     },
     {
       "id": "menu_menu_bolum_24",
       "category": "menu",
-      "text": "Jack Daniels | Absolut | Efes Pilsen | Pegasus Mini Bar Seçenekleri | Pegasus Mini Bar Selections | Badem | Roasted Almonds | Fıstık"
+      "text": "Absolut | Efes Pilsen | Pegasus Mini Bar Seçenekleri | Pegasus Mini Bar Selections | Badem | Roasted Almonds | Fıstık | Roasted Peanuts"
     },
     {
       "id": "menu_menu_bolum_25",
       "category": "menu",
-      "text": "Roasted Peanuts | Yanında  iyi gider! | Add a tasty snack! | 7.00 TL 6.00 TL | 15.00 TL | 27.00 TL 23.00 TL 23.00 TL | 20.00 TL | 2 tane al, az öde!"
+      "text": "Yanında  iyi gider! | Add a tasty snack! | 7.00 TL 6.00 TL | 15.00 TL | 27.00 TL 23.00 TL 23.00 TL | 20.00 TL | 2 tane al, az öde! | Buy two, pay less !"
     },
     {
       "id": "menu_menu_bolum_26",
       "category": "menu",
-      "text": "Buy two, pay less ! | 40.00 TL | 30.00 TL | 2 tane al, az öde! | Buy two, pay less ! | 30.00 TL | 22.00 TL | Nescafe Xpress"
+      "text": "40.00 TL | 30.00 TL | 2 tane al, az öde! | Buy two, pay less ! | 30.00 TL | 22.00 TL | Nescafe Xpress | Original"
     },
     {
       "id": "menu_menu_bolum_27",
       "category": "menu",
-      "text": "Original | Nescafe | Gold Blend Coﬀee / Cappuccino | Türk Kahvesi | Turkish Coﬀee | Lipton Siyah Çay / Yeşil Çay | Lipton Black Tea / Green Tea | Çay ve Kahveler"
+      "text": "Nescafe | Gold Blend Coﬀee / Cappuccino | Türk Kahvesi | Turkish Coﬀee | Lipton Siyah Çay / Yeşil Çay | Lipton Black Tea / Green Tea | Çay ve Kahveler | Teas and Coﬀee"
     },
     {
       "id": "menu_menu_bolum_28",
       "category": "menu",
-      "text": "Teas and Coﬀee | Çay Menü | Tea Menu | Çay keyﬁni kek ya da | kruvasan ile tamamla | Have a tasty, sweet snack | with your tea | 12.00 TL"
+      "text": "Çay Menü | Tea Menu | Çay keyﬁni kek ya da | kruvasan ile tamamla | Have a tasty, sweet snack | with your tea | 12.00 TL | 8.00 TL"
     },
     {
       "id": "menu_menu_bolum_29",
       "category": "menu",
-      "text": "8.00 TL | Kahve Menü | Coffee Menu | Kahve keyﬁni kek ya da | kruvasan ile tamamla | Have a tasty, sweet snack | with your coﬀee | 13.00 TL"
+      "text": "Kahve Menü | Coffee Menu | Kahve keyﬁni kek ya da | kruvasan ile tamamla | Have a tasty, sweet snack | with your coﬀee | 13.00 TL | 9.00 TL"
     },
     {
       "id": "menu_menu_bolum_30",
       "category": "menu",
-      "text": "9.00 TL | 8.00 TL 10.00 TL | 8.00 TL | 7.00 TL | Badem | Roasted Almonds | Fıstık | Roasted Peanuts"
+      "text": "8.00 TL 10.00 TL | 8.00 TL | 7.00 TL | Badem | Roasted Almonds | Fıstık | Roasted Peanuts | Pringles"
     },
     {
       "id": "menu_menu_bolum_31",
       "category": "menu",
-      "text": "Pringles | Çikolatalı | Vanilyalı Kek | Chocolate & | Vanilla Cake | 7 Days Kakao | Kremalı Kruvasan | 7 Days Cacao"
+      "text": "Çikolatalı | Vanilyalı Kek | Chocolate & | Vanilla Cake | 7 Days Kakao | Kremalı Kruvasan | 7 Days Cacao | Creme Croissant"
     },
     {
       "id": "menu_menu_bolum_32",
       "category": "menu",
-      "text": "Creme Croissant | En Havalı Atıştırmalıklar | The Best Snacks | Snickers | Kit Kat | 5.00 TL | 5.00 TL | 8.00 TL"
+      "text": "En Havalı Atıştırmalıklar | The Best Snacks | Snickers | Kit Kat | 5.00 TL | 5.00 TL | 8.00 TL | 5.00 TL"
     },
     {
       "id": "menu_menu_bolum_33",
       "category": "menu",
-      "text": "5.00 TL | 5.00 TL | 7.00 TL | 6.00 TL | Eti Çocuk Seti ve | Peluş Ayıcık | Eti Kids Set and | Teddy Bear"
+      "text": "5.00 TL | 7.00 TL | 6.00 TL | Eti Çocuk Seti ve | Peluş Ayıcık | Eti Kids Set and | Teddy Bear | 20.00 TL"
     },
     {
       "id": "menu_menu_bolum_34",
       "category": "menu",
-      "text": "20.00 TL | Çocuklar İçin | For Kids | Nesquik Haribo Altın Ayıcık | Haribo Goldbären | Mini Sandviç | Mini Sandwich | Cappy Elma veya Nesquik ile"
+      "text": "Çocuklar İçin | For Kids | Nesquik Haribo Altın Ayıcık | Haribo Goldbären | Mini Sandviç | Mini Sandwich | Cappy Elma veya Nesquik ile | Mini Sandviç"
     },
     {
       "id": "menu_menu_bolum_35",
       "category": "menu",
-      "text": "Mini Sandviç | Mini Sandwich with Nesquik or | Cappy Apple Juice | Fırsat! | Make a Deal! | 14.00 TL | Save up to | ‘ye varan indirim"
+      "text": "Mini Sandwich with Nesquik or | Cappy Apple Juice | Fırsat! | Make a Deal! | 14.00 TL | Save up to | ‘ye varan indirim | 5.00 TL"
     },
     {
       "id": "menu_menu_bolum_36",
       "category": "menu",
-      "text": "5.00 TL | 10.00 TL | 6.00 TL 5.00 TL | Taze Karışık Meyve | Fresh Mixed Fruit | Indomie Hazır Erişte | Dana Eti / Tavuk Aromalı | Indomie Instant Noodle"
+      "text": "10.00 TL | 6.00 TL 5.00 TL | Taze Karışık Meyve | Fresh Mixed Fruit | Indomie Hazır Erişte | Dana Eti / Tavuk Aromalı | Indomie Instant Noodle | Beef / Chicken Flavour"
     },
     {
       "id": "menu_menu_bolum_37",
       "category": "menu",
-      "text": "Beef / Chicken Flavour | Knorr Hazır Çorba | Domates / Mercimek | Knorr Instant Soup | Tomato / Lentil | Akdeniz Salatası | Mediterranean Salad | Hub Müsli"
+      "text": "Knorr Hazır Çorba | Domates / Mercimek | Knorr Instant Soup | Tomato / Lentil | Akdeniz Salatası | Mediterranean Salad | Hub Müsli | Hub Muesli"
     },
     {
       "id": "menu_menu_bolum_38",
       "category": "menu",
-      "text": "Hub Muesli | Uçuşuna Tat Kat | Sweeten Up Your Flight | 12.00 TL | 12.00 TL | 10.00 TL | 8.00 TL15.00 TL"
+      "text": "Uçuşuna Tat Kat | Sweeten Up Your Flight | 12.00 TL | 12.00 TL | 10.00 TL | 8.00 TL15.00 TL"
     },
     {
       "id": "bagaj_pegasus_la_avantajlarin_tadini_cikar",
